@@ -33,3 +33,12 @@ Les originaux ne sont jamais modifiés (`00_originaux/`, empreintes dans `SHA256
 | 18 | Dates | 3 divergences supplémentaires (n° 40, 206, 328) ; n° 328 : 381 ou 390 selon la restitution | dossiers § D | fiches EDB citées |
 | 19 | A016 | n° 123 et 326 : restitutions consulaires conjecturales de l'EDB ; n° 123 : lecture EDCS *obiit* contre EDB *[Lupicin]o et Iovi[no]* | dossiers § D | EDB24921, EDB24920 |
 | 20 | Signes chrétiens | 45 chrismes ou croix sur 435 notices (10,3 %) | dossiers § E | `collation_edcs_edb.csv` |
+
+## 2026-10-14 — lot 3 (reprise automatique, 05:16 UTC)
+
+| # | Objet | Action | Fichier | Preuve |
+|---|---|---|---|---|
+| 21 | Collation EDCS/EDB | parcours des listes EDB terminé pour les 462 n° ICUR du corpus : 440 notices appariées (269 concordantes, 134 à examiner, 37 divergentes) | `02_verifications/collation_edcs_edb.csv` | `edb/brut/*.json` ; `edb/manual_rows.csv` |
+| 22 | 16 n° ICUR II (4798–4836, 4948, 5711–5712) | absents de la liste publique EDB ; recherche par texte infructueuse ; cause non établie | `ETAT_COLLATION.md` | registre |
+| 23 | Signes chrétiens | 46 chrismes ou croix sur 440 notices (10,5 %) | dossiers § E | `collation_edcs_edb.csv` |
+| 24 | Statistiques stabilisées | recalcul : 269 lectures stabilisées | `STATISTIQUES_STABILISEES.md` | script |
