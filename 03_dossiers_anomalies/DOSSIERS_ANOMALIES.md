@@ -89,7 +89,7 @@ Pour 16 notices, la v2.0 n'avait trouvé aucun consulat lisible et retenait l'an
 | n° | EDB | formule consulaire transmise par l'EDB (absente du texte EDCS de la v2.0) | année | statut de la formule |
 |---|---|---|---|---|
 | 51 | EDB31763 | `[--- Datiano et C]aereale [consulibus? ---]` | 358 | partiellement restituée (*…aereale* lu) |
-| 84 | EDB32048 | `[di]v̲o Ioviano et Fl(avio) Barronian`o c(on)s(ule)´` | 364 | lue (lettres soulignées = vues par un éditeur antérieur) |
+| 84 | EDB32048 | `` [di]v̲o Ioviano et Fl(avio) Barronian`o c(on)s(ule)´ `` | 364 | lue (lettres soulignées = vues par un éditeur antérieur) |
 | 180 | EDB31761 | `dec(em)b(r--) post c[onsulatum ---] / [--- et] Fl(avii) Aequ[itii ---]` | 375 (p.c. 374) | partiellement restituée |
 | 214 | EDB33145 | `… Cucurbitinus et Abu⌜nd⌝antius hic ⌜s⌝imul quiescit / dd(ominis) nn(ostris) Gratiano V et Teodosio aaugg(ustis)` | 380 | lue ; **le texte EDCS s'arrête 3 lignes plus tôt** |
 | 268 | EDB32083 | `VII k(alendas) iul(ias) Ricomere et Clearcho cons(ulibu)s` | 384 | lue |
