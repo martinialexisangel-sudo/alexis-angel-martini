@@ -25,12 +25,13 @@ Les anomalies citées dans la mission (106/120, 282/288, 329/336, 313/314, 393/3
 4. **Dossiers d'anomalies** argumentés, avec preuves et degré de certitude : `03_dossiers_anomalies/DOSSIERS_ANOMALIES.md`.
 5. **Registre des consultations** (URL, date, outil, résultat, échecs compris) : `02_verifications/REGISTRE_CONSULTATIONS.csv`.
 6. **Journal des modifications** : `JOURNAL_MODIFICATIONS.md`.
-7. **Contrôle « consul lu / consul restitué »** (lot 5) : fondement de l'année de chaque notice à datation directe, et relevé des faux consuls de la v2.0 (`02_verifications/consuls_lus_restitues.csv`, dossiers § G).
-8. **Dossier de soumission** (grille d'évaluation sur 20, état des consignes d'éditeurs, projet de proposition) : `04_soumission/`.
+7. **Fiches EDB détaillées des 38 divergences fortes** (lot 5, dossiers § H).
+8. **Contrôle « consul lu / consul restitué »** (lot 5) : fondement de l'année de chaque notice à datation directe, et relevé des faux consuls de la v2.0 (`02_verifications/consuls_lus_restitues.csv`, dossiers § G).
+9. **Dossier de soumission** (grille d'évaluation sur 20, état des consignes d'éditeurs, projet de proposition) : `04_soumission/`.
 
 ## 3. Ce qui n'a PAS été fait (et pourquoi)
 
-- **Aucune collation sur les ICVR imprimées, sur les photographies ou sur les pierres.** Les volumes ICUR n.s. ne sont pas en accès libre. Depuis ce conteneur, les sites EDCS, EDR, Internet Archive, Gallica, Persée, HathiTrust, JSTOR, Zenon, Crossref, WorldCat et KVK étaient **inaccessibles** (refus du proxy réseau ; voir le registre). Seule l'EDB a pu être lue, par un relais de lecture externe à débit limité.
+- **Aucune collation sur les ICVR imprimées, sur les photographies ou sur les pierres.** Les volumes ICUR n.s. ne sont pas en accès libre. Depuis ce conteneur, les sites EDCS, EDR, Internet Archive, Gallica, Persée, HathiTrust, JSTOR, Zenon, Crossref, WorldCat et KVK étaient **inaccessibles** (refus du proxy réseau ; voir le registre). Seule l'EDB a pu être lue, par un relais de lecture externe à débit limité. Au lot 5, l'EDCS s'est révélée lisible par le même relais à sa nouvelle adresse (`edcs.hist.uzh.ch`).
 - **Les fiches EDB détaillées** (dimensions, support, photographies, bibliographie complète) n'ont été ouvertes que pour quelques notices de test. Les listes ne donnent que : ID, n° ICVR, bibliographie complémentaire, cimetière, lieu de conservation, date, texte (parfois tronqué, mention « More »).
 - **Le jeu de données EDB complet** (EpiDoc, CC BY 4.0, DOI 10.5281/zenodo.3575485, 73,8 Mo) a été identifié mais n'a pas pu être téléchargé : Zenodo est bloqué. Le télécharger hors de cet environnement permettrait de terminer la collation en une seule passe.
 - **La réécriture intégrale des chapitres et la régénération du PDF de 726 pages** supposent les sources LaTeX et les scripts de la v2.0 (« déposés avec le manuscrit » selon la page de titre), qui ne sont pas dans le Drive.

@@ -133,6 +133,8 @@ Deux autres notices du groupe A016 reçoivent de l'EDB une **restitution consula
 | 40 | EDB30464 (ICVR 1252) | `MVANNENTIO et Decen/[ti]o cc(on)s(ulibu)s` | 353 | 352 | La fiche EDB (consultée en détail) cite CLRE p. 636 : le lapicide aurait mal copié la formule de 352 (*Magno Decentio*) après avoir gravé *Magnentio* toute l'année précédente. La v2.0 lit Magnence III et Décence II (353). **Deux interprétations publiées, à arbitrer sur CLRE.** |
 | 206 | EDB880 (ICVR 11770) — inscription **peinte** sur enduit, *in situ* | `Valentiniano III / et Valente Augg(ustis) / cons(ulibu)s` | 370 | 377 | Valentinien I III et Valens III = 370 selon les fastes usuels. La date EDB de 377 est **probablement une erreur de saisie de l'EDB**. À vérifier sur l'ICVR IV 11770. |
 | 328 | EDB17191 (ICVR 9578) | `[--- Fl(avio) Syagrio et Eu]terio [conss(ulibus)]` | 381 | 390 | Seul *…terio* est lu. La restitution *Syagrio et Eucherio* (381) est commune aux deux bases, mais la date EDB (390) suppose *[Valentiniano IIII et Neo]terio*. **La date dépend entièrement de la restitution : 381 ou 390.** Le n° 328 doit être classé « datation incertaine (381/390) ». |
+| 52 | EDB17462 (ICVR 6022) — pierre perdue | `[---] cons(ulibu)s Da[---]` | 358 | 333 ; 358 | Note EDB (Vilella, d'après CLRE p. 631) : la restitution *Da[tiano et Cereale]* de Silvagni est incertaine, car Dalmatius, consul en **333** avec Zenophilus, commence aussi par DA. **Date incertaine (333/358)** ; si 333, la notice sort du corpus. (lot 5) |
+| 431 | EDB27849 (ICVR I 309 = ILCV 4400B) — pierre perdue | `[post?] consulatu d(omini) n(ostri) Harchadi IIII et Euty/chiani` | 399 | 398 ; 399 | *Harchadi* est une erreur pour *Honorii* (Muratori, Silvagni). CLRE p. 661 (cité par l'EDB) attribue l'inscription à **398** : *post* restitué serait trop long, et un p.c. aussi tardif en 399 serait sans exemple. La v2.0 retient le p.c. (399). **À arbitrer sur CLRE.** (lot 5) |
 
 ## E. Signes chrétiens absents de l'EDCS (constat nouveau)
 
@@ -162,7 +164,7 @@ Ces notices ont été recherchées de deux façons. D'abord dans le **dump de l'
 | 396 | AE 1994, 163 | EDB42676 (Antiquarium del Celio) | concordant ; 397 |
 | 417 | AE 1984, 51 | EDB38747 (Ipogeo della Torretta), par le texte | concordant ; 398 |
 | 448 | AE 2001, 527 | EDB41942 (ex-vigna Chiaraviglio) | écarts à examiner ; 401 |
-| 83, 132, 196, 385, 387, 429 | AE 2010, 207 ; AE 2003, 216 ; AE 1994, 263 ; AE 2016, 170 ; Carletti 2008, 177 ; CIL VI 8405 | — | **non trouvées** dans les fiches lues (EDB ou EDH) |
+| 83, 132, 196, 385, 387, 429 | AE 2010, 207 ; AE 2003, 216 ; AE 1994, 263 ; AE 2016, 170 ; Carletti 2008, 177 ; CIL VI 8405 | EDCS seulement (EDCS-59400075, 29900387, 02700284, 75200321, 71500011, 18200424) | **non trouvées** dans l'EDB ni l'EDH. Lot 5 : la page EDB 2069 a été lue sans résultat. Les fiches EDCS actuelles (edcs.hist.uzh.ch) ne donnent **aucune équivalence ICUR**, et leur texte est identique à celui de la v2.0. Une photographie est signalée pour EDCS-71500011 (n° 387) seulement. **Aucun second témoin.** |
 
 ### n° 98 (*Hyppolytus*) : erreur de datation, la notice sort du corpus
 
@@ -260,4 +262,36 @@ Plusieurs cas de niveau B ne reposent que sur une partie peu distinctive du nom.
 2. **Corriger la table « Consuls »** de la v2.0 : retirer les 30 lignes de faux consuls ; ajouter les consuls lus omis.
 3. **Vérifier sur l'ICVR**, en priorité, les 20 textes de niveau R et les cas B fragiles (273, 328). Il s'agit de savoir si la restitution consulaire repose sur un calcul de l'éditeur (dimensions de la lacune, autres fragments) ou sur une simple hypothèse.
 4. **Limite.** Le classement repose sur la notation de l'EDCS. Là où l'EDB lit davantage, des lettres soulignées (vues par un éditeur antérieur) par exemple, le niveau peut changer. La comparaison systématique avec la notation de l'EDB n'a pas été faite.
+
+## H. Fiches EDB détaillées des 38 divergences fortes (lot 5)
+
+### Méthode
+
+Les 38 notices classées « divergence forte » (score < 0,75) correspondent à 36 fiches EDB, car 313/314 et 393/394 partagent une fiche. Trois fiches avaient déjà été lues au lot 4. Les 33 autres ont été ouvertes le 14 octobre 2026, ainsi que les deux fiches de fragments joints au n° 378. Les réponses brutes sont dans `02_verifications/edb/fiches/fiches_lot5_*.json`. L'analyse, notice par notice, est dans `02_verifications/edb/divergences_fortes_fiches.csv`.
+
+### Résultat
+
+Dans la majorité des cas, la « divergence forte » était un **artefact** : texte de liste tronqué, structure en plusieurs parties (a, b, c), ou notation (*bixit*/*vixit*). Restent des constats qui touchent la datation ou le texte :
+
+| n° | constat | conséquence |
+|---|---|---|
+| **52** | CLRE p. 631, cité par l'EDB : *Da[* peut être Dalmatius (333) | date **incertaine 333/358** ; peut-être hors corpus |
+| **431** | CLRE p. 661, cité par l'EDB : 398 et non 399 ; *Harchadi* écrit pour *Honorii* | divergence de date (§ D) |
+| **165** | EDB40555 : seul *…dest…* est lu ; date EDB 300-399 ; « Ferrua putat » 372 | année 372 **conjecturale** |
+| **220** | EDB30687 : *…erio* seul lu ; *Val]erio, Gal]erio, Neot]erio, Ast]erio* possibles | année 381 **incertaine** (390 possible) |
+| **378** | EDB25348 (ICVR III 8345) et ses joints EDB25442 et EDB42793 ne contiennent que le début du poème ; selon l'EDB, le monument compte quatre fragments | la formule *[Olybrio et Pro]bino* (395) et la généalogie épiscopale du texte EDCS ne se retrouvent dans aucune des trois fiches ; **à vérifier sur ICVR III 8345** |
+| **306** | Le texte EDCS contient une ligne absente du texte EDB : *et innocentiae optimique propositi Maximilla virgo ancilla dei civis Pannonia qu(a)e* | **à vérifier sur ICVR V 13355** : la ligne porte du vocabulaire religieux (*virgo*, *ancilla dei*) |
+| 19 | L'EDCS restitue beaucoup plus que l'EDB : *c(larissimae) m(emoriae) f(eminae)*, *Lea*, *ante annos duos* | ne pas exploiter ces éléments sans l'ICVR |
+| 134 | Grande dalle en plusieurs textes, remployée en morceaux ; *Ca[t]afronies* (EDCS) contre *Ca[l]ifronies* (EDB) | date portée par une partie du monument seulement |
+| 153 | L'EDB ne restitue pas *Gratiano* ; l'année 371 repose sur *Probo* (lu) | sans effet sur l'année |
+| 290 | L'EDB s'arrête à *Ho[norio*. Ferrua : seul le consulat de 386 nomme Honorius *Flavius* | 386 argumenté, mais restitué |
+| 400 | Notes de Diehl : la date *VIIIX kal. mart.* est fautive ; *Pascasius* n'est pas un évêque de Rome connu | jour douteux ; année inchangée |
+| 470 | L'EDB signale l'emprunt virgilien du v. 7 (*Aen.* VI 429 ; XI 28) | à exploiter dans l'étude du formulaire |
+
+Les fiches donnent aussi des **données matérielles** qui manquaient à la v2.0 : support, dimensions, hauteur des lettres, lieu de conservation, pierre perdue. Elles signalent également des photographies : archives PCAS pour les n° 134, 306, 378 et 445, dessins d'IC I. Voir la colonne « constat » du CSV.
+
+### Conséquences cumulées pour la datation
+
+- **Datations incertaines ou conjecturales à signaler :** n° 52 (333/358), 165 (372 conjectural), 220 (381/390 ?), 328 (381/390, § D), 141 (370/387), 431 (398/399). S'y ajoutent les 20 textes de niveau R (§ G).
+- **Statut du n° 52.** Le corpus de 473 textes inclut toujours le n° 52, avec la mention « date incertaine, peut-être 333 ».
 

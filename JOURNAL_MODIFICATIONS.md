@@ -65,3 +65,7 @@ Les originaux ne sont jamais modifiés (`00_originaux/`, empreintes dans `SHA256
 | 35 | Datations par restitution | sur 457 textes à datation directe : A 338, B 97, C 2, R 20 ; liste des 20 textes datés par restitution | dossiers § G | idem |
 | 36 | Consuls lus omis par la v2.0 | n° 53, 155, 309, 423, 450, 456, 476 | dossiers § G | texte EDCS |
 | 37 | Script du cahier | `05_scripts/build_cahier.sh` versé au dépôt (pandoc + Chromium) | — | — |
+| 38 | Divergences fortes | 33 fiches EDB détaillées ouvertes (36 fiches pour 38 notices) ; analyse notice par notice | `02_verifications/edb/divergences_fortes_fiches.csv` | `edb/fiches/fiches_lot5_*.json` |
+| 39 | Datations | n° 52 : 333/358 (CLRE p. 631, Dalmatius) ; n° 431 : 398 (CLRE p. 661) contre 399 ; n° 165 : 372 conjectural (Ferrua) ; n° 220 : 381 incertain | dossiers § D et § H | EDB17462, EDB27849, EDB40555, EDB30687 |
+| 40 | Textes à vérifier sur l'ICVR | n° 306 (ligne *virgo ancilla dei* absente de l'EDB), n° 378 (formule consulaire absente des 3 fragments EDB) | dossiers § H | EDB27045 ; EDB25348, 25442, 42793 |
+| 41 | 6 notices introuvables | page EDB 2069 lue (sans résultat) ; EDCS (nouvelle adresse) lue : aucune équivalence ICUR ; EDH : aucune correspondance | dossiers § F | `02_verifications/edcs/*.json` |

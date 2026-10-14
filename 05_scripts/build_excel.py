@@ -16,6 +16,7 @@ sheet("Lisez-moi",[["Élément","Description"],
 ["Niveau de preuve","Collation base contre base : ni ICVR imprimée, ni photographie, ni autopsie"],
 ["Bilan","456/478 notices appariées (281 concordantes, 137 à examiner, 38 divergentes) ; 16 absentes de la liste publique EDB ; 6 introuvables"],
 ["Corpus","473 textes distincts datés de 340-403 (doublons 106, 282, 329 fusionnés ; 393+394 = un texte ; n° 98 hors période, 461/482)"],
+["Divergences fortes (lot 5)","38 notices relues sur les fiches EDB détaillées (feuille Divergences_fortes) ; nouvelles datations incertaines : n° 52, 165, 220, 431"],
 ["Consuls (lot 5)","Fondement de l'année de 457 textes à datation directe : A lu 338, B partiel 97, C initiales 2, R restitué 20 ; 30 faux consuls de la v2.0 (feuilles Consuls_lus_restitues, Faux_consuls_v2)"],
 ["Licences","EDB et EDH : CC BY-SA 4.0"],
 ["Source","PR martinialexisangel-sudo/alexis-angel-martini#1"]],[22,110],True)
@@ -47,7 +48,9 @@ sheet("Divergences_dates",[["N°","EDB","Année v2.0","Date EDB","Commentaire"],
 [311,"EDB22064",388,"389","Maximo cons. ; « Transcription different from ICVR »"],
 [314,"EDB39579",390,"389-390","Note EDB : le frère est mort avant ; restitution 390 contradictoire"],
 [328,"EDB17191",381,"390","…terio lu seul : Eucherio (381) ou Neoterio (390)"],
-[434,"EDB34468",397,"399","p.c. Arcadi IIII = 397 ; à vérifier"]],[6,11,10,10,80])
+[434,"EDB34468",397,"399","p.c. Arcadi IIII = 397 ; à vérifier"],
+[52,"EDB17462",358,"333 ; 358","CLRE p. 631 (cité par l'EDB) : Da[ = Datianus (358) ou Dalmatius (333) ; pierre perdue"],
+[431,"EDB27849",399,"398 ; 399","CLRE p. 661 : 398 ; Harchadi pour Honorii ; post restitué trop long"]],[6,11,10,10,80])
 sheet("Dossiers",[["Dossier","Notices","Conclusion","Certitude","Preuve"],
 ["A006 doublon","329 / 336","Fusion dans 336 ; 2 fragments (Treia, Ostie) ; âge L[X]V restitué","certain","EDB10126 ; EDH HD009698"],
 ["A007 doublon","106 / 120","Fusion dans 120 ; variante c(iu)esq(it)/recessit en apparat","certain","EDH HD030246 ; EDB13167"],
@@ -69,5 +72,6 @@ sheet("Statistiques",[["Mesure","Valeur","Dénominateur"],["Textes distincts dat
 K=list(csv.DictReader(open('02_verifications/consuls_lus_restitues.csv')))
 sheet("Consuls_lus_restitues",[["N°","Année v2.0","Noms consulaires et état (auto)","Niveau automatique","Niveau final","Relu à la main","Justification","Texte EDCS (v2.0)"]]+
   [[int(r['n']),int(float(r['annee'])),r['consuls'],r['niveau_auto'],r['niveau_final'],r['revu_main'],r['justification'],r['texte']] for r in K],[6,9,45,30,30,8,60,80])
+sheet("Divergences_fortes",list(csv.reader(open('02_verifications/edb/divergences_fortes_fiches.csv'))),[6,11,24,90,45])
 sheet("Faux_consuls_v2",list(csv.reader(open('02_verifications/consuls_faux_positifs_v2.csv'))),[6,9,14,40,45,35])
 wb.save('06_livrables/PRISME_collation_EDCS_EDB.xlsx')

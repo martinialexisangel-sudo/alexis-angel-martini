@@ -1,4 +1,4 @@
-# État de la collation EDCS / EDB (au 14 octobre 2026, lot 4)
+# État de la collation EDCS / EDB (au 14 octobre 2026, lots 4-5)
 
 ## Méthode
 
@@ -35,5 +35,5 @@
 ## Pour terminer la collation
 
 - **Voie la plus sûre.** Télécharger hors de cet environnement le dépôt EpiDoc complet de l'EDB (Zenodo, DOI 10.5281/zenodo.3575485, CC BY 4.0, 73,8 Mo), puis apparier les 478 notices en local avec les scripts de `05_scripts/`, adaptés à l'EpiDoc.
-- **Sinon.** Les listes ont été entièrement parcourues pour les numéros ICUR du corpus. Reste à ouvrir les fiches détaillées pour les textes tronqués « More »).
+- **Sinon.** Les listes ont été entièrement parcourues pour les numéros ICUR du corpus. Lot 5 : les fiches détaillées des 38 divergences fortes ont été ouvertes (dossiers, § H ; `edb/divergences_fortes_fiches.csv`). Restent à ouvrir les fiches des 137 notices « à examiner » dont le texte de liste est tronqué (« More »).
 - **Dans tous les cas.** Les écarts substantiels doivent être tranchés sur l'**ICVR imprimée** (photographies et commentaires) : c'est la seule édition critique de référence pour ces textes.

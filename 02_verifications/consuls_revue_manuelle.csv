@@ -1,7 +1,7 @@
 n,niveau_revu,justification
 10,B,"Salu[stio : 4 lettres gravées (Sallustius, 344) ; [Leonti]o restitué sauf la désinence."
 48,C,Co(nstantio?) VIIII I(uliano?) II : initiales et itérations gravées (IX et II = 357) ; développement marqué douteux par l'EDCS.
-52,R,Da[tiani : 2 lettres gravées ; Cerealis entièrement restitué.
+52,R,Da[tiani : 2 lettres gravées ; Cerealis entièrement restitué. Fiche EDB17462 (d'après CLRE p. 631) : Da[ peut aussi être Dalmatius (333) ; date incertaine 333/358.
 53,A,"C{a}eriale lu en entier (Cerealis, collègue de Datianus en 358) ; ce nom manque dans la liste « consuls identifiés » de la v2.0."
 70,C,M(amertino) et N(evitta) : initiales seules gravées (362).
 88,A,"Iobian[i : radical lu (Iovianus, 364) ; manque dans la liste v2.0 ; Varronianus restitué."
@@ -37,3 +37,5 @@ n,niveau_revu,justification
 468,R,"Aug]usto V et H[onorio V : 1 lettre gravée, plus les itérations."
 476,A,"Romodoro lu en entier (Rumoridus, 403) ; manque dans la liste v2.0."
 452,R,"V[incentio : 1 lettre gravée ; Fravita restitué ; Theodosius v(ir) c(larissimus) est un particulier, non un consul."
+165,B,Mo]dest[o : 4 lettres gravées (« dest ») ; Arintheus restitué. Fiche EDB40555 : date 300-399 ; l'année 372 est une hypothèse de Ferrua.
+220,B,"Euch]erio : 4 lettres gravées (« erio ») ; fiche EDB30687 : Val]erio, Gal]erio, Neot]erio, Ast]erio possibles ; date 381 incertaine."
