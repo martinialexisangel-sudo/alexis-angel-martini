@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="ex-epidoctemplate.xml" xml:lang="English">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Rome - ICVR I, 1421</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Epigraphic Dabatase Bari</authority>
+            <idno type="URI">http://www.edb.uniba.it/epigraph/31185</idno>
+            <idno type="TM">622902</idno>
+            <idno type="localID">31185</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <placeName ref="3175395" type="modern">Italy</placeName>
+                  </country>
+                  <settlement>
+                     <placeName ref="3169070" type="modern">Roma</placeName>
+                  </settlement>
+                  <repository>Musei Vaticani</repository>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                           <material ref="https://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                           <dimensions unit="cm">
+                              <height>20</height>
+                              <width>78</width>
+                              <depth/>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs ref="https://www.eagle-network.eu/voc/writing/lod/114" type="execution">Insculptus</rs>
+                           <rs type="metre">Non-Metrical</rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <height max="3.5" unit="cm"/>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName ref="http://www.trismegistos.org/place/2058">Rome</placeName>
+                     </origPlace>
+                     <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" notAfter-custom="0346" notBefore-custom="0346">0346 AD - 0346 AD</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines</p>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term ref="https://www.eagle-network.eu/voc/typeins/lod/92">Sepulcralis</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="fr">French</language>
+            <language ident="he">Hebrew</language>
+            <language ident="sp">Spanish</language>
+         </langUsage>
+         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2015-03-21" who="Filippo Piazzolla">Various changes</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic n="1421_1.jpg" url="http://www.edb.uniba.it/images/watermark/images/Disegni/IC I/1421_1.jpg">
+         <desc>1421_1.jpg<ref target="http://www.europeana.eu/rights/rr-f/" type="license">Rights Reserved - Free Access via Epigraphic Database Bari</ref>
+         </desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl>ICVR I, 1421</bibl>
+               <bibl>71, 2627</bibl>
+               <bibl>92, 36, n. 1421</bibl>
+               <bibl>191, 51</bibl>
+               <bibl>195, 108</bibl>
+            </listBibl>
+         </div>
+         <!--b(ene)m(erenti) in p(ace) Ch〈a〉eretio q(ui) v(ixit) ann(os) V m̅(enses) V d̅(ies) XV / C̲h̲〈a〉e̲r̲etius et Severa parentes / d(e)p(ositus) VI kal(endas) septembres ((avis cum olea)) / p̲o̲s̲(t) c̲onsulatum Amanti et Albini --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>b<expan><ex>ene</ex><abbr>m</abbr><ex>erenti</ex></expan> in <expan><abbr>p</abbr><ex>ace</ex></expan> Ch<supplied reason="omitted">a</supplied>eretio <expan><abbr>q</abbr><ex>ui</ex></expan> <expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>ann</abbr><ex>os</ex></expan> V m̅(enses) V d̅(ies) XV<lb n="2"/><supplied reason="undefined" evidence="previouseditor">Ch</supplied><supplied reason="omitted">a</supplied><supplied reason="undefined" evidence="previouseditor">er</supplied>etius et Severa parentes<lb n="3"/>d<expan><ex>e</ex><abbr>p</abbr><ex>ositus</ex></expan> VI <expan><abbr>kal</abbr><ex>endas</ex></expan> septembres <g type="descriptive">avis cum olea</g><lb n="4"/><supplied reason="undefined" evidence="previouseditor">pos</supplied>(t) <supplied reason="undefined" evidence="previouseditor">c</supplied>onsulatum Amanti et Albini </ab></div>
+      </body>
+   </text>
+</TEI>

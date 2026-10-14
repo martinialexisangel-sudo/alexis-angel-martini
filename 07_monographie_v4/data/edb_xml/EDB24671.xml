@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="ex-epidoctemplate.xml" xml:lang="English">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Rome, Basilica ss. Nerei et Achillei in coem. Domitillae - ICVR III, 8148</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Epigraphic Dabatase Bari</authority>
+            <idno type="URI">http://www.edb.uniba.it/epigraph/24671</idno>
+            <idno type="TM">314289</idno>
+            <idno type="localID">24671</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <placeName ref="3175395" type="modern">Italy</placeName>
+                  </country>
+                  <settlement>
+                     <placeName ref="3169070" type="modern">Roma</placeName>
+                  </settlement>
+                  <repository>Basilica ss. Nerei et Achillei in coem. Domitillae</repository>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                           <material ref="https://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                           <dimensions unit="cm">
+                              <height>105</height>
+                              <width>190</width>
+                              <depth>15</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs ref="https://www.eagle-network.eu/voc/writing/lod/114" type="execution">Insculptus</rs>
+                           <rs type="metre">Non-Metrical</rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <height max="8" min="5" unit="cm"/>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName ref="http://www.trismegistos.org/place/2058">Rome</placeName>
+                     </origPlace>
+                     <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" notAfter-custom="0369" notBefore-custom="0369">0369 AD - 0369 AD</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines</p>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term ref="https://www.eagle-network.eu/voc/typeins/lod/92">Sepulcralis</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="fr">French</language>
+            <language ident="he">Hebrew</language>
+            <language ident="sp">Spanish</language>
+         </langUsage>
+         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2015-05-20" who="Carlo Carletti / Antonio Enrico Felle">Various changes</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic n="Dom_TL_131.jpg" url="http://media.regesta.com/dm_0/PCAS/PCASST02/low/foto/Dom/Dom_TL/Dom_TL_131.jpg">
+         <desc>Dom_TL_131.jpg<ref target="http://www.europeana.eu/rights/rr-f/" type="license">Rights Reserved - Free Access via Epigraphic Database Bari</ref>
+         </desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl>ICVR III, 8148</bibl>
+            </listBibl>
+         </div>
+         <!--〈a〉 dormitio Dulciti presb(yteri) / kal(endis) feb(ruariis) et Greg[ori] diac(oni) / XIII kal(endas) mai(as) et Ca[l]ifro/nies s[o]roris eo[rum] V id(us) mar(tias) /
+〈b〉 d(e)[p(ositio) F]aust[i]nae IIII [kal(endas)] nov(embres) / Valen[tinia]no n(obilissimo) p(uero) et Victore [cons(ulibu)s] / 
+〈c〉 dormitio Agapenis n(onis) oc(tobris) in p(ace)--><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/><supplied reason="omitted">a</supplied> dormitio Dulciti <expan><abbr>presb</abbr><ex>yteri</ex></expan><lb n="2"/><expan><abbr>kal</abbr><ex>endis</ex></expan> <expan><abbr>feb</abbr><ex>ruariis</ex></expan> et Greg<supplied reason="lost">ori</supplied> <expan><abbr>diac</abbr><ex>oni</ex></expan><lb n="3"/>XIII <expan><abbr>kal</abbr><ex>endas</ex></expan> <expan><abbr>mai</abbr><ex>as</ex></expan> et Ca<supplied reason="lost">l</supplied>ifro<lb break="no" n="4"/>nies s<supplied reason="lost">o</supplied>roris eo<supplied reason="lost">rum</supplied> V <expan><abbr>id</abbr><ex>us</ex></expan> <expan><abbr>mar</abbr><ex>tias</ex></expan><lb n="5"/><supplied reason="omitted">b</supplied> <expan><abbr>d</abbr><ex>e</ex></expan><supplied reason="lost"><expan><abbr>p</abbr><ex>ositio</ex></expan> F</supplied>aust<supplied reason="lost">i</supplied>nae IIII <supplied reason="lost"><expan><abbr>l</abbr><ex>endas</ex></expan></supplied> <expan><abbr>nov</abbr><ex>embres</ex></expan><lb n="6"/>Valen<supplied reason="lost">tinia</supplied>no <expan><abbr>n</abbr><ex>obilissimo</ex></expan> <expan><abbr>p</abbr><ex>uero</ex></expan> et Victore <supplied reason="lost"><expan><abbr>cons</abbr><ex>ulibu</ex>s</expan></supplied><lb n="7"/><supplied reason="omitted">c</supplied> dormitio Agapenis <expan><abbr>n</abbr><ex>onis</ex></expan> <expan><abbr>oc</abbr><ex>tobris</ex></expan> in <expan><abbr>p</abbr><ex>ace</ex></expan></ab></div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,87 @@
+% PRISME — Épitaphes chrétiennes datées de Rome (340–403) — version 4.0
+% Composition : XeLaTeX (latexmk -xelatex main.tex). Les fichiers de tex/generated/ et tex/figures/
+% sont produits par les scripts de ../scripts (voir ../README.md).
+\documentclass[11pt,twoside,openright]{book}
+\usepackage{prisme}
+\input{generated/stats.tex}
+\input{generated/stats_extra.tex}
+
+\hypersetup{pdftitle={Épitaphes chrétiennes datées de Rome (340–403). Transmission, chronologie et formulaire. Version 4.0},
+  pdfauthor={Alexis Angel Martini},
+  pdfsubject={Manuscrit soumis à évaluation scientifique},
+  pdfkeywords={épigraphie chrétienne ; Rome ; Antiquité tardive ; datation consulaire ; EDCS ; EDB ; formulaire funéraire}}
+
+\begin{document}
+\frontmatter
+\include{chapitres/00_titre}
+\include{chapitres/00_liminaires}
+\tableofcontents
+\listoftables
+\listoffigures
+
+\mainmatter
+\part{Introduction}
+\include{chapitres/01_objet}
+\include{chapitres/02_historiographie}
+\include{chapitres/03_contribution}
+
+\part{Sources, corpus et critique documentaire}
+\include{chapitres/04_corpus}
+\include{chapitres/05_transmission}
+\include{chapitres/06_edition}
+
+\part{Datation et critique chronologique}
+\include{chapitres/07_dater}
+\include{chapitres/08_fondement}
+\include{chapitres/09_calendrier}
+\include{chapitres/10_evenements}
+\include{chapitres/11_chronique}
+
+\part{Contextes, supports et signes}
+\include{chapitres/12_provenance}
+\include{chapitres/13_supports}
+
+\part{Langue et formulaire}
+\include{chapitres/14_formulaire}
+\include{chapitres/15_langue}
+\include{chapitres/16_grec}
+\include{chapitres/17_rep_formulaire}
+\include{chapitres/18_rep_graphies}
+
+\part{Personnes, relations et société}
+\include{chapitres/19_personnes}
+\include{chapitres/20_rangs}
+\include{chapitres/21_noms}
+\include{chapitres/22_relations}
+
+\part{Pratiques funéraires et mémoire chrétienne}
+\include{chapitres/23_typologie}
+\include{chapitres/24_dieu_christ}
+\include{chapitres/25_esprit_trinite}
+\include{chapitres/26_foi_eglise}
+\include{chapitres/27_mort_esperance}
+\include{chapitres/28_rarete}
+\include{chapitres/29_textes_decisifs}
+\include{chapitres/30_rep_religieux}
+\include{chapitres/31_sepultures}
+
+\part{Mesures et discussion}
+\include{chapitres/32_mesures}
+\include{chapitres/33_synthese}
+\include{chapitres/34_discussion}
+\include{chapitres/35_conclusions}
+
+\part{Dossiers commentés et catalogue raisonné}
+\include{chapitres/36_dossiers}
+\include{chapitres/37_catalogue}
+
+\part{Instruments}
+\include{chapitres/38_concordances}
+\include{chapitres/39_index}
+\include{chapitres/40_bibliographie}
+\appendix
+\include{chapitres/41_annexe}
+
+\backmatter
+\include{chapitres/99_fin}
+\end{document}

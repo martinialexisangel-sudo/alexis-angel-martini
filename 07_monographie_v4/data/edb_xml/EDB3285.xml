@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="ex-epidoctemplate.xml" xml:lang="English">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Rome, Coem. Commodillae - ICVR II, 6037</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Epigraphic Dabatase Bari</authority>
+            <idno type="URI">http://www.edb.uniba.it/epigraph/3285</idno>
+            <idno type="TM">293235</idno>
+            <idno type="localID">3285</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                           <material ref="https://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                           <dimensions unit="cm">
+                              <height/>
+                              <width/>
+                              <depth/>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs ref="https://www.eagle-network.eu/voc/writing/lod/114" type="execution">Insculptus</rs>
+                           <rs type="metre">Non-Metrical</rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName ref="http://www.trismegistos.org/place/2058">Rome</placeName>
+                     </origPlace>
+                     <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" notAfter-custom="0385" notBefore-custom="0385">0385 AD - 0385 AD</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines</p>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term ref="https://www.eagle-network.eu/voc/typeins/lod/92">Sepulcralis</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="fr">French</language>
+            <language ident="he">Hebrew</language>
+            <language ident="sp">Spanish</language>
+         </langUsage>
+         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-21" who="Carlo Carletti">Various changes</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic n="Com_Td_005a-b.jpg" url="http://media.regesta.com/dm_0/PCAS/PCASST02/low/foto/Com/Com_Td/Com_Td_005a-b.jpg">
+         <desc>Com_Td_005a-b.jpg<ref target="http://www.europeana.eu/rights/rr-f/" type="license">Rights Reserved - Free Access via Epigraphic Database Bari</ref>
+         </desc>
+      </graphic>
+      <graphic n="Com_Td_016.jpg" url="http://media.regesta.com/dm_0/PCAS/PCASST02/low/foto/Com/Com_Td/Com_Td_016.jpg">
+         <desc>Com_Td_016.jpg<ref target="http://www.europeana.eu/rights/rr-f/" type="license">Rights Reserved - Free Access via Epigraphic Database Bari</ref>
+         </desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl>ICVR II, 6037</bibl>
+            </listBibl>
+         </div>
+         <!--[- - -]tus fidelis qui vixit / [anni]s X mens(ibus) VI diebus XXIIII /[depositus - - -] aug(ust- - -) [Merob]aude II et Satur/[nin]o cons(ulibu)s ((trulla)) ((orans))--><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>tus fidelis qui vixit<lb n="2"/><supplied reason="lost">anni</supplied>s X <expan><abbr>mens</abbr><ex>ibus</ex></expan> VI diebus XXIIII<lb n="3"/><supplied reason="lost">depositus</supplied><gap reason="lost" extent="unknown" unit="character"/> aug(ust---) <supplied reason="lost">Merob</supplied>aude II et Satur<lb break="no" n="4"/><supplied reason="lost">nin</supplied>o cons<expan><ex>ulibu</ex><abbr>s</abbr></expan> <g type="descriptive">trulla</g> <g type="descriptive">orans</g></ab></div>
+      </body>
+   </text>
+</TEI>

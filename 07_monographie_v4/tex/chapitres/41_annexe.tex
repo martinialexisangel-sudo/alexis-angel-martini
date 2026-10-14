@@ -1,0 +1,70 @@
+\chapter{Données, programmes et registre des contrôles}\label{ch:annexe}
+
+Cette annexe unique décrit les données et les programmes qui produisent le volume, les corrections apportées aux données reçues et les contrôles effectués. Elle remplace les annexes successives des versions précédentes : les corrections qu’elles enregistraient sont désormais intégrées aux chapitres et aux notices.
+
+\section{Les données}
+
+\begin{description}[style=nextline,leftmargin=1.5em,font=\normalfont\ttfamily\small]
+\item[data/notices\_v35.json] Les \st{nA} notices du catalogue de la version précédente, extraites du document composé, avec leurs dix-sept rubriques (texte transmis, traduction de travail, références, commentaires).
+\item[01\_donnees/base\_v2\_csv/] La base de travail : notices, consuls, dates, personnes, termes religieux, jours de la semaine (fichiers CSV).
+\item[06\_livrables/PRISME\_collation\_EDCS\_EDB.xlsx] Le classeur de collation entre l’EDCS et l’EDB : appariement des notices, statut de la comparaison, texte de la liste de résultats de l’EDB.
+\item[data/edb\_xml/] Les fiches EpiDoc de l’EDB (archive Zenodo, 2019) correspondant aux notices du catalogue.
+\item[data/fastes.json] Les collèges consulaires de 340 à 403 selon la tradition des fastes, tels qu’ils ont servi à l’identification des consuls ; table non collationnée sur la CLRE.
+\item[data/corpus\_v4.json] Les données consolidées de la présente version : pour chaque notice, le texte transmis, les témoins, les données matérielles, la datation et son fondement, les personnes, les dates, les termes religieux, l’appartenance aux ensembles A, B et C.
+\item[data/stats.json] Toutes les mesures citées dans le texte.
+\end{description}
+
+\section{Les programmes}
+
+Les programmes sont écrits en Python. Chacun peut être relancé ; l’ensemble reconstruit le livre à partir des données reçues.
+
+\begin{description}[style=nextline,leftmargin=1.5em,font=\normalfont\ttfamily\small]
+\item[scripts/00\_parse\_catalogue\_v35.py] Extraction du catalogue de la version précédente.
+\item[scripts/01\_build\_data.py] Consolidation : appariement des sources, analyse des fiches EpiDoc, fusion des doublons, définition des ensembles, statuts de datation, corrections de la table des personnes.
+\item[scripts/leiden.py] Analyse de la notation épigraphique : statut de chaque lettre (lue, développée, restituée, corrigée, superflue), recherche de formes avec leur statut, part restituée d’un texte.
+\item[scripts/02\_stats.py] Calcul de toutes les mesures ; écriture des macros \verb|\st{…}| employées dans le texte.
+\item[scripts/03\_catalogue.py] Composition du catalogue raisonné.
+\item[scripts/04\_generated.py] Composition des tableaux, répertoires, concordances et index.
+\item[scripts/05\_figures.py] Composition des figures.
+\item[scripts/06\_textes.py] Blocs de texte des dossiers commentés.
+\item[scripts/notes\_v4.py] Commentaires rédigés pour les notices, intégrés au catalogue.
+\end{description}
+
+Aucun nombre du texte n’est saisi à la main lorsqu’il peut être calculé : les macros \verb|\st{…}| sont remplacées à la composition par les valeurs du fichier \texttt{stats.json}. Une correction des données se propage ainsi à tous les chapitres.
+
+\section{Corrections apportées aux données reçues}
+
+Les corrections suivantes ont été faites sur la base de travail. Les valeurs antérieures restent consultables dans les données.
+
+\begin{itemize}
+\item \emph{Ensembles} : fusion de trois paires de notices (106 dans 120, 282 dans 288, 329 dans 336) ; jonction du fragment 394 au 393 ; exclusion du \nnum{98} (461 ou 482) ; inclusion du \nnum{406} dans l’ensemble funéraire (chapitre~\ref{ch:corpus}).
+\item \emph{Années} : sept années de la base corrigées d’après le texte (tableau~\ref{tab:correctionsbase}) ; aucune année modifiée par vraisemblance.
+\item \emph{Fondement de la datation} : niveaux A, B, C, R pour chaque texte à datation directe ; huit formules transmises par la seule EDB ; quatre datations conjecturales ; dix datations contestées et cinq réserves (chapitre~\ref{ch:fondement}).
+\item \emph{Faux consuls} : trente noms, dans vingt-neuf notices, attribués à tort à un consul par l’identification automatique ; rôles corrigés.
+\item \emph{Table des personnes} : dix corrections (chapitre~\ref{ch:personnes}).
+\item \emph{Termes religieux} : retrait de l’allusion à la rédemption du \nnum{152} ; reclassement du \nnum{447} (aucune mention assurée de la résurrection) ; séparation du signe du \nnum{38} ; signalement des monogrammes probables des \nnums{140}, 151 et 311 ; signalement des restitutions divergentes du \nnum{73} (chapitre~\ref{ch:typologie}).
+\item \emph{Règles de repérage} : correction des règles de \emph{filius} et de \emph{coniux} ; reconnaissance des formules coupées par une fin de ligne (\emph{in pace} du \nnum{341}, désormais classée parmi les restitutions).
+\item \emph{Jours de la semaine} : recalcul par le jour julien de toutes les mentions (chapitre~\ref{ch:calendrier}).
+\end{itemize}
+
+\section{Registre des contrôles}
+
+\begin{description}[style=nextline,leftmargin=1.5em,font=\normalfont\scshape]
+\item[Effectués] Collation automatisée de tous les textes du catalogue avec la liste de résultats de l’EDB (\st{edbApp} notices appariées) et avec les fiches EpiDoc de 2019 (\st{edbXml} fiches) ; relecture des fiches détaillées pour les cas de divergence apparente ; examen de quatre fiches de l’EDH ; examen d’un estampage et d’une photographie de l’Ohio State University ; recalcul des jours de la semaine et des âges de la lune ; contrôle des âges sur le texte ; vérification des notices bibliographiques indiquées dans la bibliographie.
+\item[Non effectués] Collation sur les volumes des ICVR, sur les éditions de De Rossi et de Diehl, sur les photographies de la Commission pontificale et sur les monuments ; collation de la table des fastes sur la CLRE ; consultation des prosopographies (PLRE, PCBE) ; lecture des études citées, sauf mention contraire dans la bibliographie.
+\end{description}
+
+\section{Niveaux de vérification des lectures}
+
+Le statut de chaque notice (dernière rubrique du catalogue) indique le niveau atteint :
+
+\begin{description}[style=nextline,leftmargin=1.5em,font=\normalfont\scshape]
+\item[Lecture stabilisée] L’EDCS et l’EDB concordent : \st{edbConcTotC} textes funéraires sur \st{nC}. La lecture n’est pas collationnée sur l’édition ni sur le monument.
+\item[Écarts mineurs] Les deux bases diffèrent sur des points de notation ou de lecture qui n’affectent pas, en général, l’interprétation ; les écarts sont signalés dans la rubrique Témoins.
+\item[Divergence forte] Les deux bases diffèrent sur le texte ou l’appariement est douteux : le texte ne doit pas être exploité sans contrôle de l’édition imprimée.
+\item[Témoin unique] La notice n’est pas appariée à l’EDB ; la lecture repose sur la seule EDCS.
+\end{description}
+
+\section{Licences}
+
+Les fichiers EpiDoc de l’EDB sont diffusés sous licence CC BY-NC-SA 3.0, et la notice du dépôt Zenodo sous licence CC BY 4.0 ; les extraits reproduits dans ce volume (textes de la seconde base, descriptions matérielles) le sont avec attribution. Les textes de l’EDCS sont cités d’après les exports du projet SDAM. Les reproductions photographiques signalées par l’EDB sont soumises à des droits réservés et ne sont pas reproduites. Les caractères Libertinus sont diffusés sous SIL Open Font License.

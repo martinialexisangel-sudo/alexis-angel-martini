@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="ex-epidoctemplate.xml" xml:lang="English">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Rome - ICVR I, 2809</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Epigraphic Dabatase Bari</authority>
+            <idno type="URI">http://www.edb.uniba.it/epigraph/32732</idno>
+            <idno type="TM">548259</idno>
+            <idno type="localID">32732</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <placeName ref="3175395" type="modern">Italy</placeName>
+                  </country>
+                  <settlement>
+                     <placeName ref="3172394" type="modern">Napoli</placeName>
+                  </settlement>
+                  <repository ref="www.trismegistos.org/collection/240">Museo Archeologico Nazionale</repository>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                           <material ref="https://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                           <dimensions unit="cm">
+                              <height>29,5</height>
+                              <width>36,5</width>
+                              <depth>5</depth>
+                           </dimensions>
+                           <rs ref="https://www.eagle-network.eu/voc/decor/lod/13" type="decoration">Monogr. Christi cum Alpha et Omega</rs>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs ref="https://www.eagle-network.eu/voc/writing/lod/114" type="execution">Insculptus</rs>
+                           <rs type="metre">Non-Metrical</rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <height max="3" min="2.5" unit="cm"/>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName ref="http://www.trismegistos.org/place/2058">Rome</placeName>
+                     </origPlace>
+                     <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" notAfter-custom="0371" notBefore-custom="0371">0371 AD - 0371 AD</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines</p>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term ref="https://www.eagle-network.eu/voc/typeins/lod/92">Sepulcralis</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="fr">French</language>
+            <language ident="he">Hebrew</language>
+            <language ident="sp">Spanish</language>
+         </langUsage>
+         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2015-07-12" who="Filippo Piazzolla">Various changes</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic n="2809_1.jpg" url="http://www.edb.uniba.it/images/watermark/images/MIBACT/Camodeca et alii 2000/2809_1.jpg">
+         <desc>2809_1.jpg<ref target="http://www.europeana.eu/rights/rr-f/" type="license">Rights Reserved - Free Access via Epigraphic Database Bari</ref>
+         </desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl>ICVR I, 2809</bibl>
+               <bibl>71, 4351</bibl>
+               <bibl>93, 153, n. 444 con foto</bibl>
+            </listBibl>
+         </div>
+         <!--((monogramma Christi in circulo extra circulo alpha et omega)) / mire sapientiae / Augendo qui vixit / ann(is) plus min(us) LXXII / cum uxore fecit / ann(os) XXX depositus / XVI kal(endas) octob(res) d(omino) n(ostro) Gra/tiano aug(usto) II et Probo c̅on̅(sulibus) --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>((monogramma Christi in circulo extra circulo alpha et omega))<lb n="2"/>mire sapientiae<lb n="3"/>Augendo qui vixit<lb n="4"/><expan><abbr>ann</abbr><ex>is</ex></expan> plus <expan><abbr>min</abbr><ex>us</ex></expan> LXXII<lb n="5"/>cum uxore fecit<lb n="6"/><expan><abbr>ann</abbr><ex>os</ex></expan> XXX depositus<lb n="7"/>XVI <expan><abbr>kal</abbr><ex>endas</ex></expan> <expan><abbr>octob</abbr><ex>res</ex></expan> <expan><abbr>d</abbr><ex>omino</ex></expan> <expan><abbr>n</abbr><ex>ostro</ex></expan> Gra<lb break="no" n="8"/>tiano <expan><abbr>aug</abbr><ex>usto</ex></expan> II et Probo c̅on̅(sulibus) </ab></div>
+      </body>
+   </text>
+</TEI>

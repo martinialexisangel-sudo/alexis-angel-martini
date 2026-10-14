@@ -1,0 +1,8 @@
+__pycache__/
+tex/*.aux
+tex/*.log
+tex/*.toc
+tex/*.lof
+tex/*.lot
+tex/*.out
+tex/chapitres/*.aux

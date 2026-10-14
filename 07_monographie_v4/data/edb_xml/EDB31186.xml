@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="ex-epidoctemplate.xml" xml:lang="English">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Rome - ICVR I, 1422</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Epigraphic Dabatase Bari</authority>
+            <idno type="URI">http://www.edb.uniba.it/epigraph/31186</idno>
+            <idno type="TM">622903</idno>
+            <idno type="localID">31186</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <placeName ref="3175395" type="modern">Italy</placeName>
+                  </country>
+                  <settlement>
+                     <placeName ref="3169070" type="modern">Roma</placeName>
+                  </settlement>
+                  <repository>Musei Vaticani</repository>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                           <material ref="https://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                           <dimensions unit="cm">
+                              <height>29</height>
+                              <width>74</width>
+                              <depth/>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs ref="https://www.eagle-network.eu/voc/writing/lod/114" type="execution">Insculptus</rs>
+                           <rs type="metre">Non-Metrical</rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <height max="6" unit="cm"/>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName ref="http://www.trismegistos.org/place/2058">Rome</placeName>
+                     </origPlace>
+                     <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" notAfter-custom="0350" notBefore-custom="0350">0350 AD - 0350 AD</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines</p>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term ref="https://www.eagle-network.eu/voc/typeins/lod/92">Sepulcralis</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="fr">French</language>
+            <language ident="he">Hebrew</language>
+            <language ident="sp">Spanish</language>
+         </langUsage>
+         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2015-03-21" who="Filippo Piazzolla">Various changes</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic n="1422_1.jpg" url="http://www.edb.uniba.it/images/watermark/images/Disegni/IC I/1422_1.jpg">
+         <desc>1422_1.jpg<ref target="http://www.europeana.eu/rights/rr-f/" type="license">Rights Reserved - Free Access via Epigraphic Database Bari</ref>
+         </desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl>ICVR I, 1422</bibl>
+               <bibl>71, 2628</bibl>
+               <bibl>191, 278</bibl>
+            </listBibl>
+         </div>
+         <!--Successae filiae dul/cissimae parentes q(uae) v(ixit) an/nos duos m(enses) XI d(ies) II b(ene)m(erenti) in pac`e´ / d(e)p(osita) XVIII kal(endas) sept(embres) Ni⌜g⌝riniano --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>Successae filiae dul<lb break="no" n="2"/>cissimae parentes <expan><abbr>q</abbr><ex>uae</ex></expan> <expan><abbr>v</abbr><ex>ixit</ex></expan> an<lb break="no" n="3"/>nos duos <expan><abbr>m</abbr><ex>enses</ex></expan> XI <expan><abbr>d</abbr><ex>ies</ex></expan> II b<expan><ex>ene</ex><abbr>m</abbr><ex>erenti</ex></expan> in pac`e´<lb n="4"/>d<expan><ex>e</ex><abbr>p</abbr><ex>osita</ex></expan> XVIII <expan><abbr>kal</abbr><ex>endas</ex></expan> <expan><abbr>sept</abbr><ex>embres</ex></expan> Ni<choice><corr>g</corr></choice>riniano </ab></div>
+         <div type="apparatus">
+            <p>4. C on stone </p>
+         </div>
+      </body>
+   </text>
+</TEI>

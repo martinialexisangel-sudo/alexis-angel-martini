@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="ex-epidoctemplate.xml" xml:lang="English">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Rome, Coem. Callisti pars inferior - ICVR IV, 9559</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Epigraphic Dabatase Bari</authority>
+            <idno type="URI">http://www.edb.uniba.it/epigraph/19258</idno>
+            <idno type="TM">308873</idno>
+            <idno type="localID">19258</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                           <material ref="https://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                           <dimensions unit="cm">
+                              <height/>
+                              <width/>
+                              <depth/>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs ref="https://www.eagle-network.eu/voc/writing/lod/114" type="execution">Insculptus</rs>
+                           <rs type="metre">Non-Metrical</rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName ref="http://www.trismegistos.org/place/2058">Rome</placeName>
+                     </origPlace>
+                     <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" notAfter-custom="0363" notBefore-custom="0363">0363 AD - 0363 AD</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines</p>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term ref="https://www.eagle-network.eu/voc/typeins/lod/92">Sepulcralis</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="fr">French</language>
+            <language ident="he">Hebrew</language>
+            <language ident="sp">Spanish</language>
+         </langUsage>
+         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2003-11-11" who="Antonio Enrico Felle">First version</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic n="Cal_Td_035.jpg" url="http://media.regesta.com/dm_0/PCAS/PCASST02/low/foto/Cal/Cal_Td/Cal_Td_035.jpg">
+         <desc>Cal_Td_035.jpg<ref target="http://www.europeana.eu/rights/rr-f/" type="license">Rights Reserved - Free Access via Epigraphic Database Bari</ref>
+         </desc>
+      </graphic>
+      <graphic n="CAL_Td_1494_001_bn.jpg" url="http://media.regesta.com/dm_0/PCAS/PCASST02/low/moderno/CAL/CAL_Td/CAL_Td_1494_001_bn.jpg">
+         <desc>CAL_Td_1494_001_bn.jpg<ref target="http://www.europeana.eu/rights/rr-f/" type="license">Rights Reserved - Free Access via Epigraphic Database Bari</ref>
+         </desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl>ICVR IV, 9559</bibl>
+            </listBibl>
+         </div>
+         <!--Felix qui / vixit 〈a〉nnis XXI m(en)ses duo / dep(ositus) die VI idus decembres Iuli/ano IIII et Sallustio conss(ulibus) in pac(e) /filio dulcissimo Calliste mat〈e〉r / ((gallinae duae))--><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>Felix qui<lb n="2"/>vixit <supplied reason="omitted">a</supplied>nnis XXI m<expan><ex>en</ex><abbr>ses</abbr></expan> duo<lb n="3"/><expan><abbr>dep</abbr><ex>ositus</ex></expan> die VI idus decembres Iuli<lb break="no" n="4"/>ano IIII et Sallustio <expan><abbr>conss</abbr><ex>ulibus</ex></expan> in <expan><abbr>pac</abbr><ex>e</ex></expan><lb n="5"/>filio dulcissimo Calliste mat<supplied reason="omitted">e</supplied>r<lb n="6"/><g type="descriptive">gallinae duae</g></ab></div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="ex-epidoctemplate.xml" xml:lang="English">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Rome - ICVR I, 1419</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Epigraphic Dabatase Bari</authority>
+            <idno type="URI">http://www.edb.uniba.it/epigraph/31183</idno>
+            <idno type="TM">622900</idno>
+            <idno type="localID">31183</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <placeName ref="3175395" type="modern">Italy</placeName>
+                  </country>
+                  <settlement>
+                     <placeName ref="3169070" type="modern">Roma</placeName>
+                  </settlement>
+                  <repository>Musei Vaticani</repository>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                           <material ref="https://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                           <dimensions unit="cm">
+                              <height>35</height>
+                              <width>65</width>
+                              <depth/>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs ref="https://www.eagle-network.eu/voc/writing/lod/114" type="execution">Insculptus</rs>
+                           <rs type="metre">Non-Metrical</rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <height max="7" min="5" unit="cm"/>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName ref="http://www.trismegistos.org/place/2058">Rome</placeName>
+                     </origPlace>
+                     <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" notAfter-custom="0340" notBefore-custom="0340">0340 AD - 0340 AD</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines</p>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term ref="https://www.eagle-network.eu/voc/typeins/lod/92">Sepulcralis</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="fr">French</language>
+            <language ident="he">Hebrew</language>
+            <language ident="sp">Spanish</language>
+         </langUsage>
+         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2015-03-21" who="Filippo Piazzolla">Various changes</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic n="1419_1.jpg" url="http://www.edb.uniba.it/images/watermark/images/Disegni/IC I/1419_1.jpg">
+         <desc>1419_1.jpg<ref target="http://www.europeana.eu/rights/rr-f/" type="license">Rights Reserved - Free Access via Epigraphic Database Bari</ref>
+         </desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl>ICVR I, 1419</bibl>
+               <bibl>71, 4647</bibl>
+               <bibl>92, 36, n. 1419</bibl>
+               <bibl>191, 105</bibl>
+            </listBibl>
+         </div>
+         <!--[- - - coniu]gi dulcissime et fideli / [quae vixit] ạnnis XXVIII m(ensibus) II que / [deposita est - - -n]onas aug(ustas) Aquindino / [et Procu]lo cons(ulibu)s    --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">coniu</supplied>gi dulcissime et fideli<lb n="2"/><supplied reason="lost">quae vixit</supplied> ạnnis XXVIII <expan><abbr>m</abbr><ex>ensibus</ex></expan> II que<lb n="3"/><supplied reason="lost">deposita est <gap reason="lost" extent="unknown" unit="character"/>n</supplied>onas <expan><abbr>aug</abbr><ex>ustas</ex></expan> Aquindino<lb n="4"/><supplied reason="lost">et Procu</supplied>lo cons<expan><ex>ulibu</ex><abbr>s</abbr></expan>    </ab></div>
+      </body>
+   </text>
+</TEI>

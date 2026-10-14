@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="ex-epidoctemplate.xml" xml:lang="English">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Rome, Coem. subdiale ad Catacumbas - ICVR V, 13355</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Epigraphic Dabatase Bari</authority>
+            <idno type="URI">http://www.edb.uniba.it/epigraph/27045</idno>
+            <idno type="TM">262836</idno>
+            <idno type="localID">27045</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <placeName ref="3175395" type="modern">Italy</placeName>
+                  </country>
+                  <settlement>
+                     <placeName ref="3169070" type="modern">Roma</placeName>
+                  </settlement>
+                  <repository>Coem. subdiale ad Catacumbas</repository>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">Sarkophag</objectType>
+                           <material ref="https://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                           <dimensions unit="cm">
+                              <height>72</height>
+                              <width>212</width>
+                              <depth/>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs ref="https://www.eagle-network.eu/voc/writing/lod/114" type="execution">Insculptus</rs>
+                           <rs type="metre">Non-Metrical</rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <height max="2.5" min="2" unit="cm"/>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName ref="http://www.trismegistos.org/place/2058">Rome</placeName>
+                     </origPlace>
+                     <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" notAfter-custom="0389" notBefore-custom="0389">0389 AD - 0389 AD</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines</p>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term ref="https://www.eagle-network.eu/voc/typeins/lod/92">Sepulcralis</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="fr">French</language>
+            <language ident="he">Hebrew</language>
+            <language ident="sp">Spanish</language>
+         </langUsage>
+         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-10-13" who="Anita Rocco">First version</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic n="Seb_Td_043a.jpg" url="http://media.regesta.com/dm_0/PCAS/PCASST02/low/foto/Seb/Seb_Td/Seb_Td_043a.jpg">
+         <desc>Seb_Td_043a.jpg<ref target="http://www.europeana.eu/rights/rr-f/" type="license">Rights Reserved - Free Access via Epigraphic Database Bari</ref>
+         </desc>
+      </graphic>
+      <graphic n="Seb_Td_43B.jpg" url="http://media.regesta.com/dm_0/PCAS/PCASST02/low/foto/Seb/Seb_Td/Seb_Td_43B.jpg">
+         <desc>Seb_Td_43B.jpg<ref target="http://www.europeana.eu/rights/rr-f/" type="license">Rights Reserved - Free Access via Epigraphic Database Bari</ref>
+         </desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl>ICVR V, 13355</bibl>
+            </listBibl>
+         </div>
+         <!--Maximilla poten[s servare foedera C]rhisti  propositumque fidem mors abstulit omnia vitae sed melius vivit vitam Cristi qui sperat eternam si animo recolat fidem / datam omn[ibus] unam tunc poterit mors ipsa mori cum tempore toto  vita perennis eri⌜t⌝ veniam dabit omnibus unam sed meritis / [ve]getans su[per h]anc Lucceia fecisti nam memor ipsa tui cum reddis vota sepulcrhi ostendis mentem religiosa vita repleta〈m〉. Mirae fide〈i〉 || et innocentiae optimique propositi Maximilla virgo ancilla dei civis %Pannonia que / vixit annis n(umero) L huic sepulturae condita est a {L} Lucceia c(larissima) f(emina) filia Viventi c̅(larissimae) r̅(ecordationis) v̅(iri) ex praefecto / pretorio et urbis aeternae propter amicitiam sibi coniuntam que diem clusit una cum matre / sua pariter Nunita que fuit matrona diaconis et vixit annis n(umero) LXX die IIII non(as) octobr(es) Ff(laviis duobus) / Timasio et Promoto vv(ris) cc(larissimis duobus) conss(ulibus duobus)--><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>Maximilla poten<supplied reason="lost">s servare foedera C</supplied>rhisti  propositumque fidem mors abstulit omnia vitae sed melius vivit vitam Cristi qui sperat eternam si animo recolat fidem<lb n="2"/>datam omn<supplied reason="lost">ibus</supplied> unam tunc poterit mors ipsa mori cum tempore toto  vita perennis eri<choice><corr>t</corr></choice> veniam dabit omnibus unam sed meritis<lb n="3"/><supplied reason="lost">ve</supplied>getans su<supplied reason="lost">per h</supplied>anc Lucceia fecisti nam memor ipsa tui cum reddis vota sepulcrhi ostendis mentem religiosa vita repleta<supplied reason="omitted">m</supplied>. Mirae fide<supplied reason="omitted">i</supplied> || et innocentiae optimique propositi Maximilla virgo ancilla dei civis %Pannonia que<lb n="4"/>vixit annis <expan><abbr>n</abbr><ex>umero</ex></expan> L huic sepulturae condita est a <surplus>L</surplus> Lucceia <expan><abbr>c</abbr><ex>larissima</ex></expan> <expan><abbr>f</abbr><ex>emina</ex></expan> filia Viventi c̅(larissimae) r̅(ecordationis) v̅(iri) ex praefecto<lb n="5"/>pretorio et urbis aeternae propter amicitiam sibi coniuntam que diem clusit una cum matre<lb n="6"/>sua pariter Nunita que fuit matrona diaconis et vixit annis <expan><abbr>n</abbr><ex>umero</ex></expan> LXX die IIII <expan><abbr>non</abbr><ex>as</ex></expan> <expan><abbr>octobr</abbr><ex>es</ex></expan> Ff(laviis duobus)<lb n="7"/>Timasio et Promoto <expan><abbr>vv</abbr><ex>ris</ex></expan> cc(larissimis duobus) conss(ulibus duobus)</ab></div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="ex-epidoctemplate.xml" xml:lang="English">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Rome, Coem. Octavillae ad s.Pancratium - ICVR II, 4269</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Epigraphic Dabatase Bari</authority>
+            <idno type="URI">http://www.edb.uniba.it/epigraph/8229</idno>
+            <idno type="TM">297974</idno>
+            <idno type="localID">8229</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2">ignoratur</objectType>
+                           <material ref="https://www.eagle-network.eu/voc/material/lod/138">ignoratur</material>
+                           <dimensions unit="cm">
+                              <height/>
+                              <width/>
+                              <depth/>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs ref="https://www.eagle-network.eu/voc/writing/lod/21" type="execution">ignoratur</rs>
+                           <rs type="metre">Non-Metrical</rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName ref="http://www.trismegistos.org/place/2058">Rome</placeName>
+                     </origPlace>
+                     <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" notAfter-custom="0366" notBefore-custom="0366">0366 AD - 0366 AD</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines</p>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term ref="https://www.eagle-network.eu/voc/typeins/lod/92">Sepulcralis</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="fr">French</language>
+            <language ident="he">Hebrew</language>
+            <language ident="sp">Spanish</language>
+         </langUsage>
+         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2003-11-11" who="Antonio Enrico Felle">First version</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic n="4269_1.jpg" url="http://www.edb.uniba.it/images/watermark/images/Disegni/IC I/4269_1.jpg">
+         <desc>4269_1.jpg<ref target="http://www.europeana.eu/rights/rr-f/" type="license">Rights Reserved - Free Access via Epigraphic Database Bari</ref>
+         </desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl>ICVR II, 4269</bibl>
+            </listBibl>
+         </div>
+         <!--Cecili dominus Felicis post cons(ulatum) Valen/tiniani et Valentis VII kal(endas) feb(ruarias) depos(itus) / Apolinus qui vix(it) ann(os) XVIIII m(enses) VII d(ies) VI / quescet in pace / mater Leopardes--><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>Cecili dominus Felicis post <expan><abbr>cons</abbr><ex>ulatum</ex></expan> Valen<lb break="no" n="2"/>tiniani et Valentis VII <expan><abbr>kal</abbr><ex>endas</ex></expan> <expan><abbr>feb</abbr><ex>ruarias</ex></expan> <expan><abbr>depos</abbr><ex>itus</ex></expan><lb n="3"/>Apolinus qui <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>ann</abbr><ex>os</ex></expan> XVIIII <expan><abbr>m</abbr><ex>enses</ex></expan> VII <expan><abbr>d</abbr><ex>ies</ex></expan> VI<lb n="4"/>quescet in pace<lb n="5"/>mater Leopardes</ab></div>
+      </body>
+   </text>
+</TEI>

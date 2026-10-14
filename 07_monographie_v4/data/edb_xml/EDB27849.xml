@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="ex-epidoctemplate.xml" xml:lang="English">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Rome - ICVR I, 309</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Epigraphic Dabatase Bari</authority>
+            <idno type="URI">http://www.edb.uniba.it/epigraph/27849</idno>
+            <idno type="TM">621761</idno>
+            <idno type="localID">27849</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2">ignoratur</objectType>
+                           <material ref="https://www.eagle-network.eu/voc/material/lod/138">ignoratur</material>
+                           <dimensions unit="cm">
+                              <height/>
+                              <width/>
+                              <depth/>
+                           </dimensions>
+                           <rs ref="https://www.eagle-network.eu/voc/decor/lod/13" type="decoration">Monogr. Christi cum Alpha et Omega</rs>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs ref="https://www.eagle-network.eu/voc/writing/lod/21" type="execution">ignoratur</rs>
+                           <rs type="metre">Non-Metrical</rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName ref="http://www.trismegistos.org/place/2058">Rome</placeName>
+                     </origPlace>
+                     <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" notAfter-custom="0399" notBefore-custom="0399">0399 AD - 0399 AD</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines</p>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term ref="https://www.eagle-network.eu/voc/typeins/lod/92">Sepulcralis</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="fr">French</language>
+            <language ident="he">Hebrew</language>
+            <language ident="sp">Spanish</language>
+         </langUsage>
+         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-10" who="Filippo Piazzolla">Various changes</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl>ICVR I, 309</bibl>
+               <bibl>71, 4400B</bibl>
+            </listBibl>
+         </div>
+         <!--((monogramma Christi cum alpha et omega)) benemerenti in pace [- - -] / quae vixit annus quatur [menses - - - me?]mor filiae dulcissimae deposita[e in pace ] / septimum kalendas septembris die Veneris [post ] / consulatu d(omini) n(ostri) Harchadi IIII et Euty/chiani v(iri) c(larissimi) cons(ulibu)s / AC--><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/><g type="descriptive">monogramma Christi cum alpha et omega</g> benemerenti in pace <gap reason="lost" extent="unknown" unit="character"/><lb n="2"/>quae vixit annus quatur <supplied reason="lost" cert="low">menses --- me</supplied>mor filiae dulcissimae deposita<supplied reason="lost">e in pace </supplied><lb n="3"/>septimum kalendas septembris die Veneris <supplied reason="lost">post </supplied><lb n="4"/>consulatu <expan><abbr>d</abbr><ex>omini</ex></expan> <expan><abbr>n</abbr><ex>ostri</ex></expan> Harchadi IIII et Euty<lb break="no" n="5"/>chiani <expan><abbr>v</abbr><ex>iri</ex></expan> <expan><abbr>c</abbr><ex>larissimi</ex></expan> cons<expan><ex>ulibu</ex><abbr>s</abbr></expan><lb n="6"/>AC</ab></div>
+         <div type="apparatus">
+            <p>2. [--- a]mor, Silvagni in ICVR. The integration here proposed, --- me]mor,  are reprised by E. Diehl (ILCV ad loc. cit.). &#xD;
+5. Harchadi pro Honori: "... Monuit iam Muratori sive quadratarii sive eius, qui lapidem descripsit, vitio, Arcadi pro Honorii nomen hic esse suppositum" (Silvagni, ICVR ad loc. cit.) (Felle) </p>
+         </div>
+      </body>
+   </text>
+</TEI>

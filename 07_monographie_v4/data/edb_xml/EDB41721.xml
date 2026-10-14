@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="ex-epidoctemplate.xml" xml:lang="English">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Rome, inter vias Appiam et Ardeatinam - ICVR IV, 12425</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Epigraphic Dabatase Bari</authority>
+            <idno type="URI">http://www.edb.uniba.it/epigraph/41721</idno>
+            <idno type="TM"/>
+            <idno type="localID">41721</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <placeName ref="3175395" type="modern">Italy</placeName>
+                  </country>
+                  <settlement>
+                     <placeName ref="3176959" type="modern">Firenze </placeName>
+                  </settlement>
+                  <repository ref="www.trismegistos.org/collection/3270">Palazzo Rinuccini</repository>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                           <material ref="https://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                           <dimensions unit="cm">
+                              <height>23</height>
+                              <width>98</width>
+                              <depth/>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs ref="https://www.eagle-network.eu/voc/writing/lod/114" type="execution">Insculptus</rs>
+                           <rs type="metre">Non-Metrical</rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <height max="5.5" min="5" unit="cm"/>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName ref="http://www.trismegistos.org/place/2058">Rome</placeName>
+                     </origPlace>
+                     <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" notAfter-custom="0403" notBefore-custom="0403">0403 AD - 0403 AD</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines</p>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term ref="https://www.eagle-network.eu/voc/typeins/lod/92">Sepulcralis</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="fr">French</language>
+            <language ident="he">Hebrew</language>
+            <language ident="sp">Spanish</language>
+         </langUsage>
+         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-11-23" who="Antonello Vilella">Various changes</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl>ICVR IV, 12425</bibl>
+               <bibl>71, 3811 A</bibl>
+            </listBibl>
+         </div>
+         <!--R⌜u⌝m[o]rid[o] c(larissimo) c(onsule) mense april(e) XVIII kal(endas) / maias Barbarus defunctus l[o]/cum bisomu emtu ab Ursu fossore--><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>R<choice><corr>u</corr></choice>m<supplied reason="lost">o</supplied>rid<supplied reason="lost">o</supplied> <expan><abbr>c</abbr><ex>larissimo</ex></expan> <expan><abbr>c</abbr><ex>onsule</ex></expan> mense <expan><abbr>april</abbr><ex>e</ex></expan> XVIII <expan><abbr>kal</abbr><ex>endas</ex></expan><lb n="2"/>maias Barbarus defunctus l<supplied reason="lost">o</supplied><lb break="no" n="3"/>cum bisomu emtu ab Ursu fossore</ab></div>
+         <div type="apparatus">
+            <p>1. I on stone. "...fortasse in exemplo incidendo etiam hic I cum R nexa fuit ut faceret RV" (Ferrua, ICVR ad loc. cit.).&#xD;
+"Ab Ill.mo Thoma Cervioni pontif. sacrarii praefecto reperta in ea parte coemeterii Praetextati quae proe viam Ardeatinam proximior est ecclesiae S. Mariae de Plantis, vulgo Domine quo vadis? Et nobis a Val. De Valentinis eiusdem praesulis a secretis exscripta, Marangoni. Sine loco, Danzetta e Tannini. «Presso il Sig. Cantoni in Roma» a. 1746, Giorgi. In Tusculano, card. Passionei Pass. Florentiae ap. Rinuccinios, Marini; ibi adhuc, aedibus puellarum ludo factis, in rectoris conclavi" (quoted by Ferrua in ICVR, ad loc. cit.). "Titulum esse supra mutilum suspicatur, De Rossi. Certe Tabula integra est. 1. CC Marini recte; EE cett.; unum E Danzetta; XVIIII Marangoni. 2. BARBARIS priores sed vidi in lapide I cum R nexam facere RV, sicut est MV in u. 3. DEFUNTUS Tannini; BISOMI Marangoni Danzetta e Passionei, sed I nexa est cum M ita ut faciat MV, ut dixi; EMIT Passionei" (Ferrua, comm. ad loc. cit.)</p>
+         </div>
+      </body>
+   </text>
+</TEI>

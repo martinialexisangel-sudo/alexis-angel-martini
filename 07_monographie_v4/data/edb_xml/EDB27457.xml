@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="ex-epidoctemplate.xml" xml:lang="English">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Rome - ICVR I, 84</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Epigraphic Dabatase Bari</authority>
+            <idno type="URI">http://www.edb.uniba.it/epigraph/27457</idno>
+            <idno type="TM">621539</idno>
+            <idno type="localID">27457</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <placeName ref="3175395" type="modern">Italy</placeName>
+                  </country>
+                  <settlement>
+                     <placeName ref="3169070" type="modern">Roma</placeName>
+                  </settlement>
+                  <repository>s. Cecilia </repository>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                           <material ref="https://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                           <dimensions unit="cm">
+                              <height>44</height>
+                              <width>31</width>
+                              <depth>4</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs ref="https://www.eagle-network.eu/voc/writing/lod/114" type="execution">Insculptus</rs>
+                           <rs type="metre">Non-Metrical</rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <height max="5" min="3.7" unit="cm"/>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName ref="http://www.trismegistos.org/place/2058">Rome</placeName>
+                     </origPlace>
+                     <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" notAfter-custom="0377" notBefore-custom="0377">0377 AD - 0377 AD</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines</p>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term ref="https://www.eagle-network.eu/voc/typeins/lod/92">Sepulcralis</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="fr">French</language>
+            <language ident="he">Hebrew</language>
+            <language ident="sp">Spanish</language>
+         </langUsage>
+         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-29" who="Filippo Piazzolla">Various changes</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl>ICVR I, 84</bibl>
+               <bibl>92, 11, n. 84</bibl>
+            </listBibl>
+         </div>
+         <!--[- - -]Ṃarcus e̲[t - - -] / [- - -] f̣ecerun̲t̲ [sibi se vivis - - -] / [- - -] P̲etrus vix̣i̲t̲ [- - - dec(essit)] / [- - -] X kal(endas) apr(iles) dd(ominis) n̲n̲(ostris) / Gratiano III et M̲e̲r̲[obaude cons(ulibu)s] / [- - -] Ạnastas〈i〉a dec(essit) I̲I̲I̲ [- - -] / que vix(it) ann(is) III̲I̲ d̲(iebus) X̲X̲ [- - -] / Ṃạṛc̣ụṣ q̣ụị ṿi̲x̲i̲t̲ a̲[nn(is) - - -] / - - - - - -  --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>Ṃarcus <supplied reason="undefined" evidence="previouseditor">e</supplied><supplied reason="lost">t</supplied><gap reason="lost" extent="unknown" unit="character"/><lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>f</unclear>eceru<supplied reason="undefined" evidence="previouseditor">nt</supplied> <supplied reason="lost">sibi se vivis <gap reason="lost" extent="unknown" unit="character"/></supplied><lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="undefined" evidence="previouseditor">P</supplied>etrus vi<unclear>x</unclear><supplied reason="undefined" evidence="previouseditor">it</supplied> <supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>dec</abbr><ex>essit</ex></expan></supplied><lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> X <expan><abbr>kal</abbr><ex>endas</ex></expan> <expan><abbr>apr</abbr><ex>iles</ex></expan> <expan><abbr>dd</abbr><ex>ominis</ex></expan> <supplied reason="undefined" evidence="previouseditor">nn</supplied>(ostris)<lb n="5"/>Gratiano III et <supplied reason="undefined" evidence="previouseditor">Mer</supplied><supplied reason="lost">obaude <expan><abbr>cons</abbr><ex>ulibu</ex>s</expan></supplied><lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> Ạnastas<supplied reason="omitted">i</supplied>a <expan><abbr>dec</abbr><ex>essit</ex></expan> <supplied reason="undefined" evidence="previouseditor">III</supplied> <gap reason="lost" extent="unknown" unit="character"/><lb n="7"/>que <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>ann</abbr><ex>is</ex></expan> II<supplied reason="undefined" evidence="previouseditor">II</supplied> <supplied reason="undefined" evidence="previouseditor">d</supplied>(iebus) <supplied reason="undefined" evidence="previouseditor">XX</supplied> <gap reason="lost" extent="unknown" unit="character"/><lb n="8"/>Ṃạṛ<unclear>c</unclear>ụṣ <unclear>q</unclear>ụị ṿ<supplied reason="undefined" evidence="previouseditor">ixit</supplied> <supplied reason="undefined" evidence="previouseditor">a</supplied><supplied reason="lost"><expan><abbr>nn</abbr><ex>is</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied><lb n="9"/>------  </ab></div>
+      </body>
+   </text>
+</TEI>

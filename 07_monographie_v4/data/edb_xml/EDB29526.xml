@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="ex-epidoctemplate.xml" xml:lang="English">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Rome - ICVR I, 941</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Epigraphic Dabatase Bari</authority>
+            <idno type="URI">http://www.edb.uniba.it/epigraph/29526</idno>
+            <idno type="TM">622343</idno>
+            <idno type="localID">29526</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <placeName ref="3175395" type="modern">Italy</placeName>
+                  </country>
+                  <settlement>
+                     <placeName ref="3169070" type="modern">Roma</placeName>
+                  </settlement>
+                  <repository>s. Prassede</repository>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                           <material ref="https://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                           <dimensions unit="cm">
+                              <height>44</height>
+                              <width>175</width>
+                              <depth/>
+                           </dimensions>
+                           <rs ref="https://www.eagle-network.eu/voc/decor/lod/10" type="decoration">Monogr. Christi in crucem translatum</rs>
+                           <rs ref="https://www.eagle-network.eu/voc/decor/lod/14" type="decoration">chi-rho</rs>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs ref="https://www.eagle-network.eu/voc/writing/lod/114" type="execution">Insculptus</rs>
+                           <rs type="metre">Non-Metrical</rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <height max="4.2" unit="cm"/>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName ref="http://www.trismegistos.org/place/2058">Rome</placeName>
+                     </origPlace>
+                     <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" notAfter-custom="0397" notBefore-custom="0397">0397 AD - 0397 AD</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines</p>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term ref="https://www.eagle-network.eu/voc/typeins/lod/92">Sepulcralis</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="fr">French</language>
+            <language ident="he">Hebrew</language>
+            <language ident="sp">Spanish</language>
+         </langUsage>
+         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-24" who="Filippo Piazzolla">Various changes</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic n="941_1.jpg" url="http://www.edb.uniba.it/images/watermark/images/Disegni/Perret 1851/941_1.jpg">
+         <desc>941_1.jpg<ref target="http://www.europeana.eu/rights/rr-f/" type="license">Rights Reserved - Free Access via Epigraphic Database Bari</ref>
+         </desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl>ICVR I, 941</bibl>
+               <bibl>71, 3444</bibl>
+            </listBibl>
+         </div>
+         <!--dulcis et innoces hic dormit Severianus ((monogramma Christi)) in somnio pacis / qui vixit annus p(lus) m(inus) L cuius spiritus in luce domini suscep/tus est ((monogramma Christi in crucem translatum)) die VIIIX k(a)l(endas) mart(ias) dd(ominis) nn(ostris) Flavio Caesario et Nonio Attico / vv(iris) c(larissimis) c(on)s(ulibu)s quem locum emit Viricunda ux{x}or Pascasio EPC / ((avis cum olea in rostro)) ((monogramma Christi in crucem translatum in corona))--><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>dulcis et innoces hic dormit Severianus <g type="descriptive">monogramma Christi</g> in somnio pacis<lb n="2"/>qui vixit annus <expan><abbr>p</abbr><ex>lus</ex></expan> <expan><abbr>m</abbr><ex>inus</ex></expan> L cuius spiritus in luce domini suscep<lb break="no" n="3"/>tus est <g type="descriptive">monogramma Christi in crucem translatum</g> die VIIIX k<expan><ex>a</ex><abbr>l</abbr><ex>endas</ex></expan> <expan><abbr>mart</abbr><ex>ias</ex></expan> <expan><abbr>dd</abbr><ex>ominis</ex></expan> <expan><abbr>nn</abbr><ex>ostris</ex></expan> Flavio Caesario et Nonio Attico<lb n="4"/><expan><abbr>vv</abbr><ex>iris</ex></expan> <expan><abbr>c</abbr><ex>larissimis</ex></expan> c<expan><ex>on</ex><abbr>s</abbr><ex>ulibu</ex><abbr>s</abbr></expan> quem locum emit Viricunda ux<surplus>x</surplus>or Pascasio EPC<lb n="5"/><g type="descriptive">avis cum olea in rostro</g> ((monogramma Christi in crucem translatum in corona))</ab></div>
+         <div type="apparatus">
+            <p>4ex. Silvagni writes: "intelligendum 'Pascasio ep(i)s(copo sedente, vel concedente, cel iubente)'. But "Pascasius episc. Romanus non exstitit" (Diehl, in  ILCV ad loc. cit. (Felle)</p>
+         </div>
+      </body>
+   </text>
+</TEI>

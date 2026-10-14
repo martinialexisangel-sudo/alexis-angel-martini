@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="ex-epidoctemplate.xml" xml:lang="English">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Rome, Coem. subterraneum ad Catacumbas - ICVR V, 13105</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Epigraphic Dabatase Bari</authority>
+            <idno type="URI">http://www.edb.uniba.it/epigraph/4428</idno>
+            <idno type="TM">294320</idno>
+            <idno type="localID">4428</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <placeName ref="3175395" type="modern">Italy</placeName>
+                  </country>
+                  <settlement>
+                     <placeName ref="3169070" type="modern">Roma</placeName>
+                  </settlement>
+                  <repository>s. Paolo f.l.m.</repository>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                           <material ref="https://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                           <dimensions unit="cm">
+                              <height>158</height>
+                              <width>50</width>
+                              <depth/>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs ref="https://www.eagle-network.eu/voc/writing/lod/114" type="execution">Insculptus</rs>
+                           <rs type="metre">Non-Metrical</rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <height max="7" min="6.5" unit="cm"/>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName ref="http://www.trismegistos.org/place/2058">Rome</placeName>
+                     </origPlace>
+                     <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" notAfter-custom="0360" notBefore-custom="0360">0360 AD - 0360 AD</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines</p>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term ref="https://www.eagle-network.eu/voc/typeins/lod/92">Sepulcralis</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="fr">French</language>
+            <language ident="he">Hebrew</language>
+            <language ident="sp">Spanish</language>
+         </langUsage>
+         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2015-03-23" who="Carlo Carletti">Various changes</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic n="13105_1.jpg" url="http://www.edb.uniba.it/images/watermark/images/Disegni/IC I/13105_1.jpg">
+         <desc>13105_1.jpg<ref target="http://www.europeana.eu/rights/rr-f/" type="license">Rights Reserved - Free Access via Epigraphic Database Bari</ref>
+         </desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl>ICVR V, 13105</bibl>
+               <bibl>69, 5858</bibl>
+               <bibl>69, 5932</bibl>
+            </listBibl>
+         </div>
+         <!--Pele⌜g⌝rinus in pace cum uxorem suam Sil/vanam qui exibit in pace XIIII kal(endas) ian(uarias) / d(ominis) n(ostris) Const(antio) aug(usto) X et Iul(iano) caesare III conss(ulibus)--><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>Pele<choice><corr>g</corr></choice>rinus in pace cum uxorem suam Sil<lb break="no" n="2"/>vanam qui exibit in pace XIIII <expan><abbr>kal</abbr><ex>endas</ex></expan> <expan><abbr>ian</abbr><ex>uarias</ex></expan><lb n="3"/><expan><abbr>d</abbr><ex>ominis</ex></expan> <expan><abbr>n</abbr><ex>ostris</ex></expan> <expan><abbr>Const</abbr><ex>antio</ex></expan> <expan><abbr>aug</abbr><ex>usto</ex></expan> X et <expan><abbr>Iul</abbr><ex>iano</ex></expan> caesare III <expan><abbr>conss</abbr><ex>ulibus</ex></expan></ab></div>
+         <div type="apparatus">
+            <p>1. C sulla lastra. In ICVR II si data l'iscrizione al 360; in ICVR V e nella silloge del Diehl viene riportato il 370. Ferrua, in "Nuove correzioni alla silloge del Diehl" (Città del Vaticano, 1981) afferma che l'epigrafe è pertinente al cimitero sotterraneo di S. Sebastiano (cfr. ICVR V, 13105) ed è conservata all'interno del museo lapidario di S. Paolo.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

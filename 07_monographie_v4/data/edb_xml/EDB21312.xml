@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="ex-epidoctemplate.xml" xml:lang="English">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Rome, Coem. s.Zenonis - ICVR II, 6009</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Epigraphic Dabatase Bari</authority>
+            <idno type="URI">http://www.edb.uniba.it/epigraph/21312</idno>
+            <idno type="TM">310919</idno>
+            <idno type="localID">21312</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <placeName ref="3175395" type="modern">Italy</placeName>
+                  </country>
+                  <settlement>
+                     <placeName ref="3169070" type="modern">Roma</placeName>
+                  </settlement>
+                  <repository ref="www.trismegistos.org/collection/1341">Collegio Teutonico</repository>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                           <material ref="https://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                           <dimensions unit="cm">
+                              <height>38</height>
+                              <width>31</width>
+                              <depth/>
+                           </dimensions>
+                           <rs ref="https://www.eagle-network.eu/voc/decor/lod/14" type="decoration">chi-rho</rs>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs ref="https://www.eagle-network.eu/voc/writing/lod/114" type="execution">Insculptus</rs>
+                           <rs type="metre">Non-Metrical</rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <height max="3.5" min="2.5" unit="cm"/>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName ref="http://www.trismegistos.org/place/2058">Rome</placeName>
+                     </origPlace>
+                     <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" notAfter-custom="0375" notBefore-custom="0375">0375 AD - 0375 AD</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines</p>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term ref="https://www.eagle-network.eu/voc/typeins/lod/92">Sepulcralis</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="fr">French</language>
+            <language ident="he">Hebrew</language>
+            <language ident="sp">Spanish</language>
+         </langUsage>
+         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2006-07-20" who="Maria Cristina Grisanzio">First version</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl>ICVR II, 6009</bibl>
+            </listBibl>
+         </div>
+         <!--depossio Petronies VI kal(endas) / dec(embres) post consulatum / Gratiani Aug(usti) III et Fl(avii) Equiti / que vixit virgo annos p(lus) m(inus) / XVIIII in pace est de regio/ne VIIII a lacu cunic〈u〉li ((monogramma Christi)) / ((pavo)) ((olea))--><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>depossio Petronies VI <expan><abbr>kal</abbr><ex>endas</ex></expan><lb n="2"/><expan><abbr>dec</abbr><ex>embres</ex></expan> post consulatum<lb n="3"/>Gratiani <expan><abbr>Aug</abbr><ex>usti</ex></expan> III et <expan><abbr>Fl</abbr><ex>avii</ex></expan> Equiti<lb n="4"/>que vixit virgo annos <expan><abbr>p</abbr><ex>lus</ex></expan> <expan><abbr>m</abbr><ex>inus</ex></expan><lb n="5"/>XVIIII in pace est de regio<lb break="no" n="6"/>ne VIIII a lacu cunic<supplied reason="omitted">u</supplied>li <g type="descriptive">monogramma Christi</g><lb n="7"/><g type="descriptive">pavo</g> <g type="descriptive">olea</g></ab></div>
+      </body>
+   </text>
+</TEI>

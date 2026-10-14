@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="ex-epidoctemplate.xml" xml:lang="English">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Rome - ICVR I, 3184</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Epigraphic Dabatase Bari</authority>
+            <idno type="URI">http://www.edb.uniba.it/epigraph/33136</idno>
+            <idno type="TM">624114</idno>
+            <idno type="localID">33136</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2">ignoratur</objectType>
+                           <material ref="https://www.eagle-network.eu/voc/material/lod/138">ignoratur</material>
+                           <dimensions unit="cm">
+                              <height/>
+                              <width/>
+                              <depth/>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs ref="https://www.eagle-network.eu/voc/writing/lod/21" type="execution">ignoratur</rs>
+                           <rs type="metre">Non-Metrical</rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName ref="http://www.trismegistos.org/place/2058">Rome</placeName>
+                     </origPlace>
+                     <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" notAfter-custom="0375" notBefore-custom="0375">0375 AD - 0375 AD</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines</p>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term ref="https://www.eagle-network.eu/voc/typeins/lod/92">Sepulcralis</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="fr">French</language>
+            <language ident="he">Hebrew</language>
+            <language ident="sp">Spanish</language>
+         </langUsage>
+         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2015-10-29" who="Filippo Piazzolla">Various changes</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl>ICVR I, 3184</bibl>
+               <bibl>71, 3305</bibl>
+            </listBibl>
+         </div>
+         <!--[- - - f]ati munus [- - -] / [- - -]ụm corpori menbṛ[- - -] / [- - -]tes reliquid supẹ[- - -] / [- - -] quae  germine vivi[- - -] / [- - - vixi]ṭ annos XXIII meṇ[ses - - - ] / [- - - dep(osit- -) - - -id]us maias  pos(t) consula[tum - - -] / [- - -Gr]atiano Aug(usto) III et Fl(avio) Ae[quitio - - -] / [in] pace--><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">f</supplied>ati munus <gap reason="lost" extent="unknown" unit="character"/><lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ụm corpori menbṛ<gap reason="lost" extent="unknown" unit="character"/><lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>tes reliquid supẹ<gap reason="lost" extent="unknown" unit="character"/><lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> quae  germine vivi<gap reason="lost" extent="unknown" unit="character"/><lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">vixi</supplied>ṭ annos XXIII meṇ<supplied reason="lost">ses <gap reason="lost" extent="unknown" unit="character"/> </supplied><lb n="6"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>dep</abbr><ex>osit--</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>id</supplied>us maias  <expan><abbr>pos</abbr><ex>t</ex></expan> consula<supplied reason="lost">tum</supplied><gap reason="lost" extent="unknown" unit="character"/><lb n="7"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/>Gr</supplied>atiano <expan><abbr>Aug</abbr><ex>usto</ex></expan> III et <expan><abbr>Fl</abbr><ex>avio</ex></expan> Ae<supplied reason="lost">quitio</supplied><gap reason="lost" extent="unknown" unit="character"/><lb n="8"/><supplied reason="lost">in</supplied> pace</ab></div>
+      </body>
+   </text>
+</TEI>

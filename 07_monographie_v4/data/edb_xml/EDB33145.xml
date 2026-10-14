@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="ex-epidoctemplate.xml" xml:lang="English">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Rome - ICVR I, 3194</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Epigraphic Dabatase Bari</authority>
+            <idno type="URI">http://www.edb.uniba.it/epigraph/33145</idno>
+            <idno type="TM">619641</idno>
+            <idno type="localID">33145</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <placeName ref="3175395" type="modern">Italy</placeName>
+                  </country>
+                  <settlement>
+                     <placeName ref="3169070" type="modern">Roma</placeName>
+                  </settlement>
+                  <repository>villa Albani</repository>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                           <material ref="https://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                           <dimensions unit="cm">
+                              <height>69</height>
+                              <width>128</width>
+                              <depth/>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs ref="https://www.eagle-network.eu/voc/writing/lod/114" type="execution">Insculptus</rs>
+                           <rs type="metre">Non-Metrical</rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <height max="5.5" min="3.5" unit="cm"/>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName ref="http://www.trismegistos.org/place/2058">Rome</placeName>
+                     </origPlace>
+                     <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" notAfter-custom="0380" notBefore-custom="0380">0380 AD - 0380 AD</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines</p>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term ref="https://www.eagle-network.eu/voc/typeins/lod/92">Sepulcralis</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="fr">French</language>
+            <language ident="he">Hebrew</language>
+            <language ident="sp">Spanish</language>
+         </langUsage>
+         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2016-09-26" who="Filippo Piazzolla">Various changes</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic n="3194_1.jpg" url="http://www.edb.uniba.it/images/watermark/images/Disegni/Perret 1851/3194_1.jpg">
+         <desc>3194_1.jpg<ref target="http://www.europeana.eu/rights/rr-f/" type="license">Rights Reserved - Free Access via Epigraphic Database Bari</ref>
+         </desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl>ICVR I, 3194</bibl>
+               <bibl>71, 1464</bibl>
+            </listBibl>
+         </div>
+         <!--hic quescit ancilla dei ⌜q⌝ue de / sua omnia possedit domum ista / quem amice defien solaciumq(ue) requirun̂t / pro hunc unum ora subolem quem superis / titem requisti eterna requiem felicita/〈ti〉s cuasa man(e)bis IIIIX k⌜a⌝lendas octobris / Cucurbitinus et Abu⌜nd⌝antius hic ⌜s⌝imul quiescit / dd(ominis) nn(ostris) Gratiano V et Teodosio aaugg(ustis) ((aves coronam tenentes))--><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>hic quescit ancilla dei <choice><corr>q</corr></choice>ue de<lb n="2"/>sua omnia possedit domum ista<lb n="3"/>quem amice defien <expan><abbr>solaciumq</abbr><ex>ue</ex></expan> requiru<hi rend="ligature">n̂t</hi><lb n="4"/>pro hunc unum ora subolem quem superis<lb n="5"/>titem requisti eterna requiem felicita<lb break="no" n="6"/><supplied reason="omitted">ti</supplied>s cuasa man<expan><ex>e</ex><abbr>bis</abbr></expan> IIIIX k<choice><corr>a</corr></choice>lendas octobris<lb n="7"/>Cucurbitinus et Abu⌜nd⌝antius hic <choice><corr>s</corr></choice>imul quiescit<lb n="8"/><expan><abbr>dd</abbr><ex>ominis</ex></expan> <expan><abbr>nn</abbr><ex>ostris</ex></expan> Gratiano V et Teodosio <expan><abbr>aaugg</abbr><ex>ustis</ex></expan> <g type="descriptive">aves coronam tenentes</g></ab></div>
+         <div type="apparatus">
+            <p>7. MO per ND ; G per S &#xD;
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

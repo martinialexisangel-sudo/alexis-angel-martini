@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="ex-epidoctemplate.xml" xml:lang="English">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Rome - ICVR I, 986</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Epigraphic Dabatase Bari</authority>
+            <idno type="URI">http://www.edb.uniba.it/epigraph/29619</idno>
+            <idno type="TM">622381</idno>
+            <idno type="localID">29619</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <placeName ref="3175395" type="modern">Italy</placeName>
+                  </country>
+                  <settlement>
+                     <placeName ref="3169070" type="modern">Roma</placeName>
+                  </settlement>
+                  <repository>ss. Quattro Coronati</repository>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                           <material ref="https://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                           <dimensions unit="cm">
+                              <height>70</height>
+                              <width>110</width>
+                              <depth>4,5</depth>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs ref="https://www.eagle-network.eu/voc/writing/lod/114" type="execution">Insculptus</rs>
+                           <rs type="metre">Non-Metrical</rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <height max="4.5" unit="cm"/>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName ref="http://www.trismegistos.org/place/2058">Rome</placeName>
+                     </origPlace>
+                     <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" notAfter-custom="0392" notBefore-custom="0392">0392 AD - 0392 AD</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines</p>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term ref="https://www.eagle-network.eu/voc/typeins/lod/92">Sepulcralis</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="fr">French</language>
+            <language ident="he">Hebrew</language>
+            <language ident="sp">Spanish</language>
+         </langUsage>
+         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-31" who="Filippo Piazzolla">Various changes</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl>ICVR I, 986</bibl>
+               <bibl>71, 2611 adn. </bibl>
+            </listBibl>
+         </div>
+         <!--〈:a-b〉
+Sextiliu[s - - -]ọruṃ [- - -] / qui ann(orum) XLVI d[ep(ositus)] pri(die) i[d]us iụ[nias - - - ] / d(omino) n(ostro) Arcadio II et Ruf[i]no v(iro) c(larissimo) cons(ulibu)s / ben〈e〉m[erenti] in [pace]--><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>〈:a-b〉&#xD;
+Sextiliu<supplied reason="lost">s</supplied><gap reason="lost" extent="unknown" unit="character"/><unclear>o</unclear>ru<unclear>m</unclear> <gap reason="lost" extent="unknown" unit="character"/><lb n="2"/>qui <expan><abbr>ann</abbr><ex>orum</ex></expan> XLVI <expan><abbr><abbr>d</abbr><supplied reason="lost">ep</supplied></abbr><supplied reason="lost"><ex>ositus</ex></supplied></expan> <expan><abbr>pri</abbr><ex>die</ex></expan> i<supplied reason="lost">d</supplied>us iụ<supplied reason="lost">nias <gap reason="lost" extent="unknown" unit="character"/> </supplied><lb n="3"/><expan><abbr>d</abbr><ex>omino</ex></expan> <expan><abbr>n</abbr><ex>ostro</ex></expan> Arcadio II et Ruf<supplied reason="lost">i</supplied>no <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan> cons<expan><ex>ulibu</ex><abbr>s</abbr></expan><lb n="4"/>ben<supplied reason="omitted">e</supplied>m<supplied reason="lost">erenti</supplied> in <supplied reason="lost">pace</supplied></ab></div>
+         <div type="apparatus">
+            <p>1. Silvagni in ICVR ad loc. cit quotes Gatti: " in v. 1 ex. inest vel muneris defuncti mentio, puta 'praepositus tabernaculorum, primicerius cenariorum monetariorum' etc. vel formula quaedam laudationis, ex. gr. 'amicus amicorum', 'amator pauperorum' etc.";  2. Also: iu[lias ---] (Felle)</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="ex-epidoctemplate.xml" xml:lang="English">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Rome, Crypta s.Cornelii - ICVR IV, 11102</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Epigraphic Dabatase Bari</authority>
+            <idno type="URI">http://www.edb.uniba.it/epigraph/39561</idno>
+            <idno type="TM">627823</idno>
+            <idno type="localID">39561</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <placeName ref="3175395" type="modern">Italy</placeName>
+                  </country>
+                  <settlement>
+                     <placeName ref="3169070" type="modern">Roma</placeName>
+                  </settlement>
+                  <repository>Coem. Callisti area subdialis et incerti loci</repository>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                           <material ref="https://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                           <dimensions unit="cm">
+                              <height/>
+                              <width/>
+                              <depth/>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs ref="https://www.eagle-network.eu/voc/writing/lod/114" type="execution">Insculptus</rs>
+                           <rs type="metre">Non-Metrical</rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName ref="http://www.trismegistos.org/place/2058">Rome</placeName>
+                     </origPlace>
+                     <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" notAfter-custom="0371" notBefore-custom="0371">0371 AD - 0371 AD</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines</p>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term ref="https://www.eagle-network.eu/voc/typeins/lod/92">Sepulcralis</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="fr">French</language>
+            <language ident="he">Hebrew</language>
+            <language ident="sp">Spanish</language>
+         </langUsage>
+         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2015-12-02" who="Marida Pierno">Various changes</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl>ICVR IV, 11102</bibl>
+            </listBibl>
+         </div>
+         <!--[- - -] Marcena [- - - d]ulcis qui tam [- - -] / [r]edemptu[m - - -] co(- - -?) te(- - -?) aeterna tellu[re] / [- - -]pq(ue) redemptus vulner[e] / [- - -] ritus ipse haec enim / [- - -]imus t[e pa]rentibus / [- - -]CO[- - - d]ulcis pace / [- - - d](e)p(ositio) d(iebus) XVI kal(endas) se[p(tembres)] / [- - -] m(ensibus) II b(ene)m(erenti) parent[es] / [Gratiano Augusto I]I et Probo [c]o[nsulibus]--><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> Marcena <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">d</supplied>ulcis qui tam <gap reason="lost" extent="unknown" unit="character"/><lb n="2"/><supplied reason="lost">r</supplied>edemptu<supplied reason="lost">m</supplied><gap reason="lost" extent="unknown" unit="character"/> co(---<certainty match="preceding-sibling::node()" locus="value"/> te(---<certainty match="preceding-sibling::node()" locus="value"/> aeterna tellu<supplied reason="lost">re</supplied><lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>pq</abbr><ex>ue</ex></expan> redemptus vulner<supplied reason="lost">e</supplied><lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> ritus ipse haec enim<lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>imus t<supplied reason="lost">e pa</supplied>rentibus<lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>CO<gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">d</supplied>ulcis pace<lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><abbr/><supplied reason="lost">d</supplied></abbr><ex>e</ex>p</expan>(ositio) <expan><abbr>d</abbr><ex>iebus</ex></expan> XVI <expan><abbr>kal</abbr><ex>endas</ex></expan> <expan><abbr><abbr>se</abbr><supplied reason="lost">p</supplied></abbr><supplied reason="lost"><ex>tembres</ex></supplied></expan><lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>m</abbr><ex>ensibus</ex></expan> II b<expan><ex>ene</ex><abbr>m</abbr><ex>erenti</ex></expan> parent<supplied reason="lost">es</supplied><lb n="9"/><supplied reason="lost">Gratiano Augusto I</supplied>I et Probo <supplied reason="lost">c</supplied>o<supplied reason="lost">nsulibus</supplied></ab></div>
+      </body>
+   </text>
+</TEI>

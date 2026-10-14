@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="ex-epidoctemplate.xml" xml:lang="English">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Rome - ICVR I, 2095</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Epigraphic Dabatase Bari</authority>
+            <idno type="URI">http://www.edb.uniba.it/epigraph/32075</idno>
+            <idno type="TM">623564</idno>
+            <idno type="localID">32075</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <placeName ref="3175395" type="modern">Italy</placeName>
+                  </country>
+                  <settlement>
+                     <placeName ref="3169070" type="modern">Roma</placeName>
+                  </settlement>
+                  <repository>Musei Vaticani</repository>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                           <material ref="https://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                           <dimensions unit="cm">
+                              <height>18</height>
+                              <width>22</width>
+                              <depth/>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs ref="https://www.eagle-network.eu/voc/writing/lod/114" type="execution">Insculptus</rs>
+                           <rs type="metre">Non-Metrical</rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <height max="3" min="2.5" unit="cm"/>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName ref="http://www.trismegistos.org/place/2058">Rome</placeName>
+                     </origPlace>
+                     <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" notAfter-custom="0381" notBefore-custom="0381">0381 AD - 0381 AD</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines</p>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term ref="https://www.eagle-network.eu/voc/typeins/lod/92">Sepulcralis</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="fr">French</language>
+            <language ident="he">Hebrew</language>
+            <language ident="sp">Spanish</language>
+         </langUsage>
+         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2015-09-21" who="Filippo Piazzolla">Various changes</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl>ICVR I, 2095</bibl>
+               <bibl>71, 4332 adn.</bibl>
+               <bibl>191</bibl>
+            </listBibl>
+         </div>
+         <!--[mire bonitati]s̲ ̲e̲t̲ i̲n̲n̲o̲c̲e̲n̲̲t̲i̲a̲e̲ F̲l̲(̲̲aviae) N̲[- - -]a̲e Iuliae innoce̲n̲[tissimae] / [- - - quae vixit] a̲n̲n̲o̲s̲ V̲̲ ̲e̲t̲ m̲e̲n̲s̲e̲s̲ I̲I̲I̲I̲ d̲e̲[posi]ta in pace die IIII [- - -] / [Sya]c̲r̲i̲o̲ e̲t̲ E̲u̲c̲h̲e̲r̲i̲o̲ v̲v̲(iris) c̲[c(larissimis) - - -] c̲ons(ulibus) s(upra) s(criptis) [- - -]--><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/><supplied reason="lost">mire bonitati</supplied><supplied reason="undefined" evidence="previouseditor">s</supplied> ̲<supplied reason="undefined" evidence="previouseditor">et</supplied> <supplied reason="undefined" evidence="previouseditor">innocen</supplied>̲<supplied reason="undefined" evidence="previouseditor">tiae</supplied> <supplied reason="undefined" evidence="previouseditor">Fl</supplied>(<supplied reason="undefined" evidence="previouseditor"/>aviae) <supplied reason="undefined" evidence="previouseditor">N</supplied><gap reason="lost" extent="unknown" unit="character"/><supplied reason="undefined" evidence="previouseditor">a</supplied>e Iuliae innoc<supplied reason="undefined" evidence="previouseditor">en</supplied><supplied reason="lost">tissimae</supplied><lb n="2"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> quae vixit</supplied> <supplied reason="undefined" evidence="previouseditor">annos</supplied> <supplied reason="undefined" evidence="previouseditor">V</supplied>̲ ̲<supplied reason="undefined" evidence="previouseditor">et</supplied> <supplied reason="undefined" evidence="previouseditor">menses</supplied> <supplied reason="undefined" evidence="previouseditor">IIII</supplied> <supplied reason="undefined" evidence="previouseditor">de</supplied><supplied reason="lost">posi</supplied>ta in pace die IIII <gap reason="lost" extent="unknown" unit="character"/><lb n="3"/><supplied reason="lost">Sya</supplied><supplied reason="undefined" evidence="previouseditor">crio</supplied> <supplied reason="undefined" evidence="previouseditor">et</supplied> <supplied reason="undefined" evidence="previouseditor">Eucherio</supplied> <supplied reason="undefined" evidence="previouseditor">vv</supplied>(iris) <supplied reason="undefined" evidence="previouseditor">c</supplied><supplied reason="lost"><expan><abbr>c</abbr><ex>larissimis</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <supplied reason="undefined" evidence="previouseditor">c</supplied><expan><abbr>ons</abbr><ex>ulibus</ex></expan> <expan><abbr>s</abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>criptis</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></ab></div>
+      </body>
+   </text>
+</TEI>

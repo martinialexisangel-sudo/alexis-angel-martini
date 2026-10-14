@@ -1,0 +1,125 @@
+% PRISME v4.0 — feuille de style du volume
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{prisme}[2026/10/14 PRISME v4.0]
+
+\RequirePackage[paperwidth=170mm,paperheight=240mm,inner=21mm,outer=17mm,top=21mm,bottom=23mm,headsep=7mm,footskip=10mm]{geometry}
+\RequirePackage{fontspec}
+\RequirePackage{polyglossia}
+\setdefaultlanguage{french}
+\setotherlanguages{latin,greek}
+\defaultfontfeatures{Ligatures=Common}
+\setmainfont{LibertinusSerif}[Path=../fonts/,Extension=.otf,UprightFont=*-Regular,ItalicFont=*-Italic,
+  BoldFont=*-Semibold,BoldItalicFont=*-SemiboldItalic,Numbers={Lining}]
+\newfontfamily\lnums{LibertinusSerif}[Path=../fonts/,Extension=.otf,UprightFont=*-Regular,ItalicFont=*-Italic,
+  BoldFont=*-Semibold,BoldItalicFont=*-SemiboldItalic,Numbers={Lining}]
+\setsansfont{LibertinusSans}[Path=../fonts/,Extension=.otf,UprightFont=*-Regular,ItalicFont=*-Italic,BoldFont=*-Bold]
+\newfontfamily\displayfont{LibertinusSerifDisplay}[Path=../fonts/,Extension=.otf,UprightFont=*-Regular]
+\newfontfamily\fb{FreeSerif}[ItalicFont=FreeSerif,BoldFont=FreeSerif,BoldItalicFont=FreeSerif]
+\RequirePackage{newunicodechar}
+\newunicodechar{⸢}{{\fb ⸢}}\newunicodechar{⸣}{{\fb ⸣}}
+\newunicodechar{⟨}{{\fb ⟨}}\newunicodechar{⟩}{{\fb ⟩}}
+\newunicodechar{⌜}{{\fb ⌜}}\newunicodechar{⌝}{{\fb ⌝}}
+\newunicodechar{☧}{{\fb ☧}}\newunicodechar{✝}{{\fb ✝}}
+\newunicodechar{‖}{{\fb ‖}}
+\newunicodechar{ⱥ}{a}
+\newunicodechar{〚}{{\fb ⟦}}\newunicodechar{〛}{{\fb ⟧}}
+\newunicodechar{《}{{\fb ⟪}}\newunicodechar{》}{{\fb ⟫}}
+
+\RequirePackage[protrusion=true,expansion=false]{microtype}
+\RequirePackage{xcolor}
+\definecolor{prismered}{RGB}{122,30,30}
+\definecolor{prismegris}{RGB}{105,105,105}
+\definecolor{prismefond}{RGB}{246,243,238}
+\RequirePackage{graphicx}
+\RequirePackage{booktabs,longtable,tabularx,array,multirow}
+\RequirePackage{needspace}
+\RequirePackage{enumitem}
+\setlist{itemsep=1pt,topsep=3pt}
+\RequirePackage{titlesec}
+\RequirePackage{fancyhdr}
+\RequirePackage{emptypage}
+\RequirePackage[font={small},labelfont={sc},labelsep=period,justification=justified,singlelinecheck=true]{caption}
+\RequirePackage{etoolbox}
+\RequirePackage[bottom,hang]{footmisc}
+\setlength{\footnotemargin}{1.2em}
+\RequirePackage{ragged2e}
+\RequirePackage{multicol}
+\setlength{\columnsep}{8mm}
+
+% interlignage et paragraphes
+\linespread{1.08}
+\setlength{\parindent}{1.4em}
+\setlength{\parskip}{0pt}
+\widowpenalty=10000 \clubpenalty=10000
+\emergencystretch=2em
+\frenchspacing
+
+% ---------------------------------------------------------------- titres
+\titleformat{\part}[display]{\centering}{\normalfont\Large\scshape\color{prismered} Partie \thepart}{2ex}{\displayfont\Huge}
+\titleformat{\chapter}[display]{}{\normalfont\large\scshape\color{prismered} Chapitre \thechapter}{1.2ex}{\displayfont\LARGE\raggedright}[\vspace{1ex}{\color{prismered}\rule{\textwidth}{0.4pt}}]
+\titlespacing*{\chapter}{0pt}{0pt}{4ex}
+\titleformat{\section}{\large\bfseries\raggedright}{\thesection}{0.8em}{}
+\titleformat{\subsection}{\normalsize\itshape\raggedright}{\thesubsection}{0.8em}{}
+\titlespacing*{\section}{0pt}{3.2ex plus 1ex minus .2ex}{1.4ex}
+\titlespacing*{\subsection}{0pt}{2.4ex plus .8ex minus .2ex}{1ex}
+\renewcommand{\thepart}{\Roman{part}}
+\setcounter{secnumdepth}{2}
+\setcounter{tocdepth}{1}
+
+% ---------------------------------------------------------------- en-têtes
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[LE]{\small\lnums\thepage\hspace{1.2em}\scshape Épitaphes chrétiennes datées de Rome}
+\fancyhead[RO]{\small\scshape\nouppercase{\leftmark}\hspace{1.2em}\lnums\upshape\thepage}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{#1}}
+\fancypagestyle{plain}{\fancyhf{}\fancyfoot[C]{\small\lnums\thepage}}
+
+% ---------------------------------------------------------------- macros générales
+\makeatletter
+\newcommand{\st}[1]{\ifcsname st@#1\endcsname\csname st@#1\endcsname\else\textbf{[#1 ?]}\fi}
+\makeatother
+\newcommand{\lat}[1]{\emph{#1}}
+\newcommand{\nnum}[1]{n\textsuperscript{o}~#1}
+\newcommand{\nnums}[1]{n\textsuperscript{os}~#1}
+\newcommand{\nref}[1]{\nnum{#1}}
+\newcommand{\siecle}[1]{\textsc{#1}\textsuperscript{e}~siècle}
+\newcommand{\EDCS}{EDCS}
+\newcommand{\EDB}{EDB}
+\newcommand{\ICUR}{ICUR}
+\newenvironment{encadre}{\par\medskip\noindent\begin{minipage}{\linewidth}\small\setlength{\parindent}{0pt}\setlength{\parskip}{3pt}}{\end{minipage}\par\medskip}
+\newenvironment{texteep}{\par\smallskip\begin{list}{}{\leftmargin=2.2em\rightmargin=1em}\item\relax\small}{\end{list}\smallskip}
+\newcommand{\lnum}[1]{\makebox[1.6em][r]{\scriptsize\color{prismegris}\lnums #1}\hspace{0.7em}}
+
+% ---------------------------------------------------------------- catalogue
+\newcounter{annee}
+\newcommand{\annee}[1]{%
+  \par\needspace{10\baselineskip}\bigskip
+  \phantomsection\pdfbookmark[2]{#1}{annee#1}%
+  \markboth{Catalogue — #1}{Catalogue — #1}%
+  \noindent{\color{prismered}\rule[0.6ex]{\linewidth}{0.3pt}}\par\nopagebreak
+  \noindent\hfill{\displayfont\Large\color{prismered}#1}\hfill\par\nopagebreak\smallskip}
+\newenvironment{notice}[3]{%
+  \par\needspace{8\baselineskip}\medskip
+  \phantomsection\pdfbookmark[3]{N° #1}{notice#1}%
+  \noindent\begin{minipage}{\linewidth}\noindent{\Large\bfseries\lnums #1}\hfill{\lnums\bfseries #2}\\[-1pt]
+  {\footnotesize\color{prismegris}#3}\end{minipage}\par\nopagebreak\vspace{2pt}
+  \noindent{\color{prismegris}\rule{\linewidth}{0.3pt}}\par\nopagebreak\vspace{1pt}
+  \begingroup\small\setlength{\parindent}{0pt}\setlength{\parskip}{1.6pt}\RaggedRight\linespread{1.02}\selectfont}%
+  {\par\endgroup\medskip}
+\newcommand{\nf}[2]{\par\hangindent=1.2em\noindent{\scshape\color{prismered}#1.}~#2\par}
+\newcommand{\ntext}[1]{\par\vspace{2pt}\begingroup\normalsize\noindent\begin{minipage}{\linewidth}\setlength{\parindent}{0pt}#1\end{minipage}\endgroup\par\vspace{3pt}}
+
+\newcommand{\chronan}[3]{\par\needspace{4\baselineskip}\medskip\noindent{\large\bfseries #1}\quad{\small\itshape #2}\par\nopagebreak\smallskip\noindent{\small #3}\par}
+\RequirePackage[hidelinks,bookmarksnumbered,bookmarksopen=false,pdfencoding=auto,unicode]{hyperref}
+\RequirePackage{bookmark}
+
+% blocs de texte des dossiers commentés (témoins ligne à ligne)
+\newcommand{\txtbloc}[2]{\par\smallskip\noindent{\footnotesize\scshape\color{prismered}#1}\par\nopagebreak
+  \begingroup\small\setlength{\parindent}{0pt}\raggedright\everypar{\hangindent=2.3em\hangafter=1}#2\par\endgroup\smallskip}
+\newcommand{\dosmeta}[1]{\par\noindent{\footnotesize\color{prismegris}#1}\par\nopagebreak}
+\newcommand{\dossier}[2]{\section[\texorpdfstring{n\textsuperscript{o}~#1 — #2}{n° #1 — #2}]{\texorpdfstring{\nnum{#1} — #2}{n° #1 — #2}}\label{dos:#1}\input{generated/txt/#1.tex}}
+\newcommand{\trad}[1]{\par\smallskip\noindent{\footnotesize\scshape\color{prismered}Traduction}\par\nopagebreak{\small #1}\par}
+\newcommand{\comm}[1]{\par\smallskip\noindent{\footnotesize\scshape\color{prismered}Commentaire}\par\nopagebreak #1\par\bigskip}
+\setlength{\emergencystretch}{3em}
+\endinput

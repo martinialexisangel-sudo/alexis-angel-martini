@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="ex-epidoctemplate.xml" xml:lang="English">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Rome - ICVR I, 264</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Epigraphic Dabatase Bari</authority>
+            <idno type="URI">http://www.edb.uniba.it/epigraph/27782</idno>
+            <idno type="TM">621721</idno>
+            <idno type="localID">27782</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2">ignoratur</objectType>
+                           <material ref="https://www.eagle-network.eu/voc/material/lod/138">ignoratur</material>
+                           <dimensions unit="cm">
+                              <height/>
+                              <width/>
+                              <depth/>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs ref="https://www.eagle-network.eu/voc/writing/lod/21" type="execution">ignoratur</rs>
+                           <rs type="metre">Non-Metrical</rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName ref="http://www.trismegistos.org/place/2058">Rome</placeName>
+                     </origPlace>
+                     <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" notAfter-custom="0343" notBefore-custom="0343">0343 AD - 0343 AD</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines</p>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term ref="https://www.eagle-network.eu/voc/typeins/lod/92">Sepulcralis</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="fr">French</language>
+            <language ident="he">Hebrew</language>
+            <language ident="sp">Spanish</language>
+         </langUsage>
+         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-02-10" who="Filippo Piazzolla">Various changes</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic n="264_1.jpg" url="http://www.edb.uniba.it/images/watermark/images/Disegni/IC I/264_1.jpg">
+         <desc>264_1.jpg<ref target="http://www.europeana.eu/rights/rr-f/" type="license">Rights Reserved - Free Access via Epigraphic Database Bari</ref>
+         </desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl>ICVR I, 264</bibl>
+               <bibl>71, 4393</bibl>
+            </listBibl>
+         </div>
+         <!--Placito ⌜e⌝t Romulo consulibus III nona[s iulias die] / martis decessit Leo annorum XXX po[- - -]/  ⌜q⌝u〈i〉 vixit ann(is) NN M m(ensibus) X [- - -]--><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>Placito <choice><corr>e</corr></choice>t Romulo consulibus III nona<supplied reason="lost">s iulias die</supplied><lb n="2"/>martis decessit Leo annorum XXX po<gap reason="lost" extent="unknown" unit="character"/><lb n="3"/><choice><corr>q</corr></choice>u<supplied reason="omitted">i</supplied> vixit <expan><abbr>ann</abbr><ex>is</ex></expan> NN M <expan><abbr>m</abbr><ex>ensibus</ex></expan> X <gap reason="lost" extent="unknown" unit="character"/></ab></div>
+         <div type="apparatus">
+            <p>1. I per E&#xD;
+3in. SV, ms. Possibile che una Q in forma minuscola e una successiva legatura tra VI sia stata interpretata dal Sabinus come SV, che non ha senso, come del resto, anche le ultime lettere: cfr. Silvagni, ad loc. cit.: "supplevit de Rossi adnotavitque in extremis litteris errorem certe inesse, qui emendari nequiret" . Forse si potrebbe ipotizzare: ann(um) unum m(enses) X (Felle).</p>
+         </div>
+      </body>
+   </text>
+</TEI>

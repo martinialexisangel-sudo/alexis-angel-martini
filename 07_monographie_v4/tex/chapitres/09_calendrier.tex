@@ -1,0 +1,36 @@
+\chapter{Contrôles calendaires et astronomiques}\label{ch:calendrier}
+
+\section{Les dates du jour}
+
+Dans l’ensemble C, \st{nTextesDate} textes contiennent au moins une date convertible en date julienne ; on compte au total \st{nDatesConv} dates converties. Le terme qui précède l’expression calendaire permet d’identifier l’événement daté dans la plupart des cas : déposition (\st{ev_depo}), décès (\st{ev_deces}), naissance (\st{ev_naiss}), achat (\st{ev_achat}) ; \st{ev_indet} dates restent rattachées à un événement indéterminé. Ces nombres comptent des dates, non des textes : un même document peut en contenir plusieurs.
+
+La répartition mensuelle de la première date de chaque texte (figure~\ref{fig:mois}) présente un excédent estival : \st{ete}~\% de ces dates tombent en juillet, août ou septembre. Un test d’ajustement du χ² à une répartition proportionnelle à la longueur des mois donne χ² = \st{chi2} pour onze degrés de liberté (\emph{p} ≈ \st{chi2p}) : l’écart n’atteint pas le seuil conventionnel de 5~\%. L’observation est compatible avec la saisonnalité estivale décrite par Shaw sur un ensemble beaucoup plus large ; elle ne la démontre pas. Elle ne mesure pas non plus la mortalité : l’événement daté est le plus souvent la déposition, et la sélection des textes datés n’a rien d’aléatoire.
+
+\begin{figure}[tbp]\centering
+\includegraphics[width=0.9\linewidth]{figures/fig_mois.pdf}
+\caption{Mois de la première date convertie de chaque texte de l’ensemble C (n = \st{nMoisTot}) ; trait discontinu : répartition proportionnelle à la longueur des mois.}\label{fig:mois}
+\end{figure}
+
+\section{Les jours de la semaine}
+
+Le jour de la semaine est mentionné dix-huit fois dans seize textes. Le tableau~\ref{tab:jours} donne le résultat du contrôle par le calcul du jour julien ; pour les \nnums{55} et 126, la mention se rapporte à la naissance, et le calcul porte sur l’année de la naissance.
+
+\input{generated/tab_jours.tex}
+
+Neuf mentions concordent avec la date convertie, et la mention du \nnum{428} concorde si l’on retient 398 plutôt que 399. Dans cinq cas (\nnums{55}, 126 seconde mention, 128, 131 et 381 première mention), l’écart est d’un jour, tantôt dans un sens, tantôt dans l’autre. Ces écarts peuvent tenir à la distinction entre décès et déposition, au rattachement d’un décès nocturne au jour précédent ou suivant, ou à une erreur de gravure ou de lecture ; le corpus ne permet pas de les départager. Au \nnum{416}, le vendredi gravé ne correspond pas au 29 juin 397, qui est un lundi ; l’expression \emph{post ter[tiu]m Kalendas Iulia[s]} est d’interprétation incertaine, et la conversion elle-même doit être tenue pour douteuse. Pour les \nnums{118} et 462, le quantième est perdu.
+
+\section{Deux mentions de l’âge de la lune}
+
+Le \nnum{287} associe un jour de la semaine (\emph{[di]e Sol⸢i⸣s}), un âge de la lune (\emph{[Lu]na XII}) et un signe zodiacal (\emph{[Capricor]nus}) à une date dont le quantième est entièrement restitué par l’éditeur (\emph{[X Kal(endas) Sept(embres)]}). L’année 386 est donnée par la formule consulaire, dont le nom d’Honorius est lu. Le calcul montre que la restitution est compatible avec les indications conservées : le 23 août 386 (julien) est un dimanche ; l’éphéméride donne pour ce jour un âge de la lune compris entre 11,5 jours (à minuit) et 12,5 jours (à 24~h) depuis la nouvelle lune du 11 août, et une longitude écliptique comprise entre 285,6° et 300,6°, dans le signe du Capricorne (270°–300°). Ce n’est pas une confirmation indépendante : si l’éditeur a restitué le quantième à partir de ces mêmes données, le raisonnement serait circulaire. Le fondement de la restitution doit être vérifié dans l’édition.
+
+Le \nnum{349} date la mort de Leoparda du 15\textsuperscript{e} jour avant les calendes d’octobre (17 septembre), un vendredi, \emph{luna XV}. Ce texte ne contient aucun élément consulaire, ni dans l’EDCS ni dans l’EDB : son année (392) provient de la base. Le 17 septembre 392 est bien un vendredi, et l’âge de la lune est ce jour-là compris entre 13,5 et 14,5 jours (nouvelle lune du 3 septembre), ce qui correspond au quatorzième ou au quinzième jour de la lunaison selon le mode de décompte. Le jour de la semaine et l’âge de la lune fournissent ainsi un test de compatibilité avec l’année proposée, sans en démontrer à eux seuls l’unicité.
+
+\section{Naissance, âge et décès}
+
+Trois textes permettent de vérifier la cohérence entre une date de naissance, un âge et une date de décès.
+
+Au \nnum{15}, Cassia, née le 15 juin 316 (consulat de Sabinus et Rufinus) et morte le 15 septembre 346, a vécu « 30 ans et 93 jours » : du 15 juin au 15 septembre on compte 92 jours, soit 93 en décompte inclusif. La durée gravée est donc exactement cohérente avec les deux dates, et le cas confirme que le post-consulat d’Amantius et Albinus désigne 346.
+
+Au \nnum{55}, le calcul conduit de la naissance (21 juin 340) à la déposition (27 septembre 359), conformément au quantième gravé. Le jour de naissance est dit \emph{die Veneris} ; le calcul julien donne un samedi pour le 21 juin 340. L’écart d’un jour est conservé sans correction.
+
+Au \nnum{126}, du 11 août 350 au 7 décembre 368, on compte 18 ans, 3 mois et 26 jours ; le texte donne 19 ans, 3 mois et 26 jours. Les mois et les jours concordent exactement, sans établir indépendamment la validité des deux dates, tandis que l’écart d’une année reste inexpliqué : décompte inclusif des années, erreur de gravure ou de lecture du chiffre \emph{XVIIII}.

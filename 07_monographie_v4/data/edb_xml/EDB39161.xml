@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="ex-epidoctemplate.xml" xml:lang="English">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Rome, Coem. Callisti pars superior - ICVR IV, 10851</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Epigraphic Dabatase Bari</authority>
+            <idno type="URI">http://www.edb.uniba.it/epigraph/39161</idno>
+            <idno type="TM">574312</idno>
+            <idno type="localID">39161</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <altIdentifier type="partial">
+                     <country>
+                        <placeName ref="3175395" type="modern">Italy</placeName>
+                     </country>
+                     <settlement>
+                        <placeName ref="3169070" type="modern">Roma</placeName>
+                     </settlement>
+                     <repository>Coem. Callisti pars inferior</repository>
+                     <idno/>
+                  </altIdentifier>
+                  <altIdentifier type="partial">
+                     <country>
+                        <placeName ref="3175395" type="modern">Italy</placeName>
+                     </country>
+                     <settlement>
+                        <placeName ref="3169070" type="modern">Roma</placeName>
+                     </settlement>
+                     <repository>Coem. Callisti pars superior</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">Sarkophag</objectType>
+                           <material ref="https://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                           <dimensions unit="cm">
+                              <height>31</height>
+                              <width>88</width>
+                              <depth/>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs ref="https://www.eagle-network.eu/voc/writing/lod/114" type="execution">Insculptus</rs>
+                           <rs type="metre">Non-Metrical</rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName ref="http://www.trismegistos.org/place/2058">Rome</placeName>
+                     </origPlace>
+                     <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" notAfter-custom="0347" notBefore-custom="0347">0347 AD - 0347 AD</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines</p>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term ref="https://www.eagle-network.eu/voc/typeins/lod/92">Sepulcralis</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="fr">French</language>
+            <language ident="he">Hebrew</language>
+            <language ident="sp">Spanish</language>
+         </langUsage>
+         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2015-11-19" who="Marida Pierno">Various changes</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl>ICVR IV, 10851</bibl>
+               <bibl>68, 9237</bibl>
+            </listBibl>
+         </div>
+         <!--[in ho]c sarcofago conditus / [est S]antculus Fl(avius) Aur(elius) casarius / [- - - A]urelii et [Vic]torine / [- - -] m(onumentum?) f(ecerunt?) ++++[-c.10-] / Preniste cu[m - - - -]uos | et Lea vixit ann[is - - -] / et dies XX decess[it - - -] / autem V⌜I⌝ idus iulias / Amantio et Albino c(onsulibu)s / Rome vixit d(iebus) XXII --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/><supplied reason="lost">in ho</supplied>c sarcofago conditus<lb n="2"/><supplied reason="lost">est S</supplied>antculus <expan><abbr>Fl</abbr><ex>avius</ex></expan> <expan><abbr>Aur</abbr><ex>elius</ex></expan> casarius<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">A</supplied>urelii et <supplied reason="lost">Vic</supplied>torine<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>m</abbr><ex>onumentum</ex></expan> <expan><abbr>f</abbr><ex>ecerunt</ex></expan> <gap reason="illegible" quantity="4" unit="character"/>[-c.0-]<lb n="5"/>Preniste cu<supplied reason="lost">m <gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>uos | et Lea vixit ann<supplied reason="lost">is</supplied><gap reason="lost" extent="unknown" unit="character"/><lb n="6"/>et dies XX decess<supplied reason="lost">it</supplied><gap reason="lost" extent="unknown" unit="character"/><lb n="7"/>autem V<choice><corr>I</corr></choice> idus iulias<lb n="8"/>Amantio et Albino c<expan><ex>onsulibu</ex><abbr>s</abbr></expan><lb n="9"/>Rome vixit <expan><abbr>d</abbr><ex>iebus</ex></expan> XXII </ab></div>
+         <div type="apparatus">
+            <p>r 8 VE in lapide</p>
+         </div>
+      </body>
+   </text>
+</TEI>

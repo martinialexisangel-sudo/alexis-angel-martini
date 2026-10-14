@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="ex-epidoctemplate.xml" xml:lang="English">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Rome - ICVR I, 4054</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Epigraphic Dabatase Bari</authority>
+            <idno type="URI">http://www.edb.uniba.it/epigraph/34225</idno>
+            <idno type="TM">624809</idno>
+            <idno type="localID">34225</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                           <material ref="https://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                           <dimensions unit="cm">
+                              <height>19</height>
+                              <width>30</width>
+                              <depth/>
+                           </dimensions>
+                           <rs ref="https://www.eagle-network.eu/voc/decor/lod/14" type="decoration">chi-rho</rs>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs ref="https://www.eagle-network.eu/voc/writing/lod/114" type="execution">Insculptus</rs>
+                           <rs type="metre">Non-Metrical</rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <height max="4" unit="cm"/>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName ref="http://www.trismegistos.org/place/2058">Rome</placeName>
+                     </origPlace>
+                     <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" notAfter-custom="0402" notBefore-custom="0402">0402 AD - 0402 AD</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines</p>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term ref="https://www.eagle-network.eu/voc/typeins/lod/92">Sepulcralis</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="fr">French</language>
+            <language ident="he">Hebrew</language>
+            <language ident="sp">Spanish</language>
+         </langUsage>
+         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2015-08-19" who="Filippo Piazzolla">Various changes</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl>ICVR I, 4054</bibl>
+               <bibl>92, 121, n. 4054</bibl>
+            </listBibl>
+         </div>
+         <!--- - - - - - / [- - -]e ((monogramma Christi)) / [- - - dep(osit- - -) - - -]ḅṛes / [- - - Arcadio et Honorio A]auug(ustis duobus) V cons(ulibu)s --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>------<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>e <g type="descriptive">monogramma Christi</g><lb n="3"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>dep</abbr><ex>osit-</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied><unclear>b</unclear>ṛes<lb n="4"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> Arcadio et Honorio A</supplied>auug(ustis duobus) V cons<expan><ex>ulibu</ex><abbr>s</abbr></expan> </ab></div>
+         <div type="apparatus">
+            <p>According to Ferrua 1979b ad loc. cit.: "Dallo stesso calco (by de Rossi, n. 19864, n.d.r.) si vede che nella riga 2 precede traccia di B davanti a RES, onde si fa chiaro che è finale di mese. nel v. 3 bisogna leggere AVVGVVCONSS; con il che si indica che i due consoli sono tutti e due Augusti ed ambedue consoli per la quinta volta come cu il 402 con Arcadio ed Onorio"</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="ex-epidoctemplate.xml" xml:lang="English">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Rome - ICVR I, 713</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Epigraphic Dabatase Bari</authority>
+            <idno type="URI">http://www.edb.uniba.it/epigraph/28939</idno>
+            <idno type="TM">622140</idno>
+            <idno type="localID">28939</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">Sarkophag</objectType>
+                           <material ref="https://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                           <dimensions unit="cm">
+                              <height/>
+                              <width/>
+                              <depth/>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs ref="https://www.eagle-network.eu/voc/writing/lod/114" type="execution">Insculptus</rs>
+                           <rs type="metre">Metrical</rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName ref="http://www.trismegistos.org/place/2058">Rome</placeName>
+                     </origPlace>
+                     <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" notAfter-custom="0403" notBefore-custom="0403">0403 AD - 0403 AD</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines</p>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term ref="https://www.eagle-network.eu/voc/typeins/lod/92">Sepulcralis</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="fr">French</language>
+            <language ident="he">Hebrew</language>
+            <language ident="sp">Spanish</language>
+         </langUsage>
+         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-17" who="Filippo Piazzolla">Various changes</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl>ICVR I, 713</bibl>
+               <bibl>71, 4744</bibl>
+            </listBibl>
+         </div>
+         <!--quod dulcis nati quod cara pignera praestant / continet hic tumulus membra qui parva retentat / dolorem sine fine dedit Felicitas isto / clauditur infelix falso cognomine dicta / nam cui prima dies in lucem protulit annus / quattuor et male cum quintum sumeret ortum / abstulit atra dies et funere mersit acervo / haec mater et genitor conscribunt carmina busto // ((orans puella)) // quo legenti simul redeat sub corde figura / et siccato saepe madescant lumina fletu / sic medicatur amor nec curant carmina manes / dep(osita) in p(ace) die kal(endas) iulias (!) / d(omino) n(ostro) Theodosio Aug(usto) et Fl(avio) Rumorido / v(iro) c(larissimo) cons(ulibu)s    --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>quod dulcis nati quod cara pignera praestant<lb n="2"/>continet hic tumulus membra qui parva retentat<lb n="3"/>dolorem sine fine dedit Felicitas isto<lb n="4"/>clauditur infelix falso cognomine dicta<lb n="5"/>nam cui prima dies in lucem protulit annus<lb n="6"/>quattuor et male cum quintum sumeret ortum<lb n="7"/>abstulit atra dies et funere mersit acervo<lb n="8"/>haec mater et genitor conscribunt carmina busto </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <g type="descriptive">orans puella</g> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> quo legenti simul redeat sub corde figura<lb n="2"/>et siccato saepe madescant lumina fletu<lb n="3"/>sic medicatur amor nec curant carmina manes<lb n="4"/><expan><abbr>dep</abbr><ex>osita</ex></expan> in <expan><abbr>p</abbr><ex>ace</ex></expan> die <expan><abbr>kal</abbr><ex>endas</ex></expan> iulias  <note>sic</note><lb n="5"/><expan><abbr>d</abbr><ex>omino</ex></expan> <expan><abbr>n</abbr><ex>ostro</ex></expan> Theodosio <expan><abbr>Aug</abbr><ex>usto</ex></expan> et <expan><abbr>Fl</abbr><ex>avio</ex></expan> Rumorido<lb n="6"/><expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan> cons<expan><ex>ulibu</ex><abbr>s</abbr></expan>    </ab></div></div>
+         <div type="apparatus">
+            <p>5ex. 'annus' = 'annos'; 7. Verg. Aen. VI, 429; Aen. XI, 28; 7ex.: 'acervo' = 'acerbo'; 12ex. 'kal(endas) iulias'  =  'kalendis iuliis'</p>
+         </div>
+      </body>
+   </text>
+</TEI>

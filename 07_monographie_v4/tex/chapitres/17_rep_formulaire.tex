@@ -1,0 +1,9 @@
+\chapter{Répertoire du formulaire}\label{ch:rep_formulaire}
+
+Ce répertoire détaille, élément par élément, les données résumées au tableau~\ref{tab:formulaire}. Pour chaque élément, on donne la règle de repérage (expression régulière appliquée au texte normalisé, \emph{u/v} et \emph{i/j} unifiés, coupures de ligne neutralisées), l’effectif de l’ensemble C avec et sans restitution, la répartition par période des attestations sans restitution, les formes relevées et la liste des notices où l’élément est attesté sans restitution.
+
+Le répertoire est entièrement produit par le programme de génération des tableaux (\texttt{04\_generated.py}) à partir du champ « Texte transmis ». Il est donc reproductible et contrôlable : une erreur de règle se corrige dans le programme, et tous les effectifs du livre sont recalculés. Les règles ont été vérifiées sur les formes relevées ; deux règles trop larges ont été corrigées à cette occasion (celle de \emph{filius} retenait le nom \emph{Filippus}, celle de \emph{coniux} le verbe \emph{comparaverunt}). Les effectifs diffèrent donc de ceux de la version précédente pour ces deux éléments (\emph{filius / filia} : 33 textes avec restitution au lieu de 42). Les effectifs par période se rapportent aux textes de l’ensemble C datés de la période, quel que soit le fondement de l’année ; le chapitre~\ref{ch:mesures} examine la sensibilité des principaux résultats à ce choix.
+
+{\small
+\input{generated/repertoire_formulaire.tex}
+}

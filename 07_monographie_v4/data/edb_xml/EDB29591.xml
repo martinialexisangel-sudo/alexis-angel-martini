@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="ex-epidoctemplate.xml" xml:lang="English">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Rome - ICVR I, 963</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Epigraphic Dabatase Bari</authority>
+            <idno type="URI">http://www.edb.uniba.it/epigraph/29591</idno>
+            <idno type="TM">619618</idno>
+            <idno type="localID">29591</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2">ignoratur</objectType>
+                           <material ref="https://www.eagle-network.eu/voc/material/lod/138">ignoratur</material>
+                           <dimensions unit="cm">
+                              <height/>
+                              <width/>
+                              <depth/>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs ref="https://www.eagle-network.eu/voc/writing/lod/21" type="execution">ignoratur</rs>
+                           <rs type="metre">Non-Metrical</rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName ref="http://www.trismegistos.org/place/2058">Rome</placeName>
+                     </origPlace>
+                     <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" notAfter-custom="0368" notBefore-custom="0368">0368 AD - 0368 AD</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines</p>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term ref="https://www.eagle-network.eu/voc/typeins/lod/92">Sepulcralis</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="fr">French</language>
+            <language ident="he">Hebrew</language>
+            <language ident="sp">Spanish</language>
+         </langUsage>
+         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-28" who="Filippo Piazzolla">Various changes</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic n="963_1.jpg" url="http://www.edb.uniba.it/images/watermark/images/Disegni/IC I/963_1.jpg">
+         <desc>963_1.jpg<ref target="http://www.europeana.eu/rights/rr-f/" type="license">Rights Reserved - Free Access via Epigraphic Database Bari</ref>
+         </desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl>ICVR I, 963</bibl>
+               <bibl>71,  2732</bibl>
+            </listBibl>
+         </div>
+         <!--quie{n}sces in pace merens Leontia con[iux - - -] / incomparaviles que vixit in seculo an[nos - - -] / mens(es) VII d(ies) XXVIII Cresces maritus contra vo[tum posuit - - -] / d(eposita) IIII non(as) octob(res) Valentiniano II et Va[lente II cons(ulibu)s - - -]  --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>quie<surplus>n</surplus>sces in pace merens Leontia con<supplied reason="lost">iux</supplied><gap reason="lost" extent="unknown" unit="character"/><lb n="2"/>incomparaviles que vixit in seculo an<supplied reason="lost">nos</supplied><gap reason="lost" extent="unknown" unit="character"/><lb n="3"/><expan><abbr>mens</abbr><ex>es</ex></expan> VII <expan><abbr>d</abbr><ex>ies</ex></expan> XXVIII Cresces maritus contra vo<supplied reason="lost">tum posuit <gap reason="lost" extent="unknown" unit="character"/></supplied><lb n="4"/><expan><abbr>d</abbr><ex>eposita</ex></expan> IIII <expan><abbr>non</abbr><ex>as</ex></expan> <expan><abbr>octob</abbr><ex>res</ex></expan> Valentiniano II et Va<supplied reason="lost">lente II <expan><abbr>cons</abbr><ex>ulibu</ex>s</expan> <gap reason="lost" extent="unknown" unit="character"/></supplied>  </ab></div>
+         <div type="apparatus">
+            <p>1. QVIENSCES, Silvagni; 4. Possible also d(ie) IIII non(as)</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="ex-epidoctemplate.xml" xml:lang="English">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Rome, Tituli qui in coem. Callisti reperti traduntur - ICVR III, 8729</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Epigraphic Dabatase Bari</authority>
+            <idno type="URI">http://www.edb.uniba.it/epigraph/20584</idno>
+            <idno type="TM">310194</idno>
+            <idno type="localID">20584</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                           <material ref="https://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                           <dimensions unit="cm">
+                              <height/>
+                              <width/>
+                              <depth/>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs ref="https://www.eagle-network.eu/voc/writing/lod/114" type="execution">Insculptus</rs>
+                           <rs type="metre">Metrical</rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName ref="http://www.trismegistos.org/place/2058">Rome</placeName>
+                     </origPlace>
+                     <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" notAfter-custom="0395" notBefore-custom="0395">0395 AD - 0395 AD</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines</p>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term ref="https://www.eagle-network.eu/voc/typeins/lod/92">Sepulcralis</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="fr">French</language>
+            <language ident="he">Hebrew</language>
+            <language ident="sp">Spanish</language>
+         </langUsage>
+         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2003-11-11" who="Carlo Carletti">First version</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl>ICVR III, 8729</bibl>
+            </listBibl>
+         </div>
+         <!--[pal]ma celestia regna t[enet - - -] / [at] vero totius castitati[s - - -] / nuper tante fides in te [- - -] / tante pudicitiae ment[- - -] / hanc vero grata anim[am - - -] / acervus natus quanta que [- - -] /generosa michi coiux et in [- - -] / aurea sunt celestis que tu celo [- - -] / trium subolum mater in sin[u dei pausat] / eius autem nomen nomen capita ver[suum declarant] / vixit autem ann(os) XXV [- - - dep(osita)] / XVII kal(endas) sep(tembres) Olybrio et Probi[no cons(ulibus)]--><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/><supplied reason="lost">pal</supplied>ma celestia regna t<supplied reason="lost">enet</supplied><gap reason="lost" extent="unknown" unit="character"/><lb n="2"/><supplied reason="lost">at</supplied> vero totius castitati<supplied reason="lost">s</supplied><gap reason="lost" extent="unknown" unit="character"/><lb n="3"/>nuper tante fides in te <gap reason="lost" extent="unknown" unit="character"/><lb n="4"/>tante pudicitiae ment<gap reason="lost" extent="unknown" unit="character"/><lb n="5"/>hanc vero grata anim<supplied reason="lost">am</supplied><gap reason="lost" extent="unknown" unit="character"/><lb n="6"/>acervus natus quanta que <gap reason="lost" extent="unknown" unit="character"/><lb n="7"/>generosa michi coiux et in <gap reason="lost" extent="unknown" unit="character"/><lb n="8"/>aurea sunt celestis que tu celo <gap reason="lost" extent="unknown" unit="character"/><lb n="9"/>trium subolum mater in sin<supplied reason="lost">u dei pausat</supplied><lb n="10"/>eius autem nomen nomen capita ver<supplied reason="lost">suum declarant</supplied><lb n="11"/>vixit autem <expan><abbr>ann</abbr><ex>os</ex></expan> XXV <supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>dep</abbr><ex>osita</ex></expan></supplied><lb n="12"/>XVII <expan><abbr>kal</abbr><ex>endas</ex></expan> <expan><abbr>sep</abbr><ex>tembres</ex></expan> Olybrio et Probi<supplied reason="lost">no <expan><abbr>cons</abbr><ex>ulibus</ex></expan></supplied></ab></div>
+      </body>
+   </text>
+</TEI>

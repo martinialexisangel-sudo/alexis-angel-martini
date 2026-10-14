@@ -1,0 +1,69 @@
+\chapter{Le fondement des années}\label{ch:fondement}
+
+Une année de classement n’est pas une date établie. Ce chapitre rapporte chaque année à ce qui la fonde dans le texte transmis, en distinguant les lettres lues, les lettres restituées par l’éditeur et les données qui proviennent de la seule base de données.
+
+\section{Année de la base, année du texte, année de classement}
+
+La base de travail distingue, pour chaque notice, l’année fournie par l’EDCS, l’année déduite du texte lorsque les consuls nommés la déterminent, et l’année retenue pour le classement, accompagnée d’une justification. L’année de classement est celle de la base, sauf lorsque le texte la contredit de manière univoque. Sept notices sont dans ce cas (tableau~\ref{tab:correctionsbase}) ; l’année de la base reste consultable dans les données. Pour quatre d’entre elles, la confrontation avec l’EDB a fait apparaître une autre lecture possible : la correction est maintenue, mais la datation est déclarée contestée.
+
+\begin{table}[tbp]\centering\small
+\caption{Années de la base corrigées d’après le texte.}\label{tab:correctionsbase}
+\begin{tabularx}{\linewidth}{@{}r r r X@{}}\toprule
+N° & Base & Classement & Justification et état actuel\\\midrule
+12 & 345 & 352 & Deux formules consulaires ; \emph{-aulo conss.} est lu et Paulus n’est consul qu’en 352 ; \emph{Amantio et Albino} (345) date un événement antérieur non précisé.\\
+206 & 377 & 370 & \emph{Valentiniano III et Valente Augg.} ne convient qu’à 370 ; l’EDB date aussi de 377, vraisemblablement par erreur de saisie.\\
+278 & 385 & 383 & \emph{Merobaude II et Saturnino} = 383 ; l’EDB date de 385, mais date de 383 une fiche voisine du même consulat.\\
+311 & 389 & 388 & \emph{Maximo cons(ule)} : consulat de Magnus Maximus (388). L’EDB date de 389 : contestée.\\
+314 & 389 & 390 & Formule \emph{Valentiniano Aug. IIII et Neoterio} (390), entièrement restituée sauf \emph{d(omino) n(ostro) V}. Contestée.\\
+328 & 390 & 381 & Seul \emph{…terio} est lu : Eucherius (381) ou Neoterius (390). Contestée.\\
+434 & 399 & 397 & \emph{p(ost) cons(ulatum) Arcadi I[II]I} = 397 ; l’EDB date de 399.\\\bottomrule
+\end{tabularx}
+\end{table}
+
+Deux autres cas relèvent du calcul interne. Au \nnum{19}, Lea est morte sous Amantius et Albinus (345) ; l’année 347 de la base paraît déduite d’une indication « il y a deux ans » que l’EDCS restitue et que l’EDB ne retient pas : le texte est daté au plus tôt de 345. Au \nnum{55}, la discordance apparente se résout par le calcul : le défunt est né sous Acindynus et Proculus (340), le 21 juin ; 19 ans, 3 mois et 6 jours plus tard, on parvient au 27 septembre 359, qui est exactement le 5\textsuperscript{e} jour avant les calendes d’octobre gravé comme date de déposition.
+
+\section{Lire, restituer : quatre niveaux pour le nom consulaire}
+
+L’identification d’un collège consulaire ne dit pas, à elle seule, ce qui en est lu. La formule \emph{[Acin]dino et Procu[lo conss(ulibus)]} permet d’identifier l’année 340, mais les deux noms n’y sont conservés qu’en partie. Pour chaque texte à datation directe, l’état de lecture de chaque nom consulaire a donc été relevé sur la transcription, puis classé selon le meilleur nom :
+
+\begin{description}[style=nextline,leftmargin=1.5em,font=\normalfont\scshape]
+\item[A — nom lu] au moins un nom consulaire est entièrement lu ;
+\item[B — lecture partielle] au moins trois lettres gravées d’un nom sont lues, le reste étant restitué ;
+\item[C — initiales] les noms sont réduits à des initiales (\emph{M(amertino) et N(evitta)}, \nnum{70}) ;
+\item[R — consulat restitué] aucun nom n’atteint le niveau B : l’année repose sur une restitution de l’éditeur, guidée par des lettres isolées, une itération ou le contexte.
+\end{description}
+
+Dans l’ensemble C, l’année de \st{datLu} textes repose sur un nom consulaire lu, celle de \st{datPartiel} sur une lecture partielle, celle de \st{datInit} sur des initiales et celle de \st{datRest} sur un consulat restitué (tableau~\ref{tab:datation}, figure~\ref{fig:annees}). Le niveau R ne signifie pas que l’année est fausse : la restitution est souvent contrainte par une itération ou une titulature. Il signifie qu’elle ne peut pas servir de jalon indépendant pour dater d’autres textes.
+
+\input{generated/tab_datation.tex}
+
+\begin{figure}[tbp]\centering
+\includegraphics[width=\linewidth]{figures/fig_annees.pdf}
+\caption{Textes de l’ensemble C par année de classement et par fondement de l’année.}\label{fig:annees}
+\end{figure}
+
+\section{Huit formules transmises par la seule EDB}
+
+Pour seize notices du catalogue initial, le texte EDCS ne conservait aucun élément consulaire, et l’année provenait de la base. La confrontation avec l’EDB modifie ce constat pour huit d’entre elles, dont la formule de date est transmise par la seconde base :
+
+\begin{itemize}
+\item formule lue : \nnums{84} (Jovien et Varronianus, 364), 214 (Gratien V et Théodose, 380), 268 (Richomer et Clearchus, 384), 388 (Arcadius IV et Honorius III, 396) ;
+\item formule lue, itération restituée : \nnum{445} (\emph{Stellici v(iri) c(larissimi) [iterum?]}, 400, ou 405 si \emph{iterum} est retenu) ;
+\item formule partiellement restituée : \nnums{51} (Cerealis, 358), 180 (post-consulat d’Equitius, 375), 447 (Fravitta, 401).
+\end{itemize}
+
+Quatre autres notices reçoivent de l’EDB une restitution conjecturale (\nnums{123}, 326, 435 et 457). Au \nnum{123}, les deux lectures sont incompatibles : là où l’EDB restitue \emph{[Lupicin?]o et ⟨I⟩ovi[no]}, l’EDCS lit \emph{[- - -]o et o⸢b⸣i[it]}, « et mourut ». Ces quatre textes sont classés « conjecturaux ». Restent quatre textes dont l’année provient de la seule base, sans formule consulaire dans aucun témoin : \nnums{36} (datation prosopographique), 267 (fragment), 348 (épitaphe grecque d’Alexandros) et 349 (épitaphe de Leoparda, dont le jour de la semaine et l’âge de la lune sont compatibles avec 392 ; chapitre~\ref{ch:calendrier}).
+
+\section{Faux consuls}
+
+L’identification automatique des consuls, qui rapproche les noms du texte d’une liste de consuls, a produit des erreurs de rôle : \st{nFauxConsuls} noms, dans \st{nFauxConsulsNotices} notices, désignent en réalité un défunt, un dédicant, une personne citée ou un fonctionnaire. Ainsi, au \nnum{68}, \emph{Eutyches pater fecit} nomme le père qui commémore, non le consul Eutychianus de 398 ; au \nnum{55}, \emph{Marcellinus} est le défunt ; au \nnum{321}, \emph{Fl(avius) Filippus} est le responsable des travaux de la colonne de Saint-Paul et \emph{Paul(us)} l’apôtre ; au \nnum{462}, \emph{Saturninus} est le défunt. Aucune de ces erreurs ne modifie l’année de classement, qui repose dans tous les cas sur l’autre consul ou sur le collège complet. Les rôles corrects sont donnés dans chaque notice (rubrique Chronologie) et dans l’index des consuls.
+
+\section{Datations contestées et réserves}
+
+Dix datations sont contestées : deux lectures publiées, ou deux restitutions également possibles, conduisent à deux années différentes. Cinq autres font l’objet d’une réserve : la formule transmise ne concorde pas entièrement avec le collège de l’année de classement. Deux divergences, enfin, sont vraisemblablement des erreurs de saisie de l’EDB. Le tableau~\ref{tab:contestees} donne les motifs. Dans tous les cas, l’année de classement est conservée : aucune année n’est modifiée par vraisemblance.
+
+\input{generated/tab_contestees.tex}
+
+\section{Distribution chronologique}
+
+La distribution des textes funéraires par année de classement est très inégale (figure~\ref{fig:annees}). Elle progresse nettement à partir de 360, et \st{partApres380}~\% des textes de l’ensemble C appartiennent aux années 380–403. Les périodes utilisées dans la suite du livre comptent \st{perC0} textes (340–359), \st{perC1} (360–374), \st{perC2} (375–389) et \st{perC3} (390–403). Cette progression peut traduire une diffusion de la datation consulaire dans les épitaphes chrétiennes ; elle peut aussi tenir aux hasards de la conservation et de la publication. Le corpus ne permet pas de trancher entre ces explications.

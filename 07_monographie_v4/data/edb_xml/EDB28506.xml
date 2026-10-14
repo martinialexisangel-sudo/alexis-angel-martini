@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="ex-epidoctemplate.xml" xml:lang="English">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Rome - ICVR I, 528</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Epigraphic Dabatase Bari</authority>
+            <idno type="URI">http://www.edb.uniba.it/epigraph/28506</idno>
+            <idno type="TM">621949</idno>
+            <idno type="localID">28506</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <placeName ref="3175395" type="modern">Italy</placeName>
+                  </country>
+                  <settlement>
+                     <placeName ref="3169070" type="modern">Roma</placeName>
+                  </settlement>
+                  <repository>s. Maria in Trastevere</repository>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                           <material ref="https://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                           <dimensions unit="cm">
+                              <height>36</height>
+                              <width>92</width>
+                              <depth/>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs ref="https://www.eagle-network.eu/voc/writing/lod/114" type="execution">Insculptus</rs>
+                           <rs type="metre">Non-Metrical</rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <height max="7.5" unit="cm"/>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName ref="http://www.trismegistos.org/place/2058">Rome</placeName>
+                     </origPlace>
+                     <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" notAfter-custom="0400" notBefore-custom="0400">0400 AD - 0400 AD</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines</p>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term ref="https://www.eagle-network.eu/voc/typeins/lod/92">Sepulcralis</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="fr">French</language>
+            <language ident="he">Hebrew</language>
+            <language ident="sp">Spanish</language>
+         </langUsage>
+         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2015-03-12" who="Filippo Piazzolla">Various changes</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic n="528_1.jpg" url="http://www.edb.uniba.it/images/watermark/images/MIBACT/528_1.jpg">
+         <desc>528_1.jpg<ref target="http://www.europeana.eu/rights/rr-f/" type="license">Rights Reserved - Free Access via Epigraphic Database Bari</ref>
+         </desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl>ICVR I, 528</bibl>
+               <bibl>71, 4146F adn.</bibl>
+               <bibl>92, 18, n. 528</bibl>
+            </listBibl>
+         </div>
+         <!--- - - - - - / [- - -]ṇịạṇụṣq̣(ue)  [- - -] / [- - - Lup?]ẹrcus dipositus / [- - -] V k(a)l(en)d(as) maias Fl(avi) Estilliconi v(iro) c(larissimo) c(on)s(ul)⌜e⌝) / [- - -] et Benedictus fratr⌜e⌝s se bibi /  [- - -]m fecerunt ((orans puer))--><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>------<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><unclear>nianusq</unclear>(ue)  <gap reason="lost" extent="unknown" unit="character"/><lb n="3"/><supplied reason="lost" cert="low">--- Lup</supplied><unclear>e</unclear>rcus dipositus<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> V k<expan><ex>a</ex><abbr>l</abbr><ex>en</ex><abbr>d</abbr></expan>(as) maias <expan><abbr>Fl</abbr><ex>avi</ex></expan> Estilliconi <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan> c<expan><ex>on</ex><abbr>s</abbr><ex>ul</ex></expan><choice><corr>e</corr></choice>)<lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> et Benedictus fratr<choice><corr>e</corr></choice>s se bibi<lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>m fecerunt <g type="descriptive">orans puer</g></ab></div>
+         <div type="apparatus">
+            <p>according to Ferrua where one recalls to a note by Gatti with reported the de Rossi's reading. &#xD;
+ 1. [---]ranns, ICVR; [---]rannus, ILCV; 2in. [---]rcus, ICVR. ; 3. "c(on)s(ul)i" pro "c(on)s(ul)e" like,  in l. 4., "fratris" pro "fratres", according to Ferrua 1979b</p>
+         </div>
+      </body>
+   </text>
+</TEI>

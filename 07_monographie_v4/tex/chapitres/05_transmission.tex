@@ -1,0 +1,95 @@
+\chapter{La transmission numérique des textes}\label{ch:transmission}
+
+\section{Une chaîne de médiations}
+
+Chaque texte reproduit dans ce volume est le dernier état d’une chaîne de transmission : le monument, souvent fragmentaire ; l’édition imprimée, qui le lit et le restitue ; la base de données, qui saisit l’édition selon ses conventions ; l’export tabulaire, qui convertit la base en fichiers ; enfin le corpus de travail, qui sélectionne et code. L’analyse ne remonte pas au-delà des bases de données. Elle en contrôle la cohérence de deux manières : en comparant deux états d’une même base (l’EDCS en 2020 et en 2022), puis en confrontant cette base à une seconde, établie indépendamment à partir de la même édition (l’EDB).
+
+\begin{figure}[tbp]\centering\small
+\fbox{\begin{minipage}{0.86\linewidth}\centering
+\textbf{Monument} (pierre, souvent fragmentaire) — non examiné\\$\downarrow$\\
+\textbf{Édition imprimée} (ICUR, ILCV, CIL, AE) — non consultée\\$\downarrow$\\
+\textbf{Bases de données} : EDCS (exports SDAM 2020 et 2022) ; EDB (listes publiques 2026, fiches EpiDoc 2019) ; EDH (quatre fiches)\\$\downarrow$\\
+\textbf{Reproductions universitaires} : estampage (\nnum{38}) et photographie (\nnum{68}), Ohio State University\\$\downarrow$\\
+\textbf{Corpus de travail} : base consolidée, notices du catalogue
+\end{minipage}}
+\caption{Chaîne de transmission et témoins effectivement consultés.}\label{fig:chaine}
+\end{figure}
+
+\section{Deux états d’une même base : l’EDCS en 2020 et en 2022}
+
+Le corpus a été extrait de l’export de décembre 2020 ; les textes sont reproduits d’après l’état de septembre 2022, qui conserve la notation des corrections éditoriales. Sur les \st{nA} notices, 216 présentent une différence de texte entre les deux états. Dans 196 cas, la différence s’explique entièrement par un même phénomène : l’export de 2020 supprime les lettres que l’éditeur a corrigées (notation EDCS \texttt{<v=B>}, « \emph{v} attendu, B gravé »). Il en résulte des formes inexistantes : \emph{ixit} pour \emph{vixit} (gravé BIXIT), \emph{irginia} pour \emph{virginia}, \emph{Aindno} pour \emph{Acindyno}. Les vingt autres différences comprennent l’absence des parties grecques de sept notices (\nnums{8}, 21, 110, 168, 348, 360 et 447) et des retouches de la base entre les deux états. La notice 329 est absente de l’état 2022 ; cette absence s’explique par son identité avec le \nnum{336} (chapitre~\ref{ch:corpus}).
+
+\begin{table}[tbp]\centering\small
+\caption{États 2020 et 2022 de l’export EDCS (ensemble A).}\label{tab:edcs}
+\begin{tabular}{@{}l r@{}}\toprule Mesure & Notices\\\midrule
+Textes identiques dans les deux états & 262\\
+Textes différents & 216\\
+\quad dont différence due uniquement aux lettres corrigées omises en 2020 & 196\\
+\quad dont textes comportant une partie grecque absente en 2020 & 7\\
+\quad dont autres retouches de la base & 13\\
+Lettres corrigées signalées dans l’état 2022 (occurrences ; notices) & \st{nCorrOcc} ; \st{nCorrNotices}\\
+Notices sans texte dans l’export 2020 & 4\\
+Notice absente de l’état 2022 & 1 (\nnum{329})\\\bottomrule
+\end{tabular}
+\end{table}
+
+Ces pertes ne sont signalées nulle part dans le fichier exporté. Leurs conséquences sont directes. Un comptage de \emph{vixit} fondé sur l’export de 2020 manque les occurrences gravées avec bêtacisme ; un relevé du vocabulaire religieux manque l’imprécation grecque du \nnum{447}. Toute exploitation quantitative d’une base épigraphique devrait comparer au moins deux états de la donnée, documenter la version utilisée et vérifier la conservation des signes diacritiques.
+
+\section{Une seconde base : l’Epigraphic Database Bari}
+
+\subsection{Pourquoi une seconde base}
+
+La comparaison de deux états de l’EDCS révèle les pertes dues à l’export. Elle ne dit rien des choix faits par l’EDCS lorsqu’elle saisit l’édition imprimée. L’Epigraphic Database Bari, conduite à l’université de Bari, se consacre aux inscriptions des chrétiens de Rome ; elle se donne pour tâche de mettre à jour les ICVR, et ses fiches sont établies et révisées par des épigraphistes nommés sur chaque fiche\footnote{Voir A. E. Felle, « Inscriptions by Christians in Late Antique Rome: Some Issues and Perspectives for the Epigraphic Database Bari (EDB) », dans \emph{Epigraphy in the Digital Age}, Oxford, 2021, p. 213–224.}. C’est un témoin indépendant de la transmission. Il reste secondaire : comme l’EDCS, l’EDB dépend de l’ICVR, et une concordance entre les deux bases ne remplace ni l’édition imprimée ni la pierre. Elle prouve que deux bases savantes transmettent le même texte, non que ce texte est exact.
+
+\subsection{Procédure}
+
+Deux états de l’EDB ont été utilisés. Le premier est celui des listes publiques de la base, consultées le 14 octobre 2026 : triées par numéro ICVR, elles comptent 42\,333 fiches sur 2\,117 pages de vingt fiches. Chaque ligne donne l’identifiant EDB, le numéro ICVR, la bibliographie complémentaire, le rattachement topographique (\emph{Pertinence}), le lieu de conservation, la date retenue par la base et le texte, parfois tronqué. Le conteneur de travail n’atteignant pas directement le site, les pages ont été lues par un relais de lecture web, dont les réponses brutes sont archivées ; chaque page lue, sa date et les échecs d’accès figurent au registre des consultations. Pour les divergences les plus fortes, les fiches détaillées ont été ouvertes et relues.
+
+Le second état est l’archive EpiDoc de l’EDB déposée sur Zenodo en décembre 2019 (40\,760 fichiers XML ; somme de contrôle MD5 de l’archive vérifiée)\footnote{C. Carletti, A. E. Felle, A. Rocco, \emph{EDB. Epigraphic Database Bari — Inscriptions by Christians in Rome (3rd–8th cent. CE). EpiDoc files}, Zenodo, 2019, DOI 10.5281/zenodo.3575485. La notice du dépôt indique la licence CC BY 4.0 ; les fichiers XML portent la licence CC BY-NC-SA 3.0. Les deux mentions sont reproduites dans les liminaires.}. Ces fichiers décrivent le support (type, matériau, dimensions), la technique d’exécution, les signes figurés, le caractère métrique du texte, les reproductions disponibles et l’histoire de la fiche. Ils ont été téléchargés et analysés pour toutes les notices appariées.
+
+L’appariement suit le numéro ICVR. Quand plusieurs fiches partagent un même numéro (sous-numéros a, b…), on retient la plus proche du texte EDCS. Un indice de similarité, calculé sur les textes normalisés (sigles et développements retirés, \emph{u/v} et \emph{i/j} unifiés), sert à trier les cas : « concordant » au-delà de 0,92, « écarts à examiner » entre 0,75 et 0,92, « divergence forte » en deçà. Ces seuils servent au tri ; ils ne valent pas jugement philologique. Chaque écart retenu dans le volume a été relu.
+
+\subsection{Résultats}
+
+\st{edbApp} notices sur \st{nA} ont été appariées à une fiche EDB ; \st{edbXml} d’entre elles le sont aussi à une fiche EpiDoc de 2019. Le tableau~\ref{tab:edbstatut} donne la répartition des statuts.
+
+\begin{table}[tbp]\centering\small
+\caption{Confrontation EDCS/EDB : statuts (ensemble A).}\label{tab:edbstatut}
+\begin{tabular}{@{}l r@{}}\toprule Statut & Notices\\\midrule
+Concordant, aux conventions de notation près & \st{edbConc}\\
+Écarts à examiner & \st{edbExam}\\
+Divergence forte (relue sur la fiche détaillée) & \st{edbDiv}\\
+\quad dont écarts relevant seulement de la notation & \st{edbConcRel}\\
+Doublon fusionné (apparié par l’intermédiaire de la notice de référence) & \st{edbDoub}\\
+Numéro ICUR absent de la liste publique de l’EDB & \st{edbAbsent}\\
+Sans numéro ICUR, non retrouvé par le texte & \st{edbSansIcur}\\\bottomrule
+\end{tabular}
+\end{table}
+
+Seize numéros ICUR du corpus se trouvent dans des plages parcourues de la liste publique sans y figurer : ICUR II 4798–4836, 4948, 5711 et 5712. Ils appartiennent, dans le volume II des ICUR, au secteur de la voie d’Ostie, et la base de travail les attribuait à la basilique Saint-Paul. L’EDB indique dans son bandeau que certaines fiches ne sont pas publiques ; il est possible que ces inscriptions en fassent partie, mais ce point n’a pas été vérifié. Les notices concernées sont les \nnums{12}, 13, 25, 26, 45, 65, 116, 117, 149, 161, 202, 212, 374, 406, 407 et 452 ; l’archive EpiDoc de 2019 ne les contient pas davantage.
+
+\subsection{Quatre types d’écarts}
+
+\emph{Lignes omises par l’EDCS.} Pour huit notices dont le texte EDCS ne conservait aucun élément consulaire, l’EDB transmet la formule de date (\nnums{51}, 84, 180, 214, 268, 388, 445 et 447). L’épitaphe de l’\emph{ancilla dei} du \nnum{214} se termine dans l’EDB par trois lignes, dont la date \emph{dd(ominis) nn(ostris) Gratiano V et Teodosio aaugg(ustis)} (380) et la mention de deux autres défunts ; le texte de l’EDCS s’arrête plus haut. L’imprécation grecque du \nnum{447} est précédée, dans l’EDB, de cinq lignes qui donnent le nom du défunt, son origine (Théodosiopolis) et la date (401). Les textes EDCS sont donc tronqués pour une partie du corpus : lignes finales absentes, partie grecque omise. Il ne s’agit pas d’une question de notation. Les statistiques de formulaire fondées sur ces textes sont des bornes inférieures de ce qui est gravé.
+
+\emph{Signes figurés.} L’EDB décrit chrismes, croix, oiseaux, palmes et orants. L’EDCS ne les mentionne pas, sauf dans un cas, où elle rend un monogramme par un mot développé, \emph{Chr(isti)} (\nnum{38}), ce qui produit un faux mot du vocabulaire religieux. Sur les \st{edbAppC} textes funéraires appariés, \st{nSignesC} (\st{pSignesC}~\%) portent un chrisme ou une croix selon l’EDB (chapitre~\ref{ch:supports}).
+
+\emph{Restitutions différentes.} Dans le poème d’Eleuteria (\nnum{73}), l’EDCS restitue \emph{[at tuus in caelo] spiritus … [vivit cum] sanctis}, l’EDB \emph{[corpore namque tu]us spiritus … [est sociatu]s sanctis} : les deux restitutions sont conjecturales et orientent différemment la lecture eschatologique. Dans l’imprécation du \nnum{447}, l’EDCS restitue « au jour de la [résurrection (?)] », l’EDB « au jour [terrible du jugement] ». Au \nnum{152}, la lecture \emph{redemptus} de l’EDCS devient \emph{[cor]p⟨o⟩re demptus} dans l’EDB. Au \nnum{19}, l’EDCS restitue une qualité clarissime et un nom (Lea) que l’EDB ne retient pas. Aucune de ces restitutions ne peut fonder un argument.
+
+\emph{Datations divergentes.} Pour une douzaine de notices, l’année de l’EDB diffère de l’année de classement. Certains écarts sont vraisemblablement des erreurs de saisie de l’EDB (\nnums{206} et 278). D’autres reflètent une véritable alternative de restitution ou d’interprétation, souvent documentée par la CLRE, que l’EDB cite (\nnums{40}, 52, 141, 220, 328, 431). Ces cas sont traités au chapitre~\ref{ch:fondement}.
+
+\section{Autres témoins}
+
+\emph{Epigraphische Datenbank Heidelberg.} Quatre fiches de l’EDH ont été consultées pour les doublons et pour le \nnum{98} : HD009698 (329/336), HD030246 (106/120), HD021839 (282/288) et HD028015 (98). Elles confirment les identités établies par l’EDB.
+
+\emph{Reproductions universitaires.} Deux documents du Center for Epigraphical and Palaeographical Studies de l’Ohio State University ont été examinés. L’estampage de l’ILCV 3252A (\nnum{38}, Privata) montre le nom PRIVATA, la séquence IN PACE, un christogramme placé après cette séquence et les noms DECENTIO et PAVLO. La photographie de l’ILCV 2978B (\nnum{68}, Petrius) montre PETRIO, IN PACE, le collège MAMERTINO / NEVITTA et la séquence EVTYCHES PATER FECIT. Ces examens portent sur les segments cités ; ils ne valent pas collation intégrale. Les droits de reproduction n’étant pas libérés, les images ne sont pas reproduites.
+
+\section{Conséquences pour l’analyse}
+
+Trois règles en découlent pour la suite du livre.
+
+\emph{Le texte de travail.} Chaque notice donne le texte EDCS, la leçon EDB lorsqu’elle diffère, et la décision prise avec sa justification. Le texte EDCS reste le texte de référence, parce qu’il est disponible pour toutes les notices et que ses conventions sont homogènes. Les lignes que seule l’EDB transmet sont citées dans la notice et prises en compte pour la datation ; elles ne sont pas intégrées aux comptes du formulaire, qui portent sur un texte unique.
+
+\emph{Les statistiques.} Les mesures du formulaire et du vocabulaire religieux calculées sur le texte EDCS sont des bornes inférieures de ce qui est gravé. Le marquage chrétien des monuments est compté à part, à partir des signes décrits par l’EDB.
+
+\emph{La chronologie.} Les huit formules consulaires transmises par la seule EDB fondent désormais l’année des notices correspondantes. Les divergences de date ne sont pas tranchées par vraisemblance : l’année de classement est conservée et la datation déclarée contestée.

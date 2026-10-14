@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="ex-epidoctemplate.xml" xml:lang="English">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Rome, Basilica S.Petri apostoli - ICVR II, 4166</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Epigraphic Dabatase Bari</authority>
+            <idno type="URI">http://www.edb.uniba.it/epigraph/19166</idno>
+            <idno type="TM">276355</idno>
+            <idno type="localID">19166</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/2">ignoratur</objectType>
+                           <material ref="https://www.eagle-network.eu/voc/material/lod/138">ignoratur</material>
+                           <dimensions unit="cm">
+                              <height/>
+                              <width/>
+                              <depth/>
+                           </dimensions>
+                           <rs ref="https://www.eagle-network.eu/voc/decor/lod/14" type="decoration">chi-rho</rs>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs ref="https://www.eagle-network.eu/voc/writing/lod/21" type="execution">ignoratur</rs>
+                           <rs type="metre">Non-Metrical</rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName ref="http://www.trismegistos.org/place/2058">Rome</placeName>
+                     </origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines</p>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term ref="https://www.eagle-network.eu/voc/typeins/lod/92">Sepulcralis</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="fr">French</language>
+            <language ident="he">Hebrew</language>
+            <language ident="sp">Spanish</language>
+         </langUsage>
+         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2003-11-11" who="Antonio Enrico Felle">First version</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl>ICVR II, 4166</bibl>
+            </listBibl>
+         </div>
+         <!--((monogramma Christi)) h(ic) q(uiescit) / Eustolius v(ir) c(larissimus) cum filia The[od- - -] / deposita X kal(endas) aug(ustas) depo[sit- - -] /dd(ominis) nn(ostris) Gratiano V ((monogramma Christi in crucem translatum cum alpha et omega)) / et [Theodosio] augg(ustis) co(n)ss(ulibus) / ((monogramma Christi)) i(n) p(ace)--><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/><g type="descriptive">monogramma Christi</g> <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>q</abbr><ex>uiescit</ex></expan><lb n="2"/>Eustolius <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>c</abbr><ex>larissimus</ex></expan> cum filia The<supplied reason="lost">od<gap reason="lost" extent="unknown" unit="character"/></supplied><lb n="3"/>deposita X <expan><abbr>kal</abbr><ex>endas</ex></expan> <expan><abbr>aug</abbr><ex>ustas</ex></expan> depo<supplied reason="lost">sit<gap reason="lost" extent="unknown" unit="character"/></supplied><lb n="4"/><expan><abbr>dd</abbr><ex>ominis</ex></expan> <expan><abbr>nn</abbr><ex>ostris</ex></expan> Gratiano V ((monogramma Christi in crucem translatum cum alpha et omega))<lb n="5"/>et <supplied reason="lost">Theodosio</supplied> <expan><abbr>augg</abbr><ex>ustis</ex></expan> co<expan><ex>n</ex><abbr>ss</abbr><ex>ulibus</ex></expan><lb n="6"/><g type="descriptive">monogramma Christi</g> <expan><abbr>i</abbr><ex>n</ex></expan> <expan><abbr>p</abbr><ex>ace</ex></expan></ab></div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="ex-epidoctemplate.xml" xml:lang="English">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Rome - ICVR I, 1252</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Epigraphic Dabatase Bari</authority>
+            <idno type="URI">http://www.edb.uniba.it/epigraph/30464</idno>
+            <idno type="TM">622719</idno>
+            <idno type="localID">30464</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <placeName ref="3175395" type="modern">Italy</placeName>
+                  </country>
+                  <settlement>
+                     <placeName ref="3169070" type="modern">Roma</placeName>
+                  </settlement>
+                  <repository ref="www.trismegistos.org/collection/1129">Musei Capitolini</repository>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                           <material ref="https://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                           <dimensions unit="cm">
+                              <height>42</height>
+                              <width>52</width>
+                              <depth/>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs ref="https://www.eagle-network.eu/voc/writing/lod/114" type="execution">Insculptus</rs>
+                           <rs type="metre">Non-Metrical</rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <height max="4" min="3" unit="cm"/>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName ref="http://www.trismegistos.org/place/2058">Rome</placeName>
+                     </origPlace>
+                     <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" notAfter-custom="0353" notBefore-custom="0353">0353 AD - 0353 AD</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines</p>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term ref="https://www.eagle-network.eu/voc/typeins/lod/92">Sepulcralis</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="fr">French</language>
+            <language ident="he">Hebrew</language>
+            <language ident="sp">Spanish</language>
+         </langUsage>
+         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2015-07-16" who="Filippo Piazzolla">Various changes</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic n="1252_1.jpg" url="http://www.edb.uniba.it/images/watermark/images/Disegni/IC I/1252_1.jpg">
+         <desc>1252_1.jpg<ref target="http://www.europeana.eu/rights/rr-f/" type="license">Rights Reserved - Free Access via Epigraphic Database Bari</ref>
+         </desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl>ICVR I, 1252</bibl>
+               <bibl>71, 2967 adn</bibl>
+               <bibl>92, 30, n. 1252</bibl>
+               <bibl>277, 110</bibl>
+            </listBibl>
+         </div>
+         <!--[- - - beneme]erenti qui bixet cum co/[iuge sua ann(os) - - -]XXI me(nse)s III depositus / [- - - annorum - - -] ṃ(en)s(ium) III  d(ierum) VIII depositus in [pace - - -] M〚u〛annentio et Decen/[ti]o cc(on)s(ulibu)s / [- - -] ((avis))--><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">beneme</supplied>erenti qui bixet cum co<lb break="no" n="2"/><supplied reason="lost">iuge sua <expan><abbr>ann</abbr><ex>os</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied>XXI me<expan><ex>nse</ex><abbr>s</abbr></expan> III depositus<lb n="3"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> annorum <gap reason="lost" extent="unknown" unit="character"/></supplied> ṃ<expan><ex>en</ex><abbr>s</abbr><ex>ium</ex></expan> III  <expan><abbr>d</abbr><ex>ierum</ex></expan> VIII depositus in <supplied reason="lost">pace</supplied><gap reason="lost" extent="unknown" unit="character"/> M<del rend="erasure">u</del>annentio et Decen<lb break="no" n="4"/><supplied reason="lost">ti</supplied>o cc<expan><ex>on</ex><abbr>s</abbr><ex>ulibu</ex><abbr>s</abbr></expan><lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <g type="descriptive">avis</g></ab></div>
+      </body>
+   </text>
+</TEI>

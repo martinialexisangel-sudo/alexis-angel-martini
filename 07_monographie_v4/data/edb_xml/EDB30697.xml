@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="ex-epidoctemplate.xml" xml:lang="English">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Rome - ICVR I, 1355</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Epigraphic Dabatase Bari</authority>
+            <idno type="URI">http://www.edb.uniba.it/epigraph/30697</idno>
+            <idno type="TM">622823</idno>
+            <idno type="localID">30697</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <placeName ref="3175395" type="modern">Italy</placeName>
+                  </country>
+                  <settlement>
+                     <placeName ref="3169070" type="modern">Roma</placeName>
+                  </settlement>
+                  <repository ref="www.trismegistos.org/collection/1341">Collegio Teutonico</repository>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                           <material ref="https://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                           <dimensions unit="cm">
+                              <height>24</height>
+                              <width>24</width>
+                              <depth/>
+                           </dimensions>
+                           <rs ref="https://www.eagle-network.eu/voc/decor/lod/9" type="decoration">Monogr. Christi in crucem transl. cum Alpha et Omega</rs>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs ref="https://www.eagle-network.eu/voc/writing/lod/114" type="execution">Insculptus</rs>
+                           <rs type="metre">Non-Metrical</rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <height max="3.5" unit="cm"/>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName ref="http://www.trismegistos.org/place/2058">Rome</placeName>
+                     </origPlace>
+                     <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" notAfter-custom="0392" notBefore-custom="0392">0392 AD - 0392 AD</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines</p>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term ref="https://www.eagle-network.eu/voc/typeins/lod/92">Sepulcralis</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="fr">French</language>
+            <language ident="he">Hebrew</language>
+            <language ident="sp">Spanish</language>
+         </langUsage>
+         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2015-05-20" who="Filippo Piazzolla">Various changes</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl>ICVR I, 1355</bibl>
+               <bibl>153, 46, n. 1355</bibl>
+            </listBibl>
+         </div>
+         <!--[bene]merenti qụ[i vixit annos - - -] / [menses - - -]II et dies VII[- - -] / ((piscis)) ((monogramma Christi in crucem translatum cum alpha et omega in corona taeniata)) / [- - - i]n pace d(eposit- - -) VIIII  id[us - - -] / [Arc]adio II et Rufino v(iro) c(larissimo) c[ons(ulibu)s - - -] --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/><supplied reason="lost">bene</supplied>merenti qụ<supplied reason="lost">i vixit annos <gap reason="lost" extent="unknown" unit="character"/></supplied><lb n="2"/><supplied reason="lost">menses</supplied><gap reason="lost" extent="unknown" unit="character"/>II et dies VII<gap reason="lost" extent="unknown" unit="character"/><lb n="3"/><g type="descriptive">piscis</g> ((monogramma Christi in crucem translatum cum alpha et omega in corona taeniata))<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">i</supplied>n pace d(eposit---) VIIII  id<supplied reason="lost">us</supplied><gap reason="lost" extent="unknown" unit="character"/><lb n="5"/><supplied reason="lost">Arc</supplied>adio II et Rufino <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan> c<supplied reason="lost"><expan><abbr>ons</abbr><ex>ulibu</ex>s</expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> </ab></div>
+         <div type="apparatus">
+            <p>According to Ferrua 1986, ad loc. cit. 5. [Pall]ADIO, Silvagni in ICVR ad loc. cit.; the consuls of the year 392 were the emperor Arcadius and Fl. Rufinus.  Iunius Quartus Palladius was consul in 416, together with the emperor Theodosius: see A. Degrassi 1952, about year 416. </p>
+         </div>
+      </body>
+   </text>
+</TEI>

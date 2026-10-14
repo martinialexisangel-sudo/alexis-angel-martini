@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="ex-epidoctemplate.xml" xml:lang="English">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Rome - ICVR I, 1426</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Epigraphic Dabatase Bari</authority>
+            <idno type="URI">http://www.edb.uniba.it/epigraph/31189</idno>
+            <idno type="TM">619617</idno>
+            <idno type="localID">31189</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <placeName ref="3175395" type="modern">Italy</placeName>
+                  </country>
+                  <settlement>
+                     <placeName ref="3169070" type="modern">Roma</placeName>
+                  </settlement>
+                  <repository>Musei Vaticani</repository>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                           <material ref="https://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                           <dimensions unit="cm">
+                              <height>87</height>
+                              <width>151</width>
+                              <depth/>
+                           </dimensions>
+                           <rs ref="https://www.eagle-network.eu/voc/decor/lod/4" type="decoration">Crux Gammata</rs>
+                           <rs ref="https://www.eagle-network.eu/voc/decor/lod/14" type="decoration">chi-rho</rs>
+                           <rs ref="https://www.eagle-network.eu/voc/decor/lod/2" type="decoration">Alpha et Omega</rs>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs ref="https://www.eagle-network.eu/voc/writing/lod/114" type="execution">Insculptus</rs>
+                           <rs type="metre">Metrical</rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <height max="4" unit="cm"/>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName ref="http://www.trismegistos.org/place/2058">Rome</placeName>
+                     </origPlace>
+                     <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" notAfter-custom="0363" notBefore-custom="0363">0363 AD - 0363 AD</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines</p>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term ref="https://www.eagle-network.eu/voc/typeins/lod/92">Sepulcralis</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="fr">French</language>
+            <language ident="he">Hebrew</language>
+            <language ident="sp">Spanish</language>
+         </langUsage>
+         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2015-04-23" who="Filippo Piazzolla">Various changes</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic n="1426_1.jpg" url="http://www.edb.uniba.it/images/watermark/images/Disegni/IC I/1426_1.jpg">
+         <desc>1426_1.jpg<ref target="http://www.europeana.eu/rights/rr-f/" type="license">Rights Reserved - Free Access via Epigraphic Database Bari</ref>
+         </desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl>ICVR I, 1426</bibl>
+               <bibl>71, 3359</bibl>
+               <bibl>92, 36, n. 1426</bibl>
+               <bibl>191, 102</bibl>
+               <bibl>195, 108</bibl>
+            </listBibl>
+         </div>
+         <!--[haec tibi aet]e̲rna domus in qua nunc ipsa secura quiescis ((palma)) / [corpore namque tu]u̲s spiritus a carne redecens ((sol)) / [est sociatu]s̲ sanctis pro meritis et opera tanta ((monogramma Christi)) / [quaeque de]m̲etuisti semper quiescis secura ((palma et laurus))  / [dedisti corp]us terrae pignus que receptus ((palma)) / [- - - spl]e̲ndori cum lumine claro ((crux gammata )) / [- - -]s̲ quae te semper deo dica〈vi〉sti ((alpha inversa?)) / [- - -]t̲as sed pro factis ad alta vocaris ((omega)) / [- - -]c̲a Pacatiano cum multa debebit ((Y?)) / [Pac]ạtianus Eleuteriae matri suae locum fecit / [que vixit a]n̲ṇ(is) pl(us) m(inus) LXXV mens(ibus) II d(iebus) X dep(osita)  IIII kal(endas) iun(ias) dormit / [in pace cons(ultum)] d̲(omini) n(ostri) Cl(audi) Iuliani aug(usti) IIII et Fl(avi) Sallusti con(sule)  / [- - -?] H̲esperius quem nutrit iscripsit --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/><supplied reason="lost">haec tibi aet</supplied><supplied reason="undefined" evidence="previouseditor">e</supplied>rna domus in qua nunc ipsa secura quiescis <g type="descriptive">palma</g><lb n="2"/><supplied reason="lost">corpore namque tu</supplied><supplied reason="undefined" evidence="previouseditor">u</supplied>s spiritus a carne redecens <g type="descriptive">sol</g><lb n="3"/><supplied reason="lost">est sociatu</supplied><supplied reason="undefined" evidence="previouseditor">s</supplied> sanctis pro meritis et opera tanta <g type="descriptive">monogramma Christi</g><lb n="4"/><supplied reason="lost">quaeque de</supplied><supplied reason="undefined" evidence="previouseditor">m</supplied>etuisti semper quiescis secura <g type="descriptive">palma et laurus</g><lb n="5"/><supplied reason="lost">dedisti corp</supplied>us terrae pignus que receptus <g type="descriptive">palma</g><lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">spl</supplied><supplied reason="undefined" evidence="previouseditor">e</supplied>ndori cum lumine claro <g type="descriptive">crux gammata </g><lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="undefined" evidence="previouseditor">s</supplied> quae te semper deo dica<supplied reason="omitted">vi</supplied>sti ((alpha inversa<certainty match="preceding-sibling::node()" locus="value"/><lb n="8"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="undefined" evidence="previouseditor">t</supplied>as sed pro factis ad alta vocaris <g type="descriptive">omega</g><lb n="9"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="undefined" evidence="previouseditor">c</supplied>a Pacatiano cum multa debebit ((Y<certainty match="preceding-sibling::node()" locus="value"/><lb n="10"/><supplied reason="lost">Pac</supplied>ạtianus Eleuteriae matri suae locum fecit<lb n="11"/><supplied reason="lost">que vixit a</supplied><supplied reason="undefined" evidence="previouseditor">n</supplied><unclear>n</unclear>(is) <expan><abbr>pl</abbr><ex>us</ex></expan> <expan><abbr>m</abbr><ex>inus</ex></expan> LXXV <expan><abbr>mens</abbr><ex>ibus</ex></expan> II <expan><abbr>d</abbr><ex>iebus</ex></expan> X <expan><abbr>dep</abbr><ex>osita</ex></expan>  IIII <expan><abbr>kal</abbr><ex>endas</ex></expan> <expan><abbr>iun</abbr><ex>ias</ex></expan> dormit<lb n="12"/><supplied reason="lost">in pace <expan><abbr>cons</abbr><ex>ultum</ex></expan></supplied> <supplied reason="undefined" evidence="previouseditor">d</supplied>(omini) <expan><abbr>n</abbr><ex>ostri</ex></expan> <expan><abbr>Cl</abbr><ex>audi</ex></expan> Iuliani <expan><abbr>aug</abbr><ex>usti</ex></expan> IIII et <expan><abbr>Fl</abbr><ex>avi</ex></expan> Sallusti <expan><abbr>con</abbr><ex>sule</ex></expan><lb n="13"/><supplied reason="lost" cert="low">---</supplied> <supplied reason="undefined" evidence="previouseditor">H</supplied>esperius quem nutrit iscripsit </ab></div>
+         <div type="apparatus">
+            <p>r.9 "Il Dölger Antike und Christentum, I, p. 312, tav. 16, considera l'Y in fondo al v.9 come l'iniziale di YΓΕΙΑ, in senso pitagorico" ma Ferrua 1979 ad loc. cit. pensa sia un' interpunzione di grande dimensione</p>
+         </div>
+      </body>
+   </text>
+</TEI>

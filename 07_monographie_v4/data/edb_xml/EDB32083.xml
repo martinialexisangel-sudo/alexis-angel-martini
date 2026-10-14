@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="ex-epidoctemplate.xml" xml:lang="English">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inscription from Rome - ICVR I, 2099</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Epigraphic Dabatase Bari</authority>
+            <idno type="URI">http://www.edb.uniba.it/epigraph/32083</idno>
+            <idno type="TM">623566</idno>
+            <idno type="localID">32083</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <placeName ref="3175395" type="modern">Italy</placeName>
+                  </country>
+                  <settlement>
+                     <placeName ref="3169070" type="modern">Roma</placeName>
+                  </settlement>
+                  <repository>Musei Vaticani</repository>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                           <material ref="https://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                           <dimensions unit="cm">
+                              <height>64</height>
+                              <width>98</width>
+                              <depth/>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs ref="https://www.eagle-network.eu/voc/writing/lod/114" type="execution">Insculptus</rs>
+                           <rs type="metre">Non-Metrical</rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <height max="4.5" min="2.5" unit="cm"/>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName ref="http://www.trismegistos.org/place/2058">Rome</placeName>
+                     </origPlace>
+                     <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" notAfter-custom="0384" notBefore-custom="0384">0384 AD - 0384 AD</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines</p>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term ref="https://www.eagle-network.eu/voc/typeins/lod/92">Sepulcralis</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="fr">French</language>
+            <language ident="he">Hebrew</language>
+            <language ident="sp">Spanish</language>
+         </langUsage>
+         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2015-09-21" who="Filippo Piazzolla">Various changes</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl>ICVR I, 2099</bibl>
+               <bibl>71, 2782</bibl>
+               <bibl>191</bibl>
+            </listBibl>
+         </div>
+         <!--hoc tumulum patris filius̲ B̲e̲n̲e̲d̲i̲c̲t̲[us] / fieri voluit causa amoris pa̲t̲e̲r̲n̲a̲e̲ r̲e̲[cordatio]/nis Lucifero homini innoce̲n̲t̲i̲s̲s̲[imo amico?] / amicorum qui dum in rebus hu̲m̲a̲n̲i̲s̲ [fuit] / omnibus paratissimus et dulc̲i̲s̲ a̲d̲q̲u̲̲[e] / fuisse videbatur vix enim semp̲e̲r̲ s̲i̲n̲[e culpa? tem]/poris sui annis LXV et m(ensibus) VI d(iebus) XI̲I̲ d̲e̲c̲e̲s̲s̲[it in pace?] / VII k(alendas) iul(ias) Ricomere et Clearcho cons(ulibu)s ((palma)) ((avis)) --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>hoc tumulum patris filiu<supplied reason="undefined" evidence="previouseditor">s</supplied> <supplied reason="undefined" evidence="previouseditor">Benedict</supplied><supplied reason="lost">us</supplied><lb n="2"/>fieri voluit causa amoris p<supplied reason="undefined" evidence="previouseditor">aternae</supplied> <supplied reason="undefined" evidence="previouseditor">re</supplied><supplied reason="lost">cordatio</supplied><lb break="no" n="3"/>nis Lucifero homini innoc<supplied reason="undefined" evidence="previouseditor">entiss</supplied><supplied reason="lost" cert="low">imo amico</supplied><lb n="4"/>amicorum qui dum in rebus h<supplied reason="undefined" evidence="previouseditor">umanis</supplied> <supplied reason="lost">fuit</supplied><lb n="5"/>omnibus paratissimus et dul<supplied reason="undefined" evidence="previouseditor">cis</supplied> <supplied reason="undefined" evidence="previouseditor">adqu</supplied>̲<supplied reason="lost">e</supplied><lb n="6"/>fuisse videbatur vix enim sem<supplied reason="undefined" evidence="previouseditor">per</supplied> <supplied reason="undefined" evidence="previouseditor">sin</supplied><supplied reason="lost">e culpa<certainty locus="name" match="preceding-sibling::text()" cert="low"/> tem</supplied><lb break="no" n="7"/>poris sui annis LXV et <expan><abbr>m</abbr><ex>ensibus</ex></expan> VI <expan><abbr>d</abbr><ex>iebus</ex></expan> X<supplied reason="undefined" evidence="previouseditor">II</supplied> <supplied reason="undefined" evidence="previouseditor">decess</supplied><supplied reason="lost" cert="low">it in pace</supplied><lb n="8"/>VII <expan><abbr>k</abbr><ex>alendas</ex></expan> <expan><abbr>iul</abbr><ex>ias</ex></expan> Ricomere et Clearcho cons<expan><ex>ulibu</ex><abbr>s</abbr></expan> <g type="descriptive">palma</g> <g type="descriptive">avis</g> </ab></div>
+      </body>
+   </text>
+</TEI>
