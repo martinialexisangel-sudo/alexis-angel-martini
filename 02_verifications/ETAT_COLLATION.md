@@ -1,4 +1,4 @@
-# État de la collation EDCS / EDB (au 14 octobre 2026, lot 1)
+# État de la collation EDCS / EDB (au 14 octobre 2026, lot 2)
 
 ## Méthode
 
@@ -15,11 +15,11 @@
 
 | statut | notices |
 |---|---|
-| concordant (écarts mineurs de notation) | 184 |
-| écarts à examiner | 88 |
-| divergence forte ou appariement douteux | 23 |
-| **appariées à une fiche EDB** | **295** |
-| page EDB non encore consultée | 161 |
+| concordant (écarts mineurs de notation) | 265 |
+| écarts à examiner | 133 |
+| divergence forte ou appariement douteux | 37 |
+| **appariées à une fiche EDB** | **435** |
+| page EDB non encore consultée (dont les 16 numéros absents ci-dessous) | 21 |
 | sans numéro ICUR (recherche par texte à faire) | 22 |
 
 16 numéros ICUR se trouvent dans des plages déjà parcourues sans y figurer sous ce numéro : 4798, 4799, 4800, 4802, 4804, 4805, 4807, 4808, 4815, 4829, 4830, 4832, 4836, 4948, 5711 et 5712. La liste EDB saute par exemple de 4781 à 4900. Ces textes sont peut-être enregistrés dans l'EDB sous une autre référence, ou n'y sont pas. **À rechercher par texte ou par bibliographie.**
@@ -35,5 +35,5 @@
 ## Pour terminer la collation
 
 - **Voie la plus sûre.** Télécharger hors de cet environnement le dépôt EpiDoc complet de l'EDB (Zenodo, DOI 10.5281/zenodo.3575485, CC BY 4.0, 73,8 Mo), puis apparier les 478 notices en local avec les scripts de `05_scripts/`, adaptés à l'EpiDoc.
-- **Sinon.** Poursuivre la lecture paginée (environ 50 pages restantes, plus les fiches détaillées pour les textes tronqués « More »).
+- **Sinon.** Poursuivre la lecture paginée (une dizaine de pages restantes pour les volumes V–X, plus les fiches détaillées pour les textes tronqués « More »).
 - **Dans tous les cas.** Les écarts substantiels doivent être tranchés sur l'**ICVR imprimée** (photographies et commentaires) : c'est la seule édition critique de référence pour ces textes.

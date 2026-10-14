@@ -14,11 +14,11 @@ L'évaluation est **interne** : elle ne remplace pas une expertise par les pairs
 
 ## Notes
 
-| Critère | v2.0 seule | v2.0 + lot 1 | Justification |
+| Critère | v2.0 seule | v2.0 + lots 1-2 | Justification |
 |---|---|---|---|
-| 1 | 1 | **2** (partiel) | 295 notices sur 478 confrontées à l'EDB ; aucune collation sur l'ICVR, aucune autopsie |
+| 1 | 1 | **2** (partiel) | 435 notices sur 478 confrontées à l'EDB ; aucune collation sur l'ICVR, aucune autopsie |
 | 2 | 0 | **1,5** | provenance et conservation désormais connues pour une partie des notices (EDB) ; ni dimensions, ni support, ni photographie |
-| 3 | 2,5 | **2,5** | contrôle consulaire interne solide ; CLRE non consulté ; quatre divergences avec l'EDB non résolues |
+| 3 | 2,5 | **2,5** | contrôle consulaire interne solide ; CLRE non consulté ; sept divergences de date avec l'EDB non résolues |
 | 4 | 1 | **1** | A055/A056 : bibliographie largement non vérifiée, historiographie descriptive ; le document « État critique » est inutilisable (audit) |
 | 5 | 3 | **3,5** | base, scripts, registre d'anomalies et registre des consultations ; aucune validation par un tiers |
 | **Total** | **7,5/20** | **10,5/20** | |

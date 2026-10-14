@@ -22,3 +22,14 @@ Les originaux ne sont jamais modifiés (`00_originaux/`, empreintes dans `SHA256
 | 14 | Document « État critique » (Drive) | audité : chiffres et citations incompatibles avec la base ; **à ne pas utiliser** | `03_dossiers_anomalies/AUDIT_ETAT_CRITIQUE.md` | base v2.0 |
 
 **Corrections non appliquées au manuscrit lui-même.** Les sources LaTeX de la v2.0 ou de la v3.1 sont absentes : le PDF n'a pas été régénéré. Les corrections sont formulées pour être reportées.
+
+## 2026-10-14 — lot 2 (reprise automatique, 04:04 UTC)
+
+| # | Objet | Action | Fichier | Preuve |
+|---|---|---|---|---|
+| 15 | Collation EDCS/EDB | 435/478 notices appariées (265 concordantes, 133 à examiner, 37 divergentes) ; 21 restent à chercher, 22 sans n° ICUR | `02_verifications/collation_edcs_edb.csv` | `edb/brut/*.json` |
+| 16 | A009 (313/314) | une fiche EDB (EDB39579), deux dépositions successives ; année de (b) = consulat **restitué** | dossiers § A | EDB39579 |
+| 17 | A010 (393/394) | une fiche EDB (EDB39590) ; l'EDCS restitue davantage que l'EDB ; ne compter qu'une occurrence datée | dossiers § A | EDB39590 |
+| 18 | Dates | 3 divergences supplémentaires (n° 40, 206, 328) ; n° 328 : 381 ou 390 selon la restitution | dossiers § D | fiches EDB citées |
+| 19 | A016 | n° 123 et 326 : restitutions consulaires conjecturales de l'EDB ; n° 123 : lecture EDCS *obiit* contre EDB *[Lupicin]o et Iovi[no]* | dossiers § D | EDB24921, EDB24920 |
+| 20 | Signes chrétiens | 45 chrismes ou croix sur 435 notices (10,3 %) | dossiers § E | `collation_edcs_edb.csv` |

@@ -1,6 +1,6 @@
 # 5.4 Confrontation avec l'Epigraphic Database Bari (texte proposé pour la v3)
 
-*Section nouvelle, à insérer après le § 5.3 de la v2.0. Les chiffres sont ceux du lot 1 (295 notices appariées sur 478) et seront mis à jour à la fin de la collation.*
+*Section nouvelle, à insérer après le § 5.3 de la v2.0. Les chiffres sont ceux du lot 2 (435 notices appariées sur 478) et seront mis à jour à la fin de la collation.*
 
 ## 5.4.1 Pourquoi une seconde base
 
@@ -10,14 +10,14 @@ Les sections précédentes comparaient deux états d'une **même** base, les exp
 
 Les fiches de l'EDB ont été lues le 14 octobre 2026 dans les listes publiques de la base, triées par numéro ICVR. Chaque notice du présent corpus pourvue d'une référence ICUR a été appariée à la fiche EDB de même numéro, en choisissant, en cas de sous-numéros, la plus proche par le texte. Un indice de similarité, calculé sur les textes normalisés, sert seulement à **trier** les cas. Chaque écart retenu dans les dossiers a été relu. Les pages lues, leurs dates de consultation et les échecs d'accès figurent au registre des consultations. Les données de l'EDB sont publiées sous licence CC BY-SA 4.0.
 
-À la date de cette version, 295 notices sur 478 ont été appariées. 184 concordent, aux conventions de notation près ; 88 présentent des écarts à examiner ; 23 divergent fortement, le plus souvent parce que l'un des deux textes est tronqué.
+À la date de cette version, 435 notices sur 478 ont été appariées. 265 concordent, aux conventions de notation près ; 133 présentent des écarts à examiner ; 37 divergent fortement, le plus souvent parce que l'un des deux textes est tronqué.
 
 ## 5.4.3 Quatre types d'écarts
 
 1. **Lignes omises par l'EDCS.** Pour huit notices que la v2.0 tenait pour dépourvues de tout élément consulaire, l'EDB transmet la formule de date (n° 51, 84, 180, 214, 268, 388, 445, 447). L'épitaphe de Cucurbitinus et Abundantius (n° 214) se termine dans l'EDB par la date `dd(ominis) nn(ostris) Gratiano V et Teodosio aaugg(ustis)` (380) ; le texte de l'EDCS s'arrête trois lignes plus tôt. Dans le texte grec n° 447, l'EDB donne avant l'imprécation cinq lignes, dont la date `[ὑπατίᾳ Βινκεντί]ου καὶ Φραβίτου` (401), que l'EDCS ne transmet pas.
-2. **Signes figurés.** L'EDB décrit chrismes, croix, oiseaux, palmes et orants. L'EDCS ne les mentionne pas. Sur les 295 notices appariées, 34 portent un chrisme ou une croix selon l'EDB. Dans un cas (n° 38), l'EDCS rend le chrisme par un mot développé, *Chr(isti)*, ce qui produit un faux vocabulaire religieux.
+2. **Signes figurés.** L'EDB décrit chrismes, croix, oiseaux, palmes et orants. L'EDCS ne les mentionne pas. Sur les 435 notices appariées, 45 (10,3 %) portent un chrisme ou une croix selon l'EDB. Dans un cas (n° 38), l'EDCS rend le chrisme par un mot développé, *Chr(isti)*, ce qui produit un faux vocabulaire religieux.
 3. **Restitutions différentes.** Dans le *carmen* d'Eleuteria (n° 73, 363), l'EDCS restitue `[at tuus in caelo] spiritus … [vivit cum] sanctis`, l'EDB `[corpore namque tu]us spiritus … [est sociatu]s sanctis`. Les deux restitutions sont conjecturales. Elles orientent différemment la lecture eschatologique : séjour céleste de l'esprit d'un côté, association aux saints de l'autre. Aucune ne peut fonder un argument.
-4. **Datations divergentes.** Pour quatre notices (n° 141, 278, 311, 434), l'année de l'EDB diffère de l'année tirée du texte par la v2.0. Ces divergences ne peuvent être tranchées qu'avec l'ICVR et les fastes de référence.
+4. **Datations divergentes.** Pour sept notices (n° 40, 141, 206, 278, 311, 328, 434), l'année de l'EDB diffère de l'année retenue par la v2.0. Certains écarts semblent être des erreurs de saisie de l'EDB (n° 206, 278). D'autres reflètent une véritable alternative de restitution, comme au n° 328, où le seul *…terio* lu peut appartenir à *Eucherio* (381) ou à *Neoterio* (390). Ces divergences ne peuvent être tranchées qu'avec l'ICVR et les fastes de référence.
 
 ## 5.4.4 Conséquences
 
