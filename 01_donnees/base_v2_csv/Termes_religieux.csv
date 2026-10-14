@@ -1,0 +1,140 @@
+n,terme,forme,niveau (1–6),niveau (libellé),emploi,note
+5.0,anthroponyme théophore,theodotus,6.0,anthroponyme,anthroponyme (niveau 6)
+10.0,requiescere / quiescere,requiescit,3.0,partiellement restitué,repos et sommeil de la mort
+14.0,dormitio / dormire,Dormitio,3.0,partiellement restitué,repos et sommeil de la mort
+18.0,ecclesia,ecclesiae,4.0,entièrement restitué,vocabulaire ecclésial
+22.0,requiescere / quiescere,quiescit,1.0,mot lu,repos et sommeil de la mort
+26.0,sanctus / sancti,sanctitatis,1.0,mot lu,épithète du défunt (non doctrinal)
+38.0,Christus,Christi,2.0,développé d’une abréviation,désignation du Christ
+42.0,requiescere / quiescere,quiescet,1.0,mot lu,repos et sommeil de la mort
+43.0,Christus,Christi,4.0,entièrement restitué,désignation du Christ
+59.0,requiescere / quiescere,quiescet,1.0,mot lu,repos et sommeil de la mort
+67.0,sanctus / sancti,sanctae,4.0,entièrement restitué,Église (épithète)
+67.0,ecclesia,ecclesiae,3.0,partiellement restitué,vocabulaire ecclésial
+70.0,fidelis / fides,fide,1.0,mot lu,initiation et foi
+70.0,fidelis / fides,fidelis,1.0,mot lu,initiation et foi
+70.0,requiescere / quiescere,quiescit,1.0,mot lu,repos et sommeil de la mort
+73.0,Deus,deum,3.0,partiellement restitué,désignation de Dieu
+73.0,Deus,deo,1.0,mot lu,désignation de Dieu
+73.0,Spiritus,spiritus,1.0,mot lu,âme humaine (non doctrinal)
+73.0,sanctus / sancti,sanctis,1.0,mot lu,saints (communion des saints)
+73.0,dormitio / dormire,dormit,1.0,mot lu,repos et sommeil de la mort
+73.0,requiescere / quiescere,quiescis,1.0,mot lu,repos et sommeil de la mort
+73.0,requiescere / quiescere,quiescis,1.0,mot lu,repos et sommeil de la mort
+73.0,lux / caelum / astra,caelo,4.0,entièrement restitué,allusion interprétative (niveau 5)
+73.0,lux / caelum / astra,lumine,1.0,mot lu,allusion interprétative (niveau 5)
+78.0,requiescere / quiescere,quiescit,3.0,partiellement restitué,repos et sommeil de la mort
+80.0,anthroponyme théophore,theodora,6.0,anthroponyme,anthroponyme (niveau 6)
+85.0,Dominus (sens religieux),domino,1.0,mot lu,désignation de Dieu
+101.0,Dominus (sens religieux),domini,3.0,partiellement restitué,Dominus (référent indéterminé)
+102.0,requiescere / quiescere,quiescet,1.0,mot lu,repos et sommeil de la mort
+104.0,Deus,dei,3.0,partiellement restitué,désignation de Dieu
+110.0,anthroponyme théophore,theofila,6.0,anthroponyme,anthroponyme (niveau 6)
+112.0,anthroponyme théophore,quodvuldeus,6.0,anthroponyme,anthroponyme (niveau 6)
+115.0,fidelis / fides,fidelis,1.0,mot lu,initiation et foi
+125.0,requiescere / quiescere,Quiesces,1.0,mot lu,repos et sommeil de la mort
+133.0,sanctus / sancti,sanctae,1.0,mot lu,épithète du défunt (non doctrinal)
+133.0,fidelis / fides,fidei,1.0,mot lu,initiation et foi
+134.0,dormitio / dormire,Dormitio,1.0,mot lu,repos et sommeil de la mort
+134.0,dormitio / dormire,dormitio,1.0,mot lu,repos et sommeil de la mort
+140.0,Christus,Christi,2.0,développé d’une abréviation,désignation du Christ
+145.0,neophytus,neofyto,1.0,mot lu,initiation et foi
+145.0,requiescere / quiescere,requiescit,1.0,mot lu,repos et sommeil de la mort
+151.0,Christus,Christi,2.0,développé d’une abréviation,désignation du Christ
+152.0,redemptio,redemptum,3.0,partiellement restitué,allusion interprétative (niveau 5)
+152.0,redemptio,redemptus,1.0,mot lu,allusion interprétative (niveau 5)
+172.0,neophytus,neofyta,1.0,mot lu,initiation et foi
+179.0,dormitio / dormire,dormientes,3.0,partiellement restitué,repos et sommeil de la mort
+201.0,christianus,Christianae,1.0,mot lu,identité chrétienne (christianus)
+203.0,requiescere / quiescere,quiescit,1.0,mot lu,repos et sommeil de la mort
+204.0,requiescere / quiescere,quiescit,1.0,mot lu,repos et sommeil de la mort
+204.0,lux / caelum / astra,Caelia,1.0,mot lu,allusion interprétative (niveau 5)
+210.0,neophytus,neofyto,1.0,mot lu,initiation et foi
+211.0,sanctus / sancti,sancto,1.0,mot lu,épithète du défunt (non doctrinal)
+213.0,requiescere / quiescere,quiescit,2.0,développé d’une abréviation,repos et sommeil de la mort
+213.0,anthroponyme théophore,theodora,6.0,anthroponyme,anthroponyme (niveau 6)
+214.0,Deus,dei,1.0,mot lu,désignation de Dieu
+214.0,"intercession (orare, orationes, rogare)",ora,1.0,mot lu,intercession
+214.0,requiescere / quiescere,quiescit,1.0,mot lu,repos et sommeil de la mort
+214.0,ancilla dei / homo dei,ancilla dei,1.0,mot lu,désignation de Dieu
+231.0,fidelis / fides,fidelis,1.0,mot lu,initiation et foi
+231.0,requiescere / quiescere,quiescis,1.0,mot lu,repos et sommeil de la mort
+232.0,Dominus (sens religieux),in domino,2.0,développé d’une abréviation,désignation de Dieu,abréviation au développement incertain : dom(ino?)
+232.0,sanctus / sancti,sanctorum,1.0,mot lu,saints (communion des saints)
+233.0,neophytus,neofyto,1.0,mot lu,initiation et foi
+244.0,lux / caelum / astra,aetheriam,1.0,mot lu,allusion interprétative (niveau 5)
+244.0,lux / caelum / astra,caeli,1.0,mot lu,allusion interprétative (niveau 5)
+249.0,Spiritus,spiritum,1.0,mot lu,Esprit saint
+249.0,sanctus / sancti,sanctum,3.0,partiellement restitué,Esprit saint
+258.0,requiescere / quiescere,requiescunt,1.0,mot lu,repos et sommeil de la mort
+276.0,neophytus,neofytus,1.0,mot lu,initiation et foi
+278.0,fidelis / fides,fidelis,1.0,mot lu,initiation et foi
+297.0,anthroponyme théophore,adeodatae,6.0,anthroponyme,anthroponyme (niveau 6)
+306.0,Deus,dei,1.0,mot lu,désignation de Dieu
+306.0,Christus,Christi,3.0,partiellement restitué,désignation du Christ
+306.0,Christus,Christi,1.0,mot lu,désignation du Christ
+306.0,fidelis / fides,fidem,1.0,mot lu,initiation et foi
+306.0,fidelis / fides,fidem,1.0,mot lu,initiation et foi
+306.0,fidelis / fides,fidei,1.0,mot lu,initiation et foi
+306.0,ancilla dei / homo dei,ancilla dei,1.0,mot lu,désignation de Dieu
+308.0,neophytus,neofytus,1.0,mot lu,initiation et foi
+309.0,lux / caelum / astra,luce,1.0,mot lu,allusion interprétative (niveau 5)
+310.0,sanctus / sancti,sanctissimae,3.0,partiellement restitué,épithète du défunt (non doctrinal)
+311.0,Christus,Christo,2.0,développé d’une abréviation,désignation du Christ
+330.0,sanctus / sancti,sanctis,2.0,développé d’une abréviation,saints (communion des saints)
+333.0,requiescere / quiescere,requiescet,1.0,mot lu,repos et sommeil de la mort
+348.0,ἅγιοι,ἁγίων,1.0,mot lu,saints (communion des saints)
+352.0,Christus,Christum,3.0,partiellement restitué,désignation du Christ
+352.0,lux / caelum / astra,lucis,1.0,mot lu,allusion interprétative (niveau 5)
+370.0,requiescere / quiescere,quiescit,3.0,partiellement restitué,repos et sommeil de la mort
+371.0,requiescere / quiescere,quiescit,1.0,mot lu,repos et sommeil de la mort
+374.0,requiescere / quiescere,requiescit,1.0,mot lu,repos et sommeil de la mort
+378.0,requiescere / quiescere,quiescit,1.0,mot lu,repos et sommeil de la mort
+382.0,Deus,dei,4.0,entièrement restitué,désignation de Dieu
+382.0,fidelis / fides,fides,1.0,mot lu,initiation et foi
+382.0,pausare,pausat,4.0,entièrement restitué,repos et sommeil de la mort
+382.0,lux / caelum / astra,caelestis,1.0,mot lu,allusion interprétative (niveau 5)
+382.0,lux / caelum / astra,caelo,1.0,mot lu,allusion interprétative (niveau 5)
+388.0,requiescere / quiescere,requiescit,1.0,mot lu,repos et sommeil de la mort
+388.0,anthroponyme théophore,quodvultdeus,6.0,anthroponyme,anthroponyme (niveau 6)
+391.0,fidelis / fides,fidei,3.0,partiellement restitué,initiation et foi
+391.0,fidelis / fides,fidelis,1.0,mot lu,initiation et foi
+391.0,neophytus,neofytus,1.0,mot lu,initiation et foi
+391.0,requiescere / quiescere,quiescit,1.0,mot lu,repos et sommeil de la mort
+399.0,sanctus / sancti,Sanctae,1.0,mot lu,épithète du défunt (non doctrinal)
+399.0,lux / caelum / astra,Caelestinae,1.0,mot lu,allusion interprétative (niveau 5)
+400.0,Dominus (sens religieux),domini,1.0,mot lu,désignation de Dieu
+400.0,Spiritus,spiritus,1.0,mot lu,âme humaine (non doctrinal)
+400.0,dormitio / dormire,dormit,1.0,mot lu,repos et sommeil de la mort
+400.0,lux / caelum / astra,luce,1.0,mot lu,allusion interprétative (niveau 5)
+404.0,requiescere / quiescere,quiescit,1.0,mot lu,repos et sommeil de la mort
+405.0,catechumenus,catechumino,1.0,mot lu,initiation et foi
+405.0,requiescere / quiescere,quiescenti,1.0,mot lu,repos et sommeil de la mort
+421.0,requiescere / quiescere,quiescit,3.0,partiellement restitué,repos et sommeil de la mort
+428.0,sanctus / sancti,sanctus,4.0,entièrement restitué,Église (épithète)
+428.0,ecclesia,ecclesiae,4.0,entièrement restitué,vocabulaire ecclésial
+428.0,requiescere / quiescere,quiescit,3.0,partiellement restitué,repos et sommeil de la mort
+429.0,requiescere / quiescere,requiescit,4.0,entièrement restitué,repos et sommeil de la mort
+433.0,lux / caelum / astra,astris,4.0,entièrement restitué,allusion interprétative (niveau 5)
+433.0,lux / caelum / astra,astra,4.0,entièrement restitué,allusion interprétative (niveau 5)
+446.0,requiescere / quiescere,quiescas,2.0,développé d’une abréviation,repos et sommeil de la mort
+447.0,Deus (grec),θεὸν,4.0,entièrement restitué,désignation de Dieu
+447.0,παντοκράτωρ,παντοκράτορα,3.0,partiellement restitué,désignation de Dieu
+447.0,resurrectio / ἀνάστασις,ἀναστάσεως,4.0,entièrement restitué,résurrection
+450.0,requiescere / quiescere,quiescit,1.0,mot lu,repos et sommeil de la mort
+457.0,"intercession (orare, orationes, rogare)",orationibus,3.0,partiellement restitué,intercession
+458.0,Deus,dei,1.0,mot lu,désignation de Dieu
+458.0,Christus,Christi,2.0,développé d’une abréviation,désignation du Christ
+458.0,pausare,pausavit,1.0,mot lu,repos et sommeil de la mort
+458.0,ancilla dei / homo dei,ancilla dei,1.0,mot lu,désignation de Dieu
+460.0,requiescere / quiescere,requiescit,1.0,mot lu,repos et sommeil de la mort
+464.0,dormitio / dormire,dormit,3.0,partiellement restitué,repos et sommeil de la mort
+464.0,requiescere / quiescere,requiescit,3.0,partiellement restitué,repos et sommeil de la mort
+464.0,pausare,pausavit,3.0,partiellement restitué,repos et sommeil de la mort
+467.0,requiescere / quiescere,requiescit,1.0,mot lu,repos et sommeil de la mort
+474.0,Deus,dei,1.0,mot lu,désignation de Dieu
+474.0,Trinitas,trinitatem,1.0,mot lu,mention de la Trinité
+474.0,requiescere / quiescere,requiescet,1.0,mot lu,repos et sommeil de la mort
+474.0,ancilla dei / homo dei,homo dei,1.0,mot lu,désignation de Dieu
+475.0,Deus,deus,1.0,mot lu,désignation de Dieu
+475.0,Deus,deus,1.0,mot lu,désignation de Dieu

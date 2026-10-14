@@ -1,0 +1,19 @@
+n,année,mention,quantième rattaché,date (a/m/j),concordant,concordant pour
+7.0,343.0,die Martis,III Nonas Iulias,343/7/5,True
+55.0,359.0,die Veneris,XI Kalendas Iulias,359/6/21,False
+118.0,367.0,die Martis
+122.0,367.0,die Martis, Nonis Iuniis,367/6/5,True
+126.0,368.0,die Saturnis,III Idus Augustas,368/8/11,False,350
+126.0,368.0,die Saturnis,VII Idus Decembres,368/12/7,False
+128.0,368.0,die Martis,XV Kalendas Decembres,368/11/17,False
+131.0,368.0,die Veneris,pridie Nonas Martias,368/3/6,False
+169.0,373.0,die Lunae,XV Kalendas Apriles,373/3/18,True
+275.0,385.0,die Lunae,VI Idus Martia,385/3/10,True
+287.0,386.0,die Solis,X Kalendas Septembres,386/8/23,True
+349.0,392.0,die Veneris,XV Kalendas Octobres,392/9/17,True
+381.0,395.0,die Saturni,III Idus Maias,395/5/13,False
+381.0,395.0,die Lunae,XII Kalendas Iunias,395/5/21,True
+416.0,397.0,die Veneris,tertium Kalendas Iulias,397/6/29,False
+428.0,398.0,die Saturni,XV Kalendas Ianuarias,398/12/18,True
+431.0,399.0,die Veneris,septimum Kalendas Septembres,399/8/26,True
+462.0,402.0,die Saturni

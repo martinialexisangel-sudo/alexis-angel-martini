@@ -1,0 +1,16 @@
+champ,définition
+annee_edcs,"fourchette « dating_from–dating_to » de l’EDCS (état 2022, sinon 2020)"
+annee_catalogue,année du catalogue v1.0
+annee_texte,année compatible avec les consuls lus (si unique ou concordante)
+annee_retenue,"année utilisée dans les analyses v2, avec justification"
+datation_mode,"directe (consulat lu) / indirecte (base) / directe, discordante"
+genre,épitaphe ; mixte (épitaphe et acte d’achat) ; acte d’achat ou de réservation ; non funéraire
+in_pace_texte,"« in pace » présent dans le texte de base, y compris restitutions et coupure de ligne"
+in_pace_conservee,au moins une occurrence dont toutes les lettres sont conservées
+in_pace_restitution,présent seulement avec restitution (partielle ou totale)
+in_pace_multiligne,occurrence répartie sur deux lignes
+niveau (termes),1 lu ; 2 développé d’une abréviation ; 3 partiellement restitué ; 4 entièrement restitué ; 5 allusion interprétative (champ « emploi ») ; 6 anthroponyme
+rang_senatorial_defunt,clarissimat d’une personne commémorée (hors titulature des consuls)
+titulature_consulaire_vc,nombre d’occurrences de v.c. se rapportant aux consuls
+ratio_restitue,lettres restituées / lettres conservées + restituées (développements exclus)
+corpus_B / C,voir Lisez-moi

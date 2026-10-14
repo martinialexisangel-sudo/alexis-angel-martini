@@ -1,0 +1,215 @@
+n,rang dans le texte,années,mois,jours,heures,plus minus,certitude
+1.0,1.0,28.0,2.0,,,False,partiellement restitué
+4.0,1.0,40.0,,,,False,lu
+7.0,1.0,30.0,,,,False,lu
+9.0,1.0,19.0,8.0,14.0,,False,lu
+10.0,1.0,26.0,,,,False,partiellement restitué
+15.0,1.0,30.0,,93.0,,False,lu
+16.0,1.0,2.0,3.0,20.0,,False,lu
+17.0,1.0,5.0,5.0,15.0,,False,lu
+19.0,1.0,,,21.0,,False,partiellement restitué
+19.0,2.0,,,22.0,,False,lu
+20.0,1.0,,,9.0,,False,lu
+21.0,1.0,35.0,2.0,10.0,,False,partiellement restitué
+28.0,1.0,7.0,8.0,3.0,,False,partiellement restitué
+29.0,1.0,75.0,3.0,,,False,partiellement restitué
+33.0,1.0,65.0,3.0,11.0,,False,lu
+34.0,1.0,29.0,9.0,9.0,,False,lu
+35.0,1.0,2.0,11.0,2.0,,False,lu
+38.0,1.0,53.0,8.0,2.0,,False,lu
+41.0,1.0,37.0,,,,False,lu
+42.0,1.0,22.0,3.0,19.0,,False,lu
+45.0,1.0,25.0,4.0,,,False,partiellement restitué
+49.0,1.0,34.0,,,,False,lu
+53.0,1.0,32.0,8.0,,,False,partiellement restitué
+54.0,1.0,35.0,2.0,,,False,lu
+55.0,1.0,19.0,3.0,6.0,,False,partiellement restitué
+57.0,1.0,,11.0,,,False,partiellement restitué
+59.0,1.0,11.0,4.0,13.0,,False,lu
+60.0,1.0,26.0,,,,False,lu
+61.0,1.0,7.0,6.0,18.0,,False,lu
+64.0,1.0,16.0,,,,False,partiellement restitué
+67.0,1.0,73.0,,,,True,partiellement restitué
+68.0,1.0,12.0,1.0,15.0,,False,lu
+70.0,1.0,20.0,,,,False,lu
+72.0,1.0,28.0,6.0,12.0,,False,lu
+73.0,1.0,75.0,2.0,10.0,,True,partiellement restitué
+74.0,1.0,,,15.0,,False,partiellement restitué
+75.0,1.0,40.0,,,,True,partiellement restitué
+76.0,1.0,,2.0,,,False,partiellement restitué
+81.0,1.0,21.0,2.0,6.0,,False,lu
+83.0,1.0,14.0,6.0,22.0,,True,partiellement restitué
+84.0,1.0,,4.0,10.0,,False,partiellement restitué
+85.0,1.0,23.0,4.0,,,False,partiellement restitué
+88.0,1.0,52.0,,8.0,,False,partiellement restitué
+90.0,1.0,35.0,5.0,,,False,lu
+91.0,1.0,50.0,8.0,8.0,,False,lu
+92.0,1.0,16.0,6.0,4.0,,False,partiellement restitué
+94.0,1.0,9.0,3.0,26.0,,False,lu
+95.0,1.0,,8.0,10.0,,False,lu
+97.0,1.0,8.0,,,,False,lu
+99.0,1.0,21.0,,,,False,lu
+100.0,1.0,7.0,10.0,21.0,,False,lu
+102.0,1.0,19.0,7.0,6.0,,False,lu
+109.0,1.0,37.0,,,,False,lu
+111.0,1.0,20.0,,,,False,lu
+115.0,1.0,27.0,8.0,,,True,lu
+116.0,1.0,27.0,,,,False,partiellement restitué
+117.0,1.0,11.0,9.0,,,False,lu
+118.0,1.0,24.0,,,2.0,False,lu
+119.0,1.0,14.0,,9.0,,False,lu
+124.0,1.0,2.0,6.0,15.0,,False,lu
+125.0,1.0,,7.0,28.0,,False,partiellement restitué
+126.0,1.0,19.0,3.0,26.0,,False,lu
+127.0,1.0,25.0,,26.0,,True,partiellement restitué
+128.0,1.0,6.0,11.0,16.0,,False,lu
+132.0,1.0,30.0,6.0,7.0,,False,lu
+133.0,1.0,3.0,10.0,,,False,lu
+133.0,2.0,32.0,,,,False,lu
+136.0,1.0,30.0,,6.0,,False,lu
+140.0,1.0,28.0,,,,False,lu
+142.0,1.0,19.0,,59.0,,False,partiellement restitué
+143.0,1.0,6.0,6.0,8.0,,False,lu
+144.0,1.0,62.0,,,,True,lu
+145.0,1.0,9.0,,15.0,,False,lu
+146.0,1.0,72.0,,,,True,lu
+147.0,1.0,60.0,8.0,8.0,,False,lu
+151.0,1.0,2.0,2.0,17.0,,False,lu
+156.0,1.0,4.0,7.0,5.0,,True,lu
+157.0,1.0,8.0,4.0,12.0,,False,lu
+158.0,1.0,45.0,,,,False,partiellement restitué
+166.0,1.0,18.0,2.0,9.0,,False,lu
+167.0,1.0,25.0,,,,True,partiellement restitué
+169.0,1.0,55.0,,27.0,,False,lu
+172.0,1.0,8.0,,3.0,,False,lu
+181.0,1.0,17.0,6.0,21.0,,False,partiellement restitué
+182.0,1.0,23.0,,,,False,partiellement restitué
+183.0,1.0,19.0,,,,True,lu
+184.0,1.0,31.0,10.0,5.0,,False,lu
+185.0,1.0,48.0,4.0,16.0,,False,lu
+186.0,1.0,22.0,,27.0,,False,partiellement restitué
+188.0,1.0,77.0,,11.0,,False,partiellement restitué
+189.0,1.0,,6.0,12.0,,False,partiellement restitué
+191.0,1.0,38.0,,,,False,lu
+193.0,1.0,30.0,,12.0,,True,lu
+196.0,1.0,,2.0,12.0,,False,partiellement restitué
+197.0,1.0,4.0,,,,False,lu
+198.0,1.0,38.0,,,,False,partiellement restitué
+200.0,1.0,15.0,,,,False,lu
+202.0,1.0,46.0,7.0,9.0,,False,lu
+203.0,1.0,,,3.0,,False,partiellement restitué
+210.0,1.0,5.0,,,,True,lu
+211.0,1.0,1.0,8.0,8.0,,False,partiellement restitué
+221.0,1.0,5.0,4.0,,,False,partiellement restitué
+223.0,1.0,40.0,,,,True,lu
+225.0,1.0,40.0,,4.0,,True,lu
+230.0,1.0,,7.0,,,False,partiellement restitué
+231.0,1.0,1.0,4.0,,,False,lu
+235.0,1.0,4.0,8.0,4.0,,False,lu
+236.0,1.0,12.0,,,,False,partiellement restitué
+236.0,2.0,11.0,,,,False,partiellement restitué
+237.0,1.0,66.0,,,,False,partiellement restitué
+244.0,1.0,16.0,10.0,25.0,,False,lu
+246.0,1.0,11.0,,,,False,partiellement restitué
+251.0,1.0,10.0,2.0,6.0,,False,partiellement restitué
+255.0,1.0,5.0,3.0,,,False,lu
+257.0,1.0,,1.0,20.0,,True,partiellement restitué
+259.0,1.0,12.0,6.0,,,False,partiellement restitué
+260.0,1.0,15.0,6.0,20.0,,False,lu
+261.0,1.0,,10.0,,,False,partiellement restitué
+264.0,1.0,60.0,,,,False,partiellement restitué
+268.0,1.0,65.0,6.0,12.0,,False,partiellement restitué
+269.0,1.0,24.0,,,,False,lu
+271.0,1.0,80.0,,3.0,,True,lu
+272.0,1.0,32.0,,,,False,partiellement restitué
+275.0,1.0,70.0,,,,True,lu
+276.0,1.0,28.0,5.0,15.0,,True,lu
+278.0,1.0,10.0,6.0,24.0,,False,partiellement restitué
+280.0,1.0,60.0,,,,True,partiellement restitué
+282.0,1.0,25.0,2.0,27.0,,False,lu
+286.0,1.0,55.0,,,,False,partiellement restitué
+288.0,1.0,25.0,2.0,27.0,,False,lu
+292.0,1.0,2.0,3.0,7.0,,False,lu
+296.0,1.0,25.0,,,,True,lu
+297.0,1.0,18.0,5.0,,,False,lu
+298.0,1.0,3.0,3.0,8.0,,False,lu
+299.0,1.0,1.0,4.0,11.0,,False,lu
+301.0,1.0,3.0,3.0,13.0,,False,lu
+303.0,1.0,1.0,5.0,,,False,lu
+304.0,1.0,25.0,,,,True,lu
+305.0,1.0,,,20.0,,False,partiellement restitué
+306.0,1.0,50.0,,,,False,lu
+306.0,2.0,70.0,,4.0,,False,lu
+308.0,1.0,,8.0,,,False,lu
+310.0,1.0,42.0,3.0,10.0,,False,lu
+317.0,1.0,35.0,,,,True,partiellement restitué
+317.0,2.0,13.0,,,,True,partiellement restitué
+318.0,1.0,9.0,,,,False,partiellement restitué
+322.0,1.0,25.0,,15.0,,False,partiellement restitué
+324.0,1.0,25.0,8.0,17.0,,False,lu
+330.0,1.0,5.0,1.0,5.0,,False,partiellement restitué
+332.0,1.0,,3.0,,,False,partiellement restitué
+335.0,1.0,,7.0,5.0,,False,partiellement restitué
+336.0,1.0,65.0,,,,False,lu
+337.0,1.0,41.0,5.0,2.0,,True,partiellement restitué
+343.0,1.0,46.0,,,,False,partiellement restitué
+346.0,1.0,26.0,,,,False,lu
+347.0,1.0,7.0,5.0,27.0,,False,lu
+349.0,1.0,2.0,11.0,,,False,lu
+351.0,1.0,31.0,,16.0,,True,lu
+353.0,1.0,80.0,2.0,,,False,lu
+354.0,1.0,28.0,,,,False,partiellement restitué
+359.0,1.0,,7.0,,,False,partiellement restitué
+361.0,1.0,14.0,,,,True,partiellement restitué
+364.0,1.0,5.0,,,,False,partiellement restitué
+365.0,1.0,28.0,9.0,,,False,lu
+366.0,1.0,5.0,7.0,,,False,lu
+368.0,1.0,30.0,,,,False,lu
+371.0,1.0,2.0,,,,False,lu
+372.0,1.0,50.0,,,,False,lu
+373.0,1.0,,,5.0,,False,partiellement restitué
+374.0,1.0,65.0,,,,False,partiellement restitué
+375.0,1.0,13.0,,,,False,partiellement restitué
+376.0,1.0,25.0,,,,True,lu
+381.0,1.0,28.0,,,,False,lu
+381.0,2.0,27.0,,,,False,lu
+382.0,1.0,25.0,,,,False,partiellement restitué
+383.0,1.0,45.0,,,,True,lu
+388.0,1.0,57.0,,5.0,,False,lu
+389.0,1.0,11.0,,,,True,partiellement restitué
+390.0,1.0,53.0,,,,False,partiellement restitué
+391.0,1.0,42.0,,,,False,lu
+396.0,1.0,70.0,,15.0,,True,partiellement restitué
+398.0,1.0,54.0,,,,False,lu
+399.0,1.0,20.0,1.0,22.0,,False,lu
+399.0,2.0,23.0,9.0,28.0,,False,lu
+400.0,1.0,50.0,,17.0,,True,lu
+402.0,1.0,3.0,7.0,,,False,partiellement restitué
+403.0,1.0,45.0,,,,True,lu
+404.0,1.0,5.0,,,,False,lu
+405.0,1.0,60.0,,,,True,lu
+409.0,1.0,1.0,1.0,17.0,,False,lu
+410.0,1.0,5.0,5.0,,,False,partiellement restitué
+411.0,1.0,20.0,,,,False,lu
+416.0,1.0,13.0,,,,False,partiellement restitué
+418.0,1.0,65.0,,,,True,lu
+419.0,1.0,35.0,,,,True,lu
+420.0,1.0,,,9.0,,False,partiellement restitué
+421.0,1.0,21.0,,,,False,partiellement restitué
+423.0,1.0,,3.0,16.0,,False,partiellement restitué
+425.0,1.0,7.0,,,,False,partiellement restitué
+427.0,1.0,80.0,,2.0,,False,partiellement restitué
+428.0,1.0,22.0,,,,True,partiellement restitué
+429.0,1.0,,,5.0,,True,partiellement restitué
+431.0,1.0,4.0,,,,False,partiellement restitué
+433.0,1.0,,9.0,6.0,,False,partiellement restitué
+443.0,1.0,40.0,,,,True,lu
+446.0,1.0,60.0,,,,True,lu
+448.0,1.0,28.0,,,,False,lu
+453.0,1.0,2.0,,,,True,partiellement restitué
+455.0,1.0,33.0,3.0,5.0,,True,partiellement restitué
+461.0,1.0,63.0,,20.0,,False,partiellement restitué
+463.0,1.0,4.0,,35.0,,False,lu
+466.0,1.0,60.0,6.0,,,False,lu
+467.0,1.0,7.0,,,,False,partiellement restitué
+468.0,1.0,20.0,,,,False,partiellement restitué

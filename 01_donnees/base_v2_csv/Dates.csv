@@ -1,0 +1,261 @@
+n,année retenue,expression,date julienne,certitude,événement (indice contextuel)
+1.0,340.0,… Nonas Augustas,,partiellement restitué,déposition
+4.0,341.0,pridie Idus Apriles,12 avril,lu,déposition
+5.0,342.0,… Nonas Septembres,,partiellement restitué,indéterminé
+7.0,343.0,III Nonas Iulias,5 juillet,partiellement restitué,indéterminé
+9.0,343.0,XVII Kalendas Decembres,15 novembre,lu,indéterminé
+10.0,344.0,… Nonas Maias,,restitué,décès
+12.0,352.0,XIIII Kalendas Augustas,19 juillet,lu,déposition
+15.0,346.0,XVII Kalendas Iulias,15 juin,lu,naissance
+15.0,346.0,XVII Kalendas Octobres,15 septembre,lu,décès
+16.0,346.0,pridie Idus Septembres,12 septembre,lu,déposition
+17.0,346.0,VI Kalendas Septembres,27 août,lu,déposition
+19.0,347.0,VI Idus Iulias,10 juillet,lu,décès
+20.0,347.0,die VIIII Kalendas Martias,21 février,lu,indéterminé
+20.0,347.0,VIII Kalendas Martias,22 février,lu,déposition
+22.0,348.0,diem quartum Nonas Augustas,2 août,lu,déposition
+23.0,348.0,XIII Kalendas Decembres,19 novembre,partiellement restitué,déposition
+24.0,348.0,… Idus Ianuarias,,partiellement restitué,indéterminé
+26.0,348.0,III Kalendas Apriles,30 mars,lu,déposition
+27.0,348.0,IIII Idus Iulias,12 juillet,lu,décès
+28.0,348.0,die III Kalendas Februarias,30 janvier,partiellement restitué,décès
+29.0,348.0,Kalendas Maias,1 mai,partiellement restitué,déposition
+33.0,349.0,Idus Ianuarias,13 janvier,lu,indéterminé
+34.0,350.0,VII Idus Iulias,9 juillet,lu,déposition
+35.0,350.0,XVIII Kalendas Septembres,15 août,lu,déposition
+38.0,352.0,IIII Nonas  Februarias,2 février,lu,déposition
+41.0,355.0,V Idus  Octobres,11 octobre,lu,déposition
+42.0,355.0,Kalendas Iulias,1 juillet,lu,indéterminé
+46.0,356.0,pridie Kalendas Martias,29 février,partiellement restitué,déposition
+47.0,357.0,VII Idus Septembres,7 septembre,lu,déposition
+48.0,357.0,VI Idus Februarias,8 février,lu,déposition
+49.0,358.0,XI Kalendas Augustas,22 juillet,lu,déposition
+50.0,358.0,Nonis Iuniis,5 juin,lu,déposition
+51.0,358.0,… Nonas Februarias,,partiellement restitué,indéterminé
+54.0,359.0,V Idus Iunias,9 juin,lu,indéterminé
+55.0,359.0,XI Kalendas Iulias,21 juin,lu,naissance
+55.0,359.0,V Kalendas Octobres,27 septembre,lu,déposition
+56.0,360.0,XIIII Kalendas Ianuarias,19 décembre,lu,décès
+57.0,360.0,Nonas Maias,7 mai,partiellement restitué,déposition
+58.0,360.0,VIIII Kalendas Maias,23 avril,lu,indéterminé
+59.0,361.0,XI Kalendas Augustas,22 juillet,lu,déposition
+60.0,361.0,VIII Idus Octobres,8 octobre,lu,déposition
+63.0,362.0,XV Kalendas Augustas,18 juillet,lu,déposition
+66.0,362.0,IIX Kalendas Decembres,22 novembre,lu,indéterminé
+67.0,362.0,XIII Kalendas Iunias,20 mai,lu,déposition
+68.0,362.0,pridie Kalendas Septembres,31 août,lu,déposition
+69.0,362.0,… Idus Septembres,,partiellement restitué,déposition
+70.0,362.0,Idibus Iuliis,15 juillet,lu,décès
+72.0,362.0,V Kalendas Februarias,28 janvier,lu,indéterminé
+73.0,363.0,IIII Kalendas Iunias,29 mai,lu,déposition
+75.0,363.0,III Idus Maias,13 mai,lu,déposition
+76.0,363.0,IIII Nonas Februarias,2 février,lu,déposition
+78.0,363.0,die III Kalendas Octobres,29 septembre,lu,déposition
+80.0,363.0,die pridie Nonas  Septembres,,lu,décès
+81.0,363.0,die VI Idus Decembres,8 décembre,lu,déposition
+83.0,364.0,III Idus Novembres,11 novembre,lu,déposition
+84.0,364.0,VII Kalendas Octobres,25 septembre,partiellement restitué,déposition
+85.0,364.0,III Kalendas Apriles,30 mars,lu,déposition
+89.0,364.0,XI Kalendas Martias,19 février,partiellement restitué,indéterminé
+90.0,364.0,III Kalendas Iulias,29 juin,lu,déposition
+91.0,364.0,… Kalendas Septembres,,partiellement restitué,déposition
+92.0,365.0,… Idus Augustas,,partiellement restitué,décès
+94.0,365.0,V Kalendas Iunias,28 mai,lu,indéterminé
+95.0,365.0,X Kalendis Iuliis,22 juin,lu,indéterminé
+97.0,365.0,Kalendis Iuniis,1 juin,lu,déposition
+97.0,365.0,VI Idus Octobres,10 octobre,lu,déposition
+99.0,366.0,III Kalendas Decembres,29 novembre,lu,déposition
+100.0,366.0,die VIIII Kalendas Octobres,23 septembre,lu,déposition
+102.0,366.0,VII Kalendas Februarias,26 janvier,lu,indéterminé
+105.0,366.0,XI Kalendas Iulias,21 juin,lu,déposition
+106.0,367.0,… III Idus Maias,13 mai,partiellement restitué,indéterminé
+109.0,367.0,XIIII Kalendas  Martias,16 février,lu,déposition
+111.0,367.0,VIIII Kalendas Maias,23 avril,lu,déposition
+115.0,367.0,Nonis Septembribus,5 septembre,lu,déposition
+117.0,367.0,VI Kalendas Octobres,26 septembre,lu,déposition
+119.0,367.0,X Kalendas  Novembres,23 octobre,lu,décès
+119.0,367.0,VIII Kalendas Novembres,25 octobre,lu,déposition
+120.0,367.0,…III Idus Maias,13 mai,partiellement restitué,décès
+122.0,367.0,Nonis Iuniis,5 juin,partiellement restitué,déposition
+124.0,367.0,XV Kalendas Iunias,18 mai,lu,déposition
+125.0,368.0,IIII Nonas Octrobres,4 octobre,lu,déposition
+126.0,368.0,III Idus Augustas,11 août,lu,indéterminé
+126.0,368.0,VII Idus Decembres,7 décembre,lu,indéterminé
+127.0,368.0,Kalendis Februariis,1 février,lu,déposition
+128.0,368.0,XV Kalendas Decembres,17 novembre,lu,déposition
+131.0,368.0,pridie Nonas Martias,6 mars,lu,déposition
+132.0,369.0,V Nonas Octobres,3 octobre,lu,déposition
+133.0,369.0,XIII Kalendas Septembres,20 août,lu,déposition
+134.0,369.0,Kalendis Februariis,1 février,lu,indéterminé
+134.0,369.0,XIII Kalendas Maias,19 avril,lu,indéterminé
+134.0,369.0,V Idus Martias,11 mars,lu,indéterminé
+134.0,369.0,IIII Kalendas Novembres,29 octobre,partiellement restitué,déposition
+134.0,369.0,IIII Nonas Octobres,4 octobre,lu,indéterminé
+136.0,370.0,die VI Kalendas  Apriles,27 mars,lu,décès
+137.0,370.0,XIIII Kalendas Septembres,19 août,lu,déposition
+139.0,370.0,Nonis Septembribus,5 septembre,partiellement restitué,déposition
+140.0,370.0,XII Kalendas  Septembres,21 août,lu,déposition
+142.0,370.0,Idus Octobres,15 octobre,lu,déposition
+143.0,371.0,pridie Kalendas Maias,30 avril,lu,déposition
+144.0,371.0,VII Idus Martias,9 mars,lu,décès
+146.0,371.0,XVI Kalendas Octobres,16 septembre,lu,déposition
+147.0,371.0,tertium Nonas Februarias,3 février,lu,indéterminé
+151.0,371.0,XV Kalendas Augustas,18 juillet,lu,déposition
+152.0,371.0,die XVI Kalendas Septembres,17 août,partiellement restitué,déposition
+154.0,371.0,IIII Kalendas Octobres,28 septembre,lu,déposition
+155.0,372.0,IIII Nonas Decembres,2 décembre,lu,déposition
+156.0,372.0,VII Idus Maias,9 mai,lu,déposition
+157.0,372.0,XV Kalendas Septembres,18 août,lu,indéterminé
+161.0,372.0,… Kalendas Septembres,,partiellement restitué,indéterminé
+166.0,373.0,X Kalendas Septembres,23 août,lu,déposition
+169.0,373.0,XV Kalendas Apriles,18 mars,lu,déposition
+170.0,373.0,… Idus Iulias,,partiellement restitué,indéterminé
+171.0,373.0,… die IIII Kalendas Decembres,28 novembre,partiellement restitué,déposition
+172.0,374.0,III Nonas Maias,5 mai,lu,déposition
+177.0,374.0,… Kalendas Octobres,,partiellement restitué,indéterminé
+179.0,375.0,die V Nonas Maias,3 mai,lu,déposition
+182.0,375.0,… Idus Maias,,partiellement restitué,indéterminé
+183.0,375.0,VI Kalendas  Decembres,26 novembre,lu,déposition
+184.0,375.0,Kalendis Novembribus,1 novembre,lu,achat
+185.0,375.0,VI Kalendas Martias,24 février,lu,déposition
+186.0,375.0,XII Kalendas Decembres,20 novembre,lu,indéterminé
+187.0,375.0,… Kalendas Ianuarias,,restitué,déposition
+188.0,375.0,IIII Idus Ianuarias,10 janvier,lu,déposition
+190.0,376.0,…I Kalendas Novembres,1 novembre,partiellement restitué,indéterminé
+191.0,376.0,V Kalendas  Octobres,27 septembre,lu,déposition
+193.0,376.0,die tertium Idus Decembres,11 décembre,lu,décès
+194.0,376.0,XVII Kalendas Decembres,15 novembre,lu,décès
+197.0,377.0,X Kalendas Apriles,23 mars,lu,décès
+198.0,377.0,XV Kalendas Iulias,17 juin,lu,indéterminé
+200.0,377.0,VII Idus Februarias,7 février,lu,indéterminé
+202.0,377.0,X Kalendas Martias,20 février,lu,déposition
+203.0,377.0,die III Nonas Novembres,3 novembre,partiellement restitué,déposition
+206.0,370.0,XVIII Kalendas Octobres,14 septembre,lu,déposition
+208.0,378.0,die pridie Nonas Septembres,,partiellement restitué,déposition
+210.0,379.0,VIII Kalendas Decembres,24 novembre,lu,déposition
+211.0,379.0,Idibus Iuliis,15 juillet,lu,décès
+211.0,379.0,XVII Kalendas Augustas,16 juillet,lu,déposition
+213.0,380.0,X Kalendas Augustas,23 juillet,lu,déposition
+215.0,380.0,… Idus Augustas,,partiellement restitué,indéterminé
+223.0,381.0,pridie Kalendas  Octobres,30 septembre,lu,décès
+226.0,381.0,XVII Kalendas Septembres,16 août,lu,déposition
+231.0,382.0,VI Kalendas Octobres,26 septembre,lu,déposition
+233.0,382.0,XVIIII Kalendas Septembres,14 août,lu,déposition
+235.0,382.0,pridie Nonas Decembres,4 décembre,lu,indéterminé
+244.0,383.0,III Kalendas Ianuarias,30 décembre,lu,déposition
+249.0,383.0,XVI Kalendas  Maias,16 avril,restitué,indéterminé
+250.0,383.0,III Idus  Septembres,11 septembre,lu,indéterminé
+255.0,383.0,III Kalendas Maias,29 avril,lu,déposition
+258.0,383.0,pridie Kalendas Septembres,31 août,lu,décès
+259.0,383.0,Nonas Maias,7 mai,lu,indéterminé
+260.0,384.0,die XII Kalendas Octobres,20 septembre,lu,décès
+262.0,384.0,V Idus Iulias,11 juillet,partiellement restitué,indéterminé
+263.0,384.0,… Idus Septembres,,partiellement restitué,indéterminé
+265.0,384.0,V Idus Novembres,9 novembre,partiellement restitué,indéterminé
+269.0,384.0,VIII Kalendas Decembres,24 novembre,lu,décès
+271.0,384.0,die III Idus Decembres,11 décembre,lu,décès
+272.0,384.0,… Kalendas  Novembres,,restitué,indéterminé
+273.0,384.0,VIII Kalendas Augustas,25 juillet,lu,déposition
+275.0,385.0,VI Idus Martia,10 mars,lu,indéterminé
+276.0,385.0,X Kalendas Iulias,22 juin,lu,indéterminé
+277.0,385.0,X Kalendas Ianuarias,23 décembre,lu,indéterminé
+279.0,385.0,XV Kalendas Ianuarias,18 décembre,lu,déposition
+282.0,386.0,V Nonas Iulias,3 juillet,lu,déposition
+287.0,386.0,X Kalendas Septembres,23 août,restitué,indéterminé
+288.0,386.0,V Nonas Iulias,3 juillet,lu,déposition
+291.0,387.0,… Kalendas Ianuarias,,partiellement restitué,décès
+292.0,387.0,XV Kalendas Octobres,17 septembre,lu,déposition
+295.0,388.0,III Idus Maias,13 mai,lu,indéterminé
+295.0,388.0,pridie Idus Maias,14 mai,lu,déposition
+297.0,388.0,XVI Kalendas Februarias,17 janvier,lu,déposition
+298.0,388.0,IIII Idus Ianuarias,10 janvier,lu,déposition
+300.0,388.0,VIIII Kalendas Augustas,24 juillet,lu,décès
+301.0,388.0,IIIX Kalendas Februarias,22 janvier,lu,déposition
+303.0,388.0,IIII Nonas Martias,4 mars,lu,déposition
+304.0,389.0,XVIII Kalendas Septembres,15 août,lu,déposition
+306.0,389.0,die IIII Nonas Octobres,4 octobre,lu,indéterminé
+308.0,389.0,pridie Nonas  Iunias,4 juin,lu,décès
+309.0,389.0,X Kalendas  Iunias,23 mai,partiellement restitué,décès
+310.0,389.0,IIII Nonas Apriles,2 avril,lu,déposition
+311.0,388.0,VI idus Februarias,8 février,lu,déposition
+313.0,389.0,XV Kalendas Novembres,18 octobre,lu,déposition
+317.0,389.0,Idibus Decembribus,13 décembre,lu,déposition
+318.0,389.0,XII Kalendas Apriles,21 mars,lu,déposition
+319.0,390.0,XII Kalendas Augustas,21 juillet,lu,déposition
+320.0,390.0,XV Kalendas  Augustas,18 juillet,lu,déposition
+321.0,390.0,XIII Kalendas Decembres,19 novembre,restitué,indéterminé
+323.0,390.0,Kalendis Octobribus,1 octobre,lu,déposition
+324.0,390.0,die XVII Kalendas  Septembres,16 août,lu,déposition
+329.0,391.0,V Idus Maias,11 mai,lu,déposition
+330.0,391.0,… Kalendas Iunias,,partiellement restitué,déposition
+331.0,391.0,… Kalendas Octobres,,partiellement restitué,indéterminé
+336.0,391.0,V Idus Maias,11 mai,lu,déposition
+337.0,391.0,Kalendis Februariis,1 février,partiellement restitué,indéterminé
+343.0,392.0,pridie Idus Iulias,14 juillet,partiellement restitué,déposition
+347.0,392.0,Idibus Septembribus,13 septembre,lu,indéterminé
+349.0,392.0,XV Kalendas Octobres,17 septembre,lu,indéterminé
+350.0,392.0,V Idus Ianuarias,9 janvier,partiellement restitué,déposition
+351.0,393.0,die XVI Kalendas Septembres,17 août,lu,déposition
+352.0,393.0,quartum Nonas Octobres,4 octobre,lu,déposition
+353.0,393.0,VIII Kalendas  Ianuarias,25 décembre,lu,déposition
+355.0,393.0,III Idus Octobres,13 octobre,partiellement restitué,déposition
+357.0,393.0,III Kalendas Iunias,30 mai,lu,déposition
+359.0,393.0,sextum Idus Decembres,8 décembre,partiellement restitué,indéterminé
+363.0,394.0,VII Idus Octobres,9 octobre,partiellement restitué,déposition
+365.0,394.0,III Idus Maias,13 mai,lu,déposition
+366.0,394.0,III Idus Augustas,11 août,lu,déposition
+367.0,394.0,Idus Decembres,13 décembre,lu,déposition
+368.0,395.0,IIII Nonas Octobres,4 octobre,lu,déposition
+369.0,395.0,III Nonas Augustas,3 août,lu,indéterminé
+371.0,395.0,XVII Kalendas Octobres,15 septembre,lu,décès
+372.0,395.0,VIII Kalendas Maias,24 avril,lu,déposition
+376.0,395.0,XI Kalendas Februarias,22 janvier,lu,déposition
+378.0,395.0,XI Kalendas Octobres,21 septembre,partiellement restitué,déposition
+378.0,395.0,Idibus Ianuariis,13 janvier,lu,déposition
+381.0,395.0,III Idus Maias,13 mai,lu,décès
+381.0,395.0,XII Kalendas Iunias,21 mai,lu,décès
+382.0,395.0,XVII Kalendas Septembres,16 août,lu,déposition
+383.0,395.0,XI Kalendas Martias,19 février,lu,déposition
+386.0,396.0,X Kalendas  Apriles,23 mars,lu,déposition
+388.0,396.0,die V Idus Octobres,11 octobre,lu,déposition
+390.0,396.0,X Kalendas Augustas,23 juillet,lu,déposition
+395.0,396.0,VIIII Kalendas Octobres,23 septembre,lu,déposition
+396.0,397.0,die XV Kalendas Septembres,18 août,lu,déposition
+399.0,397.0,VIII Kalendas Iunias,25 mai,lu,déposition
+399.0,397.0,IIII Nonas Iulias,4 juillet,lu,déposition
+400.0,397.0,die VIIIIX Kalendas Martias,13 février,lu,indéterminé
+402.0,397.0,II Idus Maias,14 mai,partiellement restitué,déposition
+404.0,397.0,Idus Novembres,13 novembre,lu,déposition
+405.0,397.0,IIII Kalendas  Iulias,28 juin,lu,déposition
+406.0,397.0,die VII Kalendas Augustas,26 juillet,lu,achat
+408.0,397.0,…X Kalendas Novembres,23 octobre,partiellement restitué,indéterminé
+409.0,397.0,VIIII Kalendas Septembres,24 août,lu,déposition
+412.0,397.0,VIIII Kalendas Maias,23 avril,lu,déposition
+416.0,397.0,tertium Kalendas Iulias,29 juin,partiellement restitué,déposition
+418.0,398.0,… XVI Kalendas Octobres,16 septembre,partiellement restitué,indéterminé
+419.0,398.0,pridie Nonas Septembres,4 septembre,lu,indéterminé
+423.0,398.0,… Kalendas Septembres,,partiellement restitué,indéterminé
+425.0,398.0,VI Idus Ianuarias,8 janvier,lu,indéterminé
+428.0,398.0,XV Kalendas Ianuarias,18 décembre,partiellement restitué,déposition
+429.0,399.0,die V Kalendas Decembres,27 novembre,lu,déposition
+431.0,399.0,septimum Kalendas Septembres,26 août,lu,déposition
+434.0,397.0,V Kalendas Decembres,27 novembre,lu,déposition
+441.0,400.0,…V Kalndas Maias,27 avril,partiellement restitué,déposition
+443.0,400.0,XVIII Kalendas Augustas,15 juillet,partiellement restitué,déposition
+444.0,400.0,… Kalendas Novembres,,partiellement restitué,déposition
+446.0,400.0,pridie Idus Ianuarias,12 janvier,lu,déposition
+448.0,401.0,V Idus Octobres,11 octobre,lu,déposition
+449.0,401.0,Pridie Nonas Iulias,6 juillet,lu,indéterminé
+451.0,401.0,V Idus Septembres,9 septembre,lu,indéterminé
+453.0,401.0,XIII Kalendas Septembres,20 août,lu,indéterminé
+458.0,401.0,Pridie Idus Iunias,12 juin,lu,indéterminé
+459.0,401.0,VIII Idus Augustas,6 août,partiellement restitué,déposition
+460.0,402.0,Kalendis Iuniis,1 juin,lu,déposition
+463.0,402.0,XIII Kalendas Octobres,19 septembre,lu,déposition
+466.0,402.0,Kalendas Ianuarias,1 janvier,lu,déposition
+467.0,402.0,VII Idus Iulias,9 juillet,lu,déposition
+469.0,403.0,IIII Kalendas Februarias,29 janvier,lu,déposition
+470.0,403.0,Kalendis Iuliis,1 juillet,lu,déposition
+475.0,403.0,… Kalendas Novembres,,partiellement restitué,indéterminé
+476.0,403.0,XII Kalendas Iulias,20 juin,lu,indéterminé
+478.0,403.0,XVIII Kalendas  Maias,14 avril,lu,indéterminé

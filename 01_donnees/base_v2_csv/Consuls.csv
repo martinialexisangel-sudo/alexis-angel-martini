@@ -1,0 +1,902 @@
+n,année catalogue,consul identifié (itération),années compatibles,post consulatum,statut
+1.0,340.0,Acindynus,340,False,concordant
+1.0,340.0,Proculus,340,False,concordant
+2.0,340.0,Acindynus,340,False,concordant
+2.0,340.0,Proculus,340,False,concordant
+3.0,340.0,Acindynus,340,False,concordant
+3.0,340.0,Proculus,340,False,concordant
+4.0,341.0,Marcellinus,341,False,concordant
+4.0,341.0,Probinus,341,False,concordant
+5.0,342.0,Constantius 3,342,False,concordant
+5.0,342.0,Constans 2,342,False,concordant
+6.0,342.0,Constantius 3,342,False,concordant
+6.0,342.0,Constans 2,342,False,concordant
+7.0,343.0,Placidus,343,False,concordant
+7.0,343.0,Romulus,343,False,concordant
+8.0,343.0,Romulus (grec),343,False,concordant
+9.0,343.0,Placidus,343,False,concordant
+9.0,343.0,Romulus,343,False,concordant
+10.0,344.0,Leontius,344,False,concordant
+10.0,344.0,Sallustius,344,False,concordant
+11.0,345.0,Amantius,345; 346,False,concordant
+11.0,345.0,Albinus,345; 346,False,concordant
+12.0,345.0,Amantius,345; 346; 352,False,corrigé provisoirement (année déduite du texte)
+12.0,345.0,Albinus,345; 346; 352,False,corrigé provisoirement (année déduite du texte)
+12.0,345.0,Decentius,345; 346; 352,False,corrigé provisoirement (année déduite du texte)
+12.0,345.0,Paulus,345; 346; 352,False,corrigé provisoirement (année déduite du texte)
+13.0,345.0,Amantius,345; 346,False,concordant
+13.0,345.0,Albinus,345; 346,False,concordant
+14.0,345.0,Amantius,345; 346,False,concordant
+14.0,345.0,Albinus,345; 346,False,concordant
+15.0,346.0,Amantius,345; 346,True,concordant
+15.0,346.0,Albinus,345; 346,True,concordant
+15.0,346.0,Rufinus,345; 346,True,concordant
+16.0,346.0,Amantius,345; 346,True,concordant
+16.0,346.0,Albinus,345; 346,True,concordant
+17.0,346.0,Amantius,345; 346,True,concordant
+17.0,346.0,Albinus,345; 346,True,concordant
+18.0,346.0,Amantius,345; 346,True,concordant
+18.0,346.0,Albinus,345; 346,True,concordant
+19.0,347.0,Amantius,345; 346,False,écart d’un an
+19.0,347.0,Albinus,345; 346,False,écart d’un an
+20.0,347.0,Rufinus,347,False,concordant
+20.0,347.0,Eusebius,347,False,concordant
+21.0,347.0,Rufinus (grec),347,False,concordant
+21.0,347.0,Eusebius (grec),347,False,concordant
+22.0,348.0,Philippus,348,False,concordant
+23.0,348.0,Philippus,348,False,concordant
+23.0,348.0,Salia,348,False,concordant
+24.0,348.0,Philippus,348,False,concordant
+24.0,348.0,Salia,348,False,concordant
+25.0,348.0,Philippus,348,False,concordant
+25.0,348.0,Salia,348,False,concordant
+26.0,348.0,Philippus,348,False,concordant
+26.0,348.0,Salia,348,False,concordant
+27.0,348.0,Philippus,348,False,concordant
+27.0,348.0,Salia,348,False,concordant
+28.0,348.0,Philippus,348,False,concordant
+28.0,348.0,Salia,348,False,concordant
+29.0,348.0,Rufinus,348,False,concordant
+29.0,348.0,Philippus,348,False,concordant
+29.0,348.0,Salia,348,False,concordant
+30.0,349.0,Limenius,349,False,concordant
+30.0,349.0,Catullinus,349,False,concordant
+31.0,349.0,Limenius,349,False,concordant
+31.0,349.0,Catullinus,349,False,concordant
+32.0,349.0,Limenius,349,False,concordant
+32.0,349.0,Catullinus,349,False,concordant
+33.0,349.0,Limenius,349,False,concordant
+33.0,349.0,Catullinus,349,False,concordant
+33.0,349.0,Euodius,349,False,concordant
+34.0,350.0,Limenius,349,True,concordant (post-consulat)
+34.0,350.0,Catullinus,349,True,concordant (post-consulat)
+35.0,350.0,Nigrinianus,350; 351,False,concordant
+36.0,351.0,—,,False,aucun élément consulaire identifié
+37.0,352.0,Decentius,352,False,concordant
+37.0,352.0,Paulus,352,False,concordant
+38.0,352.0,Decentius,352,False,concordant
+38.0,352.0,Paulus,352,False,concordant
+39.0,352.0,Decentius,352,False,concordant
+39.0,352.0,Paulus,352,False,concordant
+40.0,353.0,Magnentius,353,False,concordant
+40.0,353.0,Decentius,353,False,concordant
+41.0,355.0,Arbitio,355,False,concordant
+41.0,355.0,Lollianus,355,False,concordant
+42.0,355.0,Arbitio,355,False,concordant
+42.0,355.0,Lollianus,355,False,concordant
+43.0,355.0,Arbitio,355,False,concordant
+44.0,355.0,Arbitio,355,False,concordant
+44.0,355.0,Lollianus,355,False,concordant
+45.0,356.0,Arbitio,355,False,écart d’un an
+45.0,356.0,Lollianus,355,False,écart d’un an
+46.0,356.0,Constantius 8,356,False,concordant
+46.0,356.0,Iulianus,356,False,concordant
+47.0,357.0,Constantius 4,346; 357,False,concordant
+47.0,357.0,Iulianus 2,346; 357,False,concordant
+48.0,357.0,Constantius 9,357,False,concordant
+48.0,357.0,Iulianus 2,357,False,concordant
+49.0,358.0,Datianus,358,False,concordant
+49.0,358.0,Cerealis,358,False,concordant
+50.0,358.0,Datianus,358,False,concordant
+50.0,358.0,Cerealis,358,False,concordant
+51.0,358.0,—,,False,aucun élément consulaire identifié
+52.0,358.0,Datianus,358,False,concordant
+52.0,358.0,Cerealis,358,False,concordant
+53.0,358.0,Datianus,358,False,concordant
+54.0,359.0,Eusebius,359,False,concordant
+54.0,359.0,Hypatius,359,False,concordant
+55.0,359.0,Acindynus,340,False,confirmé par le calcul
+55.0,359.0,Proculus,340,False,confirmé par le calcul
+55.0,359.0,Marcellinus,340,False,confirmé par le calcul
+56.0,360.0,Constantius 10,360,False,concordant
+56.0,360.0,Iulianus,360,False,concordant
+57.0,360.0,Constantius 10,360,False,concordant
+57.0,360.0,Iulianus 3,360,False,concordant
+58.0,360.0,Constantius 10,360,False,concordant
+58.0,360.0,Iulianus,360,False,concordant
+59.0,361.0,Taurus,361,False,concordant
+59.0,361.0,Florentius,361,False,concordant
+60.0,361.0,Taurus,361,False,concordant
+60.0,361.0,Florentius,361,False,concordant
+61.0,361.0,Taurus,361,False,concordant
+61.0,361.0,Florentius,361,False,concordant
+62.0,362.0,Mamertinus,362,False,concordant
+62.0,362.0,Nevitta,362,False,concordant
+63.0,362.0,Mamertinus,362,False,concordant
+63.0,362.0,Nevitta,362,False,concordant
+64.0,362.0,Mamertinus,362,False,concordant
+64.0,362.0,Nevitta,362,False,concordant
+65.0,362.0,Mamertinus,362,False,concordant
+65.0,362.0,Nevitta,362,False,concordant
+66.0,362.0,Mamertinus,362,False,concordant
+66.0,362.0,Nevitta,362,False,concordant
+67.0,362.0,Mamertinus,362,False,concordant
+67.0,362.0,Nevitta,362,False,concordant
+68.0,362.0,Mamertinus,362,False,concordant
+68.0,362.0,Nevitta,362,False,concordant
+68.0,362.0,Eutychianus,362,False,concordant
+69.0,362.0,Mamertinus,362,False,concordant
+70.0,362.0,Mamertinus,362,False,concordant
+70.0,362.0,Nevitta,362,False,concordant
+71.0,362.0,Mamertinus,362,False,concordant
+71.0,362.0,Nevitta,362,False,concordant
+72.0,362.0,Mamertinus,362,False,concordant
+72.0,362.0,Nevitta,362,False,concordant
+73.0,363.0,Iulianus 4,363,False,concordant
+73.0,363.0,Sallustius,363,False,concordant
+74.0,363.0,Iulianus 4,363,False,concordant
+74.0,363.0,Sallustius,363,False,concordant
+75.0,363.0,Iulianus 4,363,False,concordant
+75.0,363.0,Sallustius,363,False,concordant
+76.0,363.0,Iulianus 4,363,False,concordant
+76.0,363.0,Sallustius,363,False,concordant
+77.0,363.0,Iulianus 4,363,False,concordant
+77.0,363.0,Sallustius,363,False,concordant
+78.0,363.0,Iulianus 3,344; 360; 363,False,concordant
+78.0,363.0,Sallustius,344; 360; 363,False,concordant
+79.0,363.0,Iulianus,363,False,concordant
+79.0,363.0,Sallustius,363,False,concordant
+80.0,363.0,Iulianus 4,363,False,concordant
+80.0,363.0,Sallustius,363,False,concordant
+81.0,363.0,Iulianus 4,363,False,concordant
+81.0,363.0,Sallustius,363,False,concordant
+82.0,363.0,Iulianus 4,363,False,concordant
+82.0,363.0,Sallustius,363,False,concordant
+83.0,364.0,Iovianus,364,False,concordant
+83.0,364.0,Varronianus,364,False,concordant
+84.0,364.0,—,,False,aucun élément consulaire identifié
+85.0,364.0,Iovianus,364,False,concordant
+85.0,364.0,Varronianus,364,False,concordant
+86.0,364.0,Iovianus,364,False,concordant
+86.0,364.0,Varronianus,364,False,concordant
+87.0,364.0,Iovianus,364,False,concordant
+87.0,364.0,Varronianus,364,False,concordant
+88.0,364.0,Varronianus,364,False,concordant
+89.0,364.0,Iovianus,364,False,concordant
+89.0,364.0,Varronianus,364,False,concordant
+90.0,364.0,Iovianus,364,False,concordant
+90.0,364.0,Varronianus,364,False,concordant
+91.0,364.0,Iovianus,364,False,concordant
+92.0,365.0,Valentinianus,365; 368; 370; 373; 376; 378,False,concordant
+92.0,365.0,Valens,365; 368; 370; 373; 376; 378,False,concordant
+93.0,365.0,Valentinianus,365; 368; 370; 373; 376; 378,False,concordant
+93.0,365.0,Valens,365; 368; 370; 373; 376; 378,False,concordant
+94.0,365.0,Valentinianus,365; 368; 370; 373; 376; 378,False,concordant
+94.0,365.0,Valens,365; 368; 370; 373; 376; 378,False,concordant
+95.0,365.0,Valentinianus,365; 368; 370; 373; 376; 378,False,concordant
+95.0,365.0,Valens,365; 368; 370; 373; 376; 378,False,concordant
+96.0,365.0,Valentinianus,365; 368; 370; 373; 376; 378,False,concordant
+96.0,365.0,Valens,365; 368; 370; 373; 376; 378,False,concordant
+97.0,365.0,Valentinianus,365; 368; 370; 373; 376; 378,False,concordant
+97.0,365.0,Valens,365; 368; 370; 373; 376; 378,False,concordant
+98.0,366.0,Dagalaifus,366,False,concordant
+99.0,366.0,Gratianus,366,False,concordant
+99.0,366.0,Dagalaifus,366,False,concordant
+100.0,366.0,Gratianus,366,False,concordant
+100.0,366.0,Dagalaifus,366,False,concordant
+101.0,366.0,Gratianus,366,False,concordant
+101.0,366.0,Dagalaifus,366,False,concordant
+102.0,366.0,Valentinianus,365; 368; 369; 370; 373; 376; 378; 387; 390,True,concordant (post-consulat)
+103.0,366.0,Gratianus,366,False,concordant
+103.0,366.0,Dagalaifus,366,False,concordant
+104.0,366.0,Gratianus,366,False,concordant
+104.0,366.0,Dagalaifus,366,False,concordant
+105.0,366.0,Gratianus,366,False,concordant
+105.0,366.0,Dagalaifus,366,False,concordant
+105.0,366.0,Vincentius,366,False,concordant
+106.0,367.0,Lupicinus,367,False,concordant
+106.0,367.0,Iovinus,367,False,concordant
+107.0,367.0,Lupicinus,367,False,concordant
+107.0,367.0,Iovinus,367,False,concordant
+108.0,367.0,Lupicinus,367,False,concordant
+108.0,367.0,Iovinus,367,False,concordant
+109.0,367.0,Gratianus,366,True,concordant (post-consulat)
+109.0,367.0,Dagalaifus,366,True,concordant (post-consulat)
+110.0,367.0,Lupicinus (grec),367,False,concordant
+110.0,367.0,Iovinus (grec),367,False,concordant
+111.0,367.0,Lupicinus,367,False,concordant
+111.0,367.0,Iovinus,367,False,concordant
+112.0,367.0,Lupicinus,367,False,concordant
+112.0,367.0,Iovinus,367,False,concordant
+113.0,367.0,Lupicinus,367,False,concordant
+113.0,367.0,Iovinus,367,False,concordant
+114.0,367.0,Lupicinus,367,False,concordant
+114.0,367.0,Iovinus,367,False,concordant
+115.0,367.0,Lupicinus,367,False,concordant
+115.0,367.0,Iovinus,367,False,concordant
+116.0,367.0,Lupicinus,367,False,concordant
+116.0,367.0,Iovinus,367,False,concordant
+117.0,367.0,Valentinianus 2,367; 368,False,concordant
+117.0,367.0,Valens 2,367; 368,False,concordant
+117.0,367.0,Lupicinus,367; 368,False,concordant
+117.0,367.0,Iovinus,367; 368,False,concordant
+118.0,367.0,Lupicinus,367,False,concordant
+118.0,367.0,Iovinus,367,False,concordant
+119.0,367.0,Lupicinus,367,False,concordant
+119.0,367.0,Iovinus,367,False,concordant
+120.0,367.0,Lupicinus,367,False,concordant
+120.0,367.0,Iovinus,367,False,concordant
+121.0,367.0,Lupicinus,367,False,concordant
+121.0,367.0,Iovinus,367,False,concordant
+122.0,367.0,Lupicinus,367,False,concordant
+122.0,367.0,Iovinus,367,False,concordant
+123.0,367.0,—,,False,aucun élément consulaire identifié
+124.0,367.0,Lupicinus,367,False,concordant
+124.0,367.0,Iovinus,367,False,concordant
+125.0,368.0,Valentinianus 2,368,False,concordant
+125.0,368.0,Valens 2,368,False,concordant
+125.0,368.0,Leontius,368,False,concordant
+126.0,368.0,Valentinianus,350; 351; 368,False,concordant
+126.0,368.0,Valens 2,350; 351; 368,False,concordant
+126.0,368.0,Sergius,350; 351; 368,False,concordant
+126.0,368.0,Nigrinianus,350; 351; 368,False,concordant
+127.0,368.0,Valentinianus,365; 368; 369; 370; 373; 376; 378; 387; 390,False,concordant
+128.0,368.0,Valentinianus,368,False,concordant
+128.0,368.0,Valens 2,368,False,concordant
+129.0,368.0,Valentinianus 2,368,False,concordant
+129.0,368.0,Valens 2,368,False,concordant
+130.0,368.0,Valentinianus 2,368,False,concordant
+130.0,368.0,Valens 2,368,False,concordant
+131.0,368.0,Valentinianus,365; 368; 370; 373; 376; 378,False,concordant
+131.0,368.0,Valens,365; 368; 370; 373; 376; 378,False,concordant
+132.0,369.0,Valentinianus,369,False,concordant
+132.0,369.0,Victor,369,False,concordant
+133.0,369.0,Valentinianus,365; 368; 369; 370; 373; 376; 378; 387; 390,False,concordant
+134.0,369.0,Valentinianus,369,False,concordant
+134.0,369.0,Victor,369,False,concordant
+135.0,369.0,Valentinianus,369,False,concordant
+135.0,369.0,Victor,369,False,concordant
+136.0,370.0,Valentinianus,365; 368; 370; 373; 376; 378,False,concordant
+136.0,370.0,Valens,365; 368; 370; 373; 376; 378,False,concordant
+137.0,370.0,Valentinianus 3,370; 387,False,concordant
+138.0,370.0,Valentinianus 3,370,False,concordant
+138.0,370.0,Valens 3,370,False,concordant
+139.0,370.0,Valentinianus,370,False,concordant
+139.0,370.0,Valens 3,370,False,concordant
+140.0,370.0,Valentinianus,370,False,concordant
+140.0,370.0,Valens 3,370,False,concordant
+141.0,370.0,Valentinianus 3,370; 387,False,concordant
+142.0,370.0,Valentinianus,370,False,concordant
+142.0,370.0,Valens 3,370,False,concordant
+142.0,370.0,Rufinus,370,False,concordant
+143.0,371.0,Gratianus,371,False,concordant
+143.0,371.0,Probus,371,False,concordant
+144.0,371.0,Gratianus,371,False,concordant
+144.0,371.0,Probus,371,False,concordant
+145.0,371.0,Gratianus 2,371,False,concordant
+145.0,371.0,Probus,371,False,concordant
+146.0,371.0,Gratianus 2,371,False,concordant
+146.0,371.0,Probus,371,False,concordant
+147.0,371.0,Constantius,371,False,concordant
+147.0,371.0,Gratianus,371,False,concordant
+147.0,371.0,Probus,371,False,concordant
+148.0,371.0,Gratianus 2,371,False,concordant
+148.0,371.0,Probus,371,False,concordant
+149.0,371.0,Gratianus 2,371,False,concordant
+149.0,371.0,Probus,371,False,concordant
+150.0,371.0,Gratianus,371,False,concordant
+150.0,371.0,Probus,371,False,concordant
+151.0,371.0,Gratianus 2,371,False,concordant
+151.0,371.0,Probus,371,False,concordant
+152.0,371.0,Gratianus 2,371,False,concordant
+152.0,371.0,Probus,371,False,concordant
+153.0,371.0,Gratianus 2,371,False,concordant
+153.0,371.0,Probus,371,False,concordant
+154.0,371.0,Gratianus,371,False,concordant
+154.0,371.0,Probus,371,False,concordant
+155.0,372.0,Romulus,343; 372,False,concordant
+155.0,372.0,Modestus,343; 372,False,concordant
+156.0,372.0,Modestus,372,False,concordant
+156.0,372.0,Arintheus,372,False,concordant
+157.0,372.0,Arintheus,372,False,concordant
+158.0,372.0,Modestus,372,False,concordant
+158.0,372.0,Arintheus,372,False,concordant
+159.0,372.0,Modestus,372,False,concordant
+159.0,372.0,Arintheus,372,False,concordant
+160.0,372.0,Modestus,372,False,concordant
+161.0,372.0,Modestus,372,False,concordant
+161.0,372.0,Arintheus,372,False,concordant
+162.0,372.0,Modestus,372,False,concordant
+163.0,372.0,Modestus,372,False,concordant
+164.0,372.0,Modestus,372,False,concordant
+164.0,372.0,Arintheus,372,False,concordant
+165.0,372.0,Modestus,372,False,concordant
+165.0,372.0,Arintheus,372,False,concordant
+166.0,373.0,Valentinianus,373,False,concordant
+166.0,373.0,Valens 4,373,False,concordant
+166.0,373.0,Amantius,373,False,concordant
+167.0,373.0,Valentinianus,373,False,concordant
+167.0,373.0,Valens 4,373,False,concordant
+168.0,373.0,Valentinianus 4,373,False,concordant
+168.0,373.0,Valens 4,373,False,concordant
+169.0,373.0,Valentinianus,365; 368; 370; 373; 376; 378,False,concordant
+169.0,373.0,Valens,365; 368; 370; 373; 376; 378,False,concordant
+170.0,373.0,Valentinianus,373,False,concordant
+170.0,373.0,Valens 4,373,False,concordant
+171.0,373.0,Valentinianus,373,False,concordant
+171.0,373.0,Valens 4,373,False,concordant
+172.0,374.0,Gratianus 3,374; 375,False,concordant
+172.0,374.0,Equitius,374; 375,False,concordant
+173.0,374.0,Gratianus 3,374; 375,False,concordant
+173.0,374.0,Equitius,374; 375,False,concordant
+174.0,374.0,Gratianus 3,374; 375,False,concordant
+174.0,374.0,Equitius,374; 375,False,concordant
+175.0,374.0,Gratianus,366; 371; 374; 375; 377; 380,False,concordant
+176.0,374.0,Gratianus 3,374; 375,False,concordant
+177.0,374.0,Gratianus 3,374; 375,False,concordant
+177.0,374.0,Equitius,374; 375,False,concordant
+178.0,374.0,Gratianus 3,374; 375,False,concordant
+178.0,374.0,Equitius,374; 375,False,concordant
+179.0,375.0,Gratianus 3,374; 375,True,concordant
+179.0,375.0,Equitius,374; 375,True,concordant
+180.0,375.0,—,,False,aucun élément consulaire identifié
+181.0,375.0,Gratianus 3,374; 375,False,concordant
+181.0,375.0,Equitius,374; 375,False,concordant
+182.0,375.0,Gratianus 3,374; 375,True,concordant
+182.0,375.0,Equitius,374; 375,True,concordant
+183.0,375.0,Gratianus 3,374; 375,True,concordant
+183.0,375.0,Equitius,374; 375,True,concordant
+184.0,375.0,Gratianus,374; 375,True,concordant
+184.0,375.0,Equitius,374; 375,True,concordant
+185.0,375.0,Gratianus,374; 375,True,concordant
+185.0,375.0,Equitius,374; 375,True,concordant
+186.0,375.0,Gratianus,374; 375,True,concordant
+186.0,375.0,Equitius,374; 375,True,concordant
+187.0,375.0,Gratianus 3,374; 375,True,concordant
+187.0,375.0,Equitius,374; 375,True,concordant
+188.0,375.0,Gratianus 3,374; 375,True,concordant
+188.0,375.0,Equitius,374; 375,True,concordant
+189.0,376.0,Valentinianus,365; 368; 370; 373; 376; 378,False,concordant
+189.0,376.0,Valens,365; 368; 370; 373; 376; 378,False,concordant
+190.0,376.0,Valentinianus,365; 368; 370; 373; 376; 378,False,concordant
+190.0,376.0,Valens,365; 368; 370; 373; 376; 378,False,concordant
+191.0,376.0,Valentinianus,376,False,concordant
+191.0,376.0,Valens 5,376,False,concordant
+191.0,376.0,Eusebius,376,False,concordant
+192.0,376.0,Valentinianus,376,False,concordant
+192.0,376.0,Valens 5,376,False,concordant
+193.0,376.0,Valentinianus,365; 368; 370; 373; 376; 378,False,concordant
+193.0,376.0,Valens,365; 368; 370; 373; 376; 378,False,concordant
+194.0,376.0,Valentinianus,365; 368; 370; 373; 376; 378,False,concordant
+194.0,376.0,Valens,365; 368; 370; 373; 376; 378,False,concordant
+194.0,376.0,Marcellinus,365; 368; 370; 373; 376; 378,False,concordant
+195.0,377.0,Gratianus,377,False,concordant
+195.0,377.0,Merobaudes,377,False,concordant
+196.0,377.0,Gratianus 4,377,False,concordant
+196.0,377.0,Merobaudes,377,False,concordant
+197.0,377.0,Gratianus 3,374; 375; 377; 383,False,concordant
+197.0,377.0,Merobaudes,374; 375; 377; 383,False,concordant
+198.0,377.0,Gratianus 4,377,False,concordant
+198.0,377.0,Merobaudes,377,False,concordant
+199.0,377.0,Gratianus 3,374; 375; 377; 383,False,concordant
+199.0,377.0,Merobaudes,374; 375; 377; 383,False,concordant
+200.0,377.0,Gratianus 4,377,False,concordant
+200.0,377.0,Merobaudes,377,False,concordant
+201.0,377.0,Gratianus 4,377,False,concordant
+201.0,377.0,Merobaudes,377,False,concordant
+202.0,377.0,Gratianus 4,377,False,concordant
+202.0,377.0,Merobaudes,377,False,concordant
+203.0,377.0,Gratianus 4,377,False,concordant
+203.0,377.0,Merobaudes,377,False,concordant
+204.0,377.0,Gratianus 4,377,False,concordant
+204.0,377.0,Merobaudes,377,False,concordant
+205.0,377.0,Gratianus 4,377,False,concordant
+205.0,377.0,Merobaudes,377,False,concordant
+206.0,377.0,Valentinianus 3,370,False,corrigé provisoirement (année déduite du texte)
+206.0,377.0,Valens,370,False,corrigé provisoirement (année déduite du texte)
+207.0,378.0,Valentinianus 2,378,False,concordant
+207.0,378.0,Valens 6,378,False,concordant
+208.0,378.0,Valentinianus 2,378,False,concordant
+208.0,378.0,Valens 6,378,False,concordant
+209.0,378.0,Valentinianus,378,False,concordant
+209.0,378.0,Valens 6,378,False,concordant
+210.0,379.0,Ausonius,379,False,concordant
+210.0,379.0,Olybrius,379,False,concordant
+211.0,379.0,Ausonius,379,False,concordant
+211.0,379.0,Olybrius,379,False,concordant
+212.0,379.0,Olybrius,379; 395,False,concordant
+213.0,380.0,Gratianus 5,380,False,concordant
+213.0,380.0,Theodosius,380,False,concordant
+214.0,380.0,—,,False,aucun élément consulaire identifié
+215.0,380.0,Gratianus 5,380,False,concordant
+215.0,380.0,Theodosius,380,False,concordant
+216.0,380.0,Gratianus 5,380,False,concordant
+216.0,380.0,Theodosius,380,False,concordant
+217.0,380.0,Gratianus 5,380,False,concordant
+217.0,380.0,Theodosius,380,False,concordant
+218.0,380.0,Gratianus 5,380,False,concordant
+218.0,380.0,Theodosius,380,False,concordant
+218.0,380.0,Paulus,380,False,concordant
+219.0,381.0,Syagrius,381; 382,False,concordant
+220.0,381.0,Eucherius,381,False,concordant
+221.0,381.0,Syagrius,381,False,concordant
+221.0,381.0,Eucherius,381,False,concordant
+222.0,381.0,Syagrius,381; 382,False,concordant
+223.0,381.0,Syagrius,381,False,concordant
+223.0,381.0,Eucherius,381,False,concordant
+224.0,381.0,Syagrius,381,False,concordant
+224.0,381.0,Eucherius,381,False,concordant
+225.0,381.0,Syagrius,381,False,concordant
+225.0,381.0,Eucherius,381,False,concordant
+226.0,381.0,Syagrius,381; 382,False,concordant
+227.0,381.0,Eucherius (var.),381,False,concordant
+228.0,382.0,Syagrius,382,False,concordant
+228.0,382.0,Antonius,382,False,concordant
+229.0,382.0,Syagrius,382,False,concordant
+229.0,382.0,Antonius,382,False,concordant
+230.0,382.0,Syagrius,382,False,concordant
+230.0,382.0,Antonius,382,False,concordant
+231.0,382.0,Syagrius,382,False,concordant
+231.0,382.0,Antonius,382,False,concordant
+232.0,382.0,Syagrius,382,False,concordant
+232.0,382.0,Antonius,382,False,concordant
+233.0,382.0,Syagrius,382,False,concordant
+233.0,382.0,Antonius,382,False,concordant
+234.0,382.0,Syagrius,382,False,concordant
+234.0,382.0,Antonius,382,False,concordant
+235.0,382.0,Antonius,382,False,concordant
+236.0,382.0,Merobaudes,382; 383,False,concordant
+236.0,382.0,Syagrius,382; 383,False,concordant
+236.0,382.0,Antonius,382; 383,False,concordant
+236.0,382.0,Saturninus,382; 383,False,concordant
+237.0,382.0,Syagrius,382,False,concordant
+237.0,382.0,Antonius,382,False,concordant
+238.0,382.0,Syagrius,382,False,concordant
+238.0,382.0,Antonius,382,False,concordant
+239.0,382.0,Syagrius,382,False,concordant
+239.0,382.0,Antonius,382,False,concordant
+240.0,382.0,Syagrius,381; 382,False,concordant
+241.0,383.0,Merobaudes,383,False,concordant
+241.0,383.0,Saturninus,383,False,concordant
+242.0,383.0,Merobaudes,383,False,concordant
+242.0,383.0,Saturninus,383,False,concordant
+243.0,383.0,Merobaudes,383,False,concordant
+243.0,383.0,Saturninus,383,False,concordant
+244.0,383.0,Merobaudes,383,False,concordant
+244.0,383.0,Saturninus,383,False,concordant
+245.0,383.0,Merobaudes,383,False,concordant
+245.0,383.0,Saturninus,383,False,concordant
+246.0,383.0,Merobaudes,383,False,concordant
+246.0,383.0,Saturninus,383,False,concordant
+247.0,383.0,Iovianus,383,False,concordant
+247.0,383.0,Merobaudes,383,False,concordant
+247.0,383.0,Saturninus,383,False,concordant
+248.0,383.0,Merobaudes,383,False,concordant
+248.0,383.0,Saturninus,383,False,concordant
+249.0,383.0,Merobaudes,377; 383,False,concordant
+250.0,383.0,Merobaudes,383,False,concordant
+250.0,383.0,Saturninus,383,False,concordant
+251.0,383.0,Merobaudes,383,False,concordant
+251.0,383.0,Saturninus,383,False,concordant
+252.0,383.0,Merobaudes,383,False,concordant
+252.0,383.0,Saturninus,383,False,concordant
+253.0,383.0,Merobaudes,383,False,concordant
+253.0,383.0,Saturninus,383,False,concordant
+254.0,383.0,Merobaudes,383,False,concordant
+254.0,383.0,Saturninus,383,False,concordant
+255.0,383.0,Saturninus,383,False,concordant
+256.0,383.0,Merobaudes,383,False,concordant
+256.0,383.0,Saturninus,383,False,concordant
+257.0,383.0,Merobaudes,383,False,concordant
+257.0,383.0,Saturninus,383,False,concordant
+258.0,383.0,Merobaudes,383,False,concordant
+258.0,383.0,Saturninus,383,False,concordant
+259.0,383.0,Merobaudes,383,False,concordant
+259.0,383.0,Saturninus,383,False,concordant
+260.0,384.0,Richomeres,384,False,concordant
+261.0,384.0,Merobaudes,383,True,concordant (post-consulat)
+261.0,384.0,Saturninus,383,True,concordant (post-consulat)
+262.0,384.0,Richomeres,384,False,concordant
+262.0,384.0,Clearchus,384,False,concordant
+263.0,384.0,Richomeres,384,False,concordant
+263.0,384.0,Clearchus,384,False,concordant
+264.0,384.0,Richomeres,384,False,concordant
+264.0,384.0,Clearchus,384,False,concordant
+265.0,384.0,Richomeres,384,False,concordant
+265.0,384.0,Clearchus,384,False,concordant
+266.0,384.0,Richomeres,384,False,concordant
+266.0,384.0,Clearchus,384,False,concordant
+267.0,384.0,—,,False,aucun élément consulaire identifié
+268.0,384.0,—,,False,aucun élément consulaire identifié
+269.0,384.0,Richomeres,384,False,concordant
+269.0,384.0,Clearchus,384,False,concordant
+270.0,384.0,Richomeres,384,False,concordant
+270.0,384.0,Clearchus,384,False,concordant
+271.0,384.0,Clearchus,384,False,concordant
+272.0,384.0,Richomeres,384,False,concordant
+272.0,384.0,Clearchus,384,False,concordant
+273.0,384.0,Richomeres,384,False,concordant
+274.0,384.0,Richomeres,384,False,concordant
+274.0,384.0,Clearchus,384,False,concordant
+275.0,385.0,Richomeres,384,True,concordant (post-consulat)
+275.0,385.0,Clearchus,384,True,concordant (post-consulat)
+276.0,385.0,Arcadius,385,False,concordant
+276.0,385.0,Leontius,385,False,concordant
+276.0,385.0,Bauto,385,False,concordant
+277.0,385.0,Arcadius,385; 392; 394; 396; 402,False,concordant
+278.0,385.0,Merobaudes,383,False,corrigé provisoirement (année déduite du texte)
+278.0,385.0,Saturninus,383,False,corrigé provisoirement (année déduite du texte)
+279.0,385.0,Arcadius,385,False,concordant
+279.0,385.0,Bauto,385,False,concordant
+280.0,385.0,Arcadius,385,False,concordant
+280.0,385.0,Bauto,385,False,concordant
+281.0,385.0,Arcadius,385; 392,False,concordant
+281.0,385.0,Rufinus,385; 392,False,concordant
+281.0,385.0,Bauto,385; 392,False,concordant
+282.0,386.0,Honorius,386,False,concordant
+282.0,386.0,Euodius,386,False,concordant
+283.0,386.0,Honorius,386,False,concordant
+283.0,386.0,Euodius,386,False,concordant
+284.0,386.0,Honorius,386,False,concordant
+284.0,386.0,Euodius,386,False,concordant
+285.0,386.0,Honorius,386,False,concordant
+285.0,386.0,Euodius,386,False,concordant
+286.0,386.0,Honorius,386,False,concordant
+286.0,386.0,Euodius,386,False,concordant
+287.0,386.0,Honorius,386,False,concordant
+287.0,386.0,Euodius,386,False,concordant
+288.0,386.0,Honorius,386,False,concordant
+288.0,386.0,Euodius,386,False,concordant
+289.0,386.0,Honorius,386,False,concordant
+289.0,386.0,Euodius,386,False,concordant
+290.0,386.0,Honorius,386,False,concordant
+290.0,386.0,Euodius,386,False,concordant
+291.0,387.0,Valentinianus 3,387,False,concordant
+291.0,387.0,Eutropius,387,False,concordant
+292.0,387.0,Valentinianus 3,387,False,concordant
+292.0,387.0,Eutropius,387,False,concordant
+293.0,387.0,Valentinianus 3,387,False,concordant
+293.0,387.0,Eutropius,387,False,concordant
+294.0,387.0,Valentinianus 3,387,False,concordant
+294.0,387.0,Eutropius,387,False,concordant
+295.0,388.0,Magnus Maximus 2,388,False,concordant
+296.0,388.0,Magnus Maximus 2,388,False,concordant
+297.0,388.0,Magnus Maximus,388,False,concordant
+298.0,388.0,Theodosius 2,377; 383; 388,False,concordant
+298.0,388.0,Merobaudes,377; 383; 388,False,concordant
+299.0,388.0,Theodosius,377; 380; 383; 388; 393; 403,False,concordant
+299.0,388.0,Merobaudes,377; 380; 383; 388; 393; 403,False,concordant
+300.0,388.0,Magnus Maximus 2,347; 388; 392,False,concordant
+300.0,388.0,Rufinus,347; 388; 392,False,concordant
+301.0,388.0,Valentinianus 3,370; 387,True,concordant (post-consulat)
+302.0,388.0,Magnus Maximus 2,388,False,concordant
+303.0,388.0,Theodosius 2,377; 383; 388,False,concordant
+303.0,388.0,Merobaudes,377; 383; 388,False,concordant
+304.0,389.0,Timasius,389,False,concordant
+304.0,389.0,Promotus,389,False,concordant
+305.0,389.0,Timasius,389,False,concordant
+305.0,389.0,Promotus,389,False,concordant
+306.0,389.0,Timasius,389,False,concordant
+306.0,389.0,Promotus,389,False,concordant
+307.0,389.0,Promotus,389,False,concordant
+308.0,389.0,Timasius,389,False,concordant
+308.0,389.0,Promotus,389,False,concordant
+309.0,389.0,Eusebius,347; 359; 389,False,concordant
+309.0,389.0,Promotus,347; 359; 389,False,concordant
+310.0,389.0,Timasius,389,False,concordant
+310.0,389.0,Promotus,389,False,concordant
+311.0,389.0,Magnus Maximus,388,False,corrigé provisoirement (année déduite du texte)
+312.0,389.0,Timasius,389,False,concordant
+312.0,389.0,Promotus,389,False,concordant
+313.0,389.0,Timasius,389,False,concordant
+313.0,389.0,Promotus,389,False,concordant
+314.0,389.0,Valentinianus 4,390,False,corrigé provisoirement (année déduite du texte)
+314.0,389.0,Neoterius,390,False,corrigé provisoirement (année déduite du texte)
+315.0,389.0,Timasius,389,False,concordant
+315.0,389.0,Promotus,389,False,concordant
+316.0,389.0,Timasius,389,False,concordant
+316.0,389.0,Promotus,389,False,concordant
+317.0,389.0,Valentinianus 4,389; 390,False,concordant
+317.0,389.0,Timasius,389; 390,False,concordant
+317.0,389.0,Promotus,389; 390,False,concordant
+317.0,389.0,Neoterius,389; 390,False,concordant
+318.0,389.0,Timasius,389,False,concordant
+318.0,389.0,Promotus,389,False,concordant
+319.0,390.0,Valentinianus,390,False,concordant
+319.0,390.0,Cerealis,390,False,concordant
+319.0,390.0,Neoterius,390,False,concordant
+320.0,390.0,Valentinianus,390,False,concordant
+320.0,390.0,Neoterius,390,False,concordant
+321.0,390.0,Valentinianus 4,390,False,concordant
+321.0,390.0,Philippus,390,False,concordant
+321.0,390.0,Paulus,390,False,concordant
+321.0,390.0,Neoterius,390,False,concordant
+322.0,390.0,Valentinianus 4,390,False,concordant
+322.0,390.0,Neoterius,390,False,concordant
+323.0,390.0,Valentinianus 4,390,False,concordant
+323.0,390.0,Neoterius,390,False,concordant
+324.0,390.0,Valentinianus 4,390,False,concordant
+324.0,390.0,Neoterius,390,False,concordant
+325.0,390.0,Valentinianus 4,390,False,concordant
+325.0,390.0,Neoterius,390,False,concordant
+326.0,390.0,—,,False,aucun élément consulaire identifié
+327.0,390.0,Valentinianus 4,390,False,concordant
+327.0,390.0,Neoterius,390,False,concordant
+328.0,390.0,Syagrius,381; 382,False,corrigé provisoirement (année déduite du texte)
+329.0,391.0,Tatianus,391,False,concordant
+329.0,391.0,Symmachus,391,False,concordant
+330.0,391.0,Tatianus,391,False,concordant
+330.0,391.0,Symmachus,391,False,concordant
+331.0,391.0,Tatianus,391,False,concordant
+331.0,391.0,Symmachus,391,False,concordant
+332.0,391.0,Tatianus,391,False,concordant
+332.0,391.0,Symmachus,391,False,concordant
+333.0,391.0,Tatianus,391,False,concordant
+333.0,391.0,Symmachus,391,False,concordant
+334.0,391.0,Tatianus,391,False,concordant
+335.0,391.0,Tatianus,391,False,concordant
+335.0,391.0,Symmachus,391,False,concordant
+336.0,391.0,Tatianus,391,False,concordant
+336.0,391.0,Symmachus,391,False,concordant
+337.0,391.0,Tatianus,391,False,concordant
+337.0,391.0,Symmachus,391,False,concordant
+338.0,391.0,Tatianus,391,False,concordant
+338.0,391.0,Symmachus,391,False,concordant
+339.0,391.0,Tatianus,391,False,concordant
+339.0,391.0,Symmachus,391,False,concordant
+340.0,391.0,Tatianus,391,False,concordant
+341.0,391.0,Tatianus,391,False,concordant
+342.0,391.0,Tatianus,391,False,concordant
+342.0,391.0,Symmachus,391,False,concordant
+343.0,392.0,Arcadius 2,392,False,concordant
+343.0,392.0,Rufinus,392,False,concordant
+344.0,392.0,Rufinus,347; 392,False,concordant
+345.0,392.0,Arcadius 2,392,False,concordant
+345.0,392.0,Rufinus,392,False,concordant
+346.0,392.0,Arcadius 2,392,False,concordant
+346.0,392.0,Rufinus,392,False,concordant
+347.0,392.0,Arcadius 2,392,False,concordant
+347.0,392.0,Rufinus,392,False,concordant
+348.0,392.0,—,,False,aucun élément consulaire identifié
+349.0,392.0,—,,False,aucun élément consulaire identifié
+350.0,392.0,Tatianus,391,True,concordant (post-consulat)
+350.0,392.0,Symmachus,391,True,concordant (post-consulat)
+351.0,393.0,Theodosius 3,393,False,concordant
+351.0,393.0,Eugenius,393,False,concordant
+352.0,393.0,Theodosius 3,393,False,concordant
+352.0,393.0,Eutychianus,393,False,concordant
+352.0,393.0,Eugenius,393,False,concordant
+353.0,393.0,Theodosius 3,393,False,concordant
+353.0,393.0,Eugenius,393,False,concordant
+354.0,393.0,Theodosius,393,False,concordant
+354.0,393.0,Eugenius,393,False,concordant
+355.0,393.0,Theodosius 3,393,False,concordant
+355.0,393.0,Eugenius,393,False,concordant
+356.0,393.0,Eugenius,393,False,concordant
+357.0,393.0,Theodosius,393,True,concordant
+357.0,393.0,Eugenius,393,True,concordant
+358.0,393.0,Theodosius 3,393,False,concordant
+358.0,393.0,Eugenius,393,False,concordant
+359.0,393.0,Theodosius,393,False,concordant
+359.0,393.0,Eugenius,393,False,concordant
+360.0,393.0,Theodosius (grec),380; 388; 393; 403,False,concordant
+361.0,393.0,Theodosius 3,393,False,concordant
+361.0,393.0,Eugenius,393,False,concordant
+362.0,394.0,Nicomachus Flavianus,394,False,concordant
+363.0,394.0,Arcadius 3,394,False,concordant
+364.0,394.0,Nicomachus Flavianus,394,False,concordant
+365.0,394.0,Nicomachus Flavianus,394,False,concordant
+366.0,394.0,Nicomachus Flavianus,394,False,concordant
+367.0,394.0,Arcadius 3,394,False,concordant
+367.0,394.0,Honorius 2,394,False,concordant
+368.0,395.0,Probinus,395,False,concordant
+368.0,395.0,Olybrius,395,False,concordant
+369.0,395.0,Anicii (Olybrius et Probinus),395,False,concordant
+370.0,395.0,Probinus,395,False,concordant
+370.0,395.0,Olybrius,395,False,concordant
+371.0,395.0,Probinus,395,False,concordant
+371.0,395.0,Olybrius,395,False,concordant
+371.0,395.0,Anicii (Olybrius et Probinus),395,False,concordant
+372.0,395.0,Probinus,395,False,concordant
+372.0,395.0,Olybrius,395,False,concordant
+372.0,395.0,Anicii (Olybrius et Probinus),395,False,concordant
+373.0,395.0,Arcadius,395,False,concordant
+373.0,395.0,Honorius,395,False,concordant
+373.0,395.0,Probinus,395,False,concordant
+373.0,395.0,Olybrius,395,False,concordant
+373.0,395.0,Anicii (Olybrius et Probinus),395,False,concordant
+374.0,395.0,Probinus,395,False,concordant
+374.0,395.0,Olybrius,395,False,concordant
+375.0,395.0,Probinus,395,False,concordant
+375.0,395.0,Olybrius,395,False,concordant
+376.0,395.0,Probinus,395,False,concordant
+376.0,395.0,Olybrius,395,False,concordant
+377.0,395.0,Anicii (Olybrius et Probinus),395,False,concordant
+378.0,395.0,Probinus,395,False,concordant
+378.0,395.0,Limenius,395,False,concordant
+378.0,395.0,Olybrius,395,False,concordant
+379.0,395.0,Probinus,395,False,concordant
+379.0,395.0,Olybrius,395,False,concordant
+379.0,395.0,Anicii (Olybrius et Probinus),395,False,concordant
+380.0,395.0,Probinus,395,False,concordant
+380.0,395.0,Olybrius,395,False,concordant
+381.0,395.0,Probinus,395,False,concordant
+381.0,395.0,Olybrius,395,False,concordant
+381.0,395.0,Anicii (Olybrius et Probinus),395,False,concordant
+382.0,395.0,Probinus,395,False,concordant
+382.0,395.0,Olybrius,395,False,concordant
+383.0,395.0,Probinus,395,False,concordant
+383.0,395.0,Amantius,395,False,concordant
+383.0,395.0,Olybrius,395,False,concordant
+383.0,395.0,Anicii (Olybrius et Probinus),395,False,concordant
+384.0,395.0,Probinus,341; 395,False,concordant
+385.0,396.0,Arcadius 4,396,False,concordant
+385.0,396.0,Honorius 3,396,False,concordant
+386.0,396.0,Arcadius 5,396; 402,False,concordant
+386.0,396.0,Honorius 3,396; 402,False,concordant
+387.0,396.0,Arcadius 4,396,False,concordant
+387.0,396.0,Honorius 3,396,False,concordant
+387.0,396.0,Paulus,396,False,concordant
+388.0,396.0,—,,False,aucun élément consulaire identifié
+389.0,396.0,Arcadius 4,396,False,concordant
+389.0,396.0,Honorius 3,396,False,concordant
+390.0,396.0,Arcadius 4,396,False,concordant
+390.0,396.0,Honorius 3,396,False,concordant
+391.0,396.0,Arcadius 4,396,False,concordant
+391.0,396.0,Honorius 3,396,False,concordant
+392.0,396.0,Arcadius,394; 396; 402,False,concordant
+392.0,396.0,Honorius,394; 396; 402,False,concordant
+393.0,396.0,Arcadius 4,396,False,concordant
+393.0,396.0,Honorius 3,396,False,concordant
+394.0,396.0,Arcadius,396,False,concordant
+394.0,396.0,Honorius 3,396,False,concordant
+395.0,396.0,Arcadius 4,396; 398,False,concordant
+395.0,396.0,Honorius 4,396; 398,False,concordant
+396.0,397.0,Caesarius,397,False,concordant
+396.0,397.0,Atticus,397,False,concordant
+397.0,397.0,Caesarius,397,False,concordant
+397.0,397.0,Atticus,397,False,concordant
+398.0,397.0,Paulus,397,False,concordant
+398.0,397.0,Caesarius,397,False,concordant
+398.0,397.0,Atticus,397,False,concordant
+399.0,397.0,Caesarius,397,False,concordant
+399.0,397.0,Atticus,397,False,concordant
+400.0,397.0,Caesarius,397,False,concordant
+400.0,397.0,Atticus,397,False,concordant
+401.0,397.0,Caesarius,397,False,concordant
+401.0,397.0,Atticus,397,False,concordant
+402.0,397.0,Caesarius,397,False,concordant
+402.0,397.0,Atticus,397,False,concordant
+403.0,397.0,Caesarius,397,False,concordant
+403.0,397.0,Atticus,397,False,concordant
+404.0,397.0,Caesarius,397,False,concordant
+404.0,397.0,Atticus,397,False,concordant
+405.0,397.0,Caesarius,397,False,concordant
+405.0,397.0,Atticus,397,False,concordant
+406.0,397.0,Caesarius,397,False,concordant
+406.0,397.0,Atticus,397,False,concordant
+407.0,397.0,Caesarius,397,False,concordant
+407.0,397.0,Atticus,397,False,concordant
+408.0,397.0,Caesarius,397,False,concordant
+408.0,397.0,Atticus,397,False,concordant
+409.0,397.0,Caesarius,397,False,concordant
+409.0,397.0,Atticus,397,False,concordant
+410.0,397.0,Caesarius,397,False,concordant
+410.0,397.0,Atticus,397,False,concordant
+411.0,397.0,Caesarius,397,False,concordant
+412.0,397.0,Atticus,397,False,concordant
+413.0,397.0,Caesarius,397,False,concordant
+413.0,397.0,Atticus,397,False,concordant
+414.0,397.0,Caesarius,397,False,concordant
+414.0,397.0,Atticus,397,False,concordant
+415.0,397.0,Caesarius,397,False,concordant
+415.0,397.0,Atticus,397,False,concordant
+416.0,397.0,Caesarius,397,False,concordant
+416.0,397.0,Atticus,397,False,concordant
+417.0,398.0,Honorius,398,False,concordant
+417.0,398.0,Eutychianus,398,False,concordant
+418.0,398.0,Honorius 4,398,False,concordant
+418.0,398.0,Eutychianus,398,False,concordant
+419.0,398.0,Honorius 4,398,False,concordant
+419.0,398.0,Eutychianus,398,False,concordant
+420.0,398.0,Honorius 4,398,False,concordant
+420.0,398.0,Eutychianus,398,False,concordant
+421.0,398.0,Honorius 4,398,False,concordant
+422.0,398.0,Honorius 4,398,False,concordant
+422.0,398.0,Eutychianus,398,False,concordant
+423.0,398.0,Honorius 4,398,False,concordant
+424.0,398.0,Honorius,398,False,concordant
+424.0,398.0,Eutychianus,398,False,concordant
+425.0,398.0,Honorius 4,398,False,concordant
+425.0,398.0,Eutychianus,398,False,concordant
+426.0,398.0,Honorius 4,398,False,concordant
+427.0,398.0,Honorius 4,398,False,concordant
+428.0,398.0,Honorius 4,398,True,concordant
+428.0,398.0,Eutychianus,398,True,concordant
+429.0,399.0,Theodorus,399,False,concordant
+430.0,399.0,Theodorus,399,False,concordant
+431.0,399.0,Arcadius 4,396; 398,True,concordant (post-consulat)
+431.0,399.0,Eutychianus,396; 398,True,concordant (post-consulat)
+432.0,399.0,Theodorus,399,False,concordant
+433.0,399.0,Theodorus,399,False,concordant
+434.0,399.0,Arcadius 4,396,True,corrigé provisoirement (année déduite du texte)
+435.0,399.0,—,,False,aucun élément consulaire identifié
+436.0,399.0,Theodorus,399,False,concordant
+437.0,399.0,Theodorus,399,False,concordant
+438.0,399.0,Theodorus,399,False,concordant
+439.0,400.0,Stilicho,400; 405,False,concordant
+440.0,400.0,Stilicho,400; 405,False,concordant
+441.0,400.0,Stilicho,400; 405,False,concordant
+442.0,400.0,Stilicho,400; 405,False,concordant
+443.0,400.0,Stilicho,400; 405,False,concordant
+444.0,400.0,Stilicho,400; 405,False,concordant
+445.0,400.0,—,,False,aucun élément consulaire identifié
+446.0,400.0,Stilicho,400; 401; 405,False,concordant
+446.0,400.0,Vincentius,400; 401; 405,False,concordant
+447.0,401.0,—,,False,aucun élément consulaire identifié
+448.0,401.0,Abundantius,401,False,concordant
+448.0,401.0,Vincentius,401,False,concordant
+448.0,401.0,Fravitta,401,False,concordant
+449.0,401.0,Vincentius,401,False,concordant
+449.0,401.0,Fravitta,401,False,concordant
+450.0,401.0,Fravitta,401,False,concordant
+451.0,401.0,Vincentius,401,False,concordant
+451.0,401.0,Fravitta,401,False,concordant
+452.0,401.0,Theodosius,401,False,concordant
+452.0,401.0,Vincentius,401,False,concordant
+452.0,401.0,Fravitta,401,False,concordant
+453.0,401.0,Vincentius,401,False,concordant
+454.0,401.0,Fravitta,401,False,concordant
+455.0,401.0,Fravitta,401,False,concordant
+456.0,401.0,Vincentius,401,False,concordant
+457.0,401.0,—,,False,aucun élément consulaire identifié
+458.0,401.0,Vincentius,401,False,concordant
+458.0,401.0,Fravitta,401,False,concordant
+459.0,401.0,Vincentius,401,False,concordant
+460.0,402.0,Arcadius 5,402,False,concordant
+460.0,402.0,Honorius 5,402,False,concordant
+460.0,402.0,Leontius,402,False,concordant
+461.0,402.0,Arcadius,402,False,concordant
+461.0,402.0,Honorius 5,402,False,concordant
+462.0,402.0,Arcadius,383; 385; 392; 394; 396; 402,False,concordant
+462.0,402.0,Saturninus,383; 385; 392; 394; 396; 402,False,concordant
+463.0,402.0,Arcadius,385; 392; 394; 396; 402,False,concordant
+463.0,402.0,Honorius 6,385; 392; 394; 396; 402,False,concordant
+464.0,402.0,Arcadius,402,False,concordant
+464.0,402.0,Honorius 5,402,False,concordant
+465.0,402.0,Arcadius,394; 396; 402,False,concordant
+465.0,402.0,Honorius,394; 396; 402,False,concordant
+466.0,402.0,Theodosius,380; 385; 388; 392; 393; 394; 396; 402; 403,False,concordant
+466.0,402.0,Arcadius,380; 385; 388; 392; 393; 394; 396; 402; 403,False,concordant
+467.0,402.0,Arcadius 5,402,False,concordant
+467.0,402.0,Honorius 5,402,False,concordant
+468.0,402.0,Arcadius 5,402,False,concordant
+468.0,402.0,Honorius 5,402,False,concordant
+469.0,403.0,Theodosius,403,False,concordant
+469.0,403.0,Rumoridus,403,False,concordant
+470.0,403.0,Theodosius,403,False,concordant
+470.0,403.0,Rumoridus,403,False,concordant
+471.0,403.0,Theodosius,403,False,concordant
+471.0,403.0,Rumoridus,403,False,concordant
+472.0,403.0,Theodosius,403,False,concordant
+472.0,403.0,Rumoridus,403,False,concordant
+473.0,403.0,Theodosius,403,False,concordant
+473.0,403.0,Rumoridus,403,False,concordant
+474.0,403.0,Theodosius,403,False,concordant
+474.0,403.0,Rumoridus,403,False,concordant
+475.0,403.0,Theodosius,403,False,concordant
+475.0,403.0,Rumoridus,403,False,concordant
+476.0,403.0,Theodosius,380; 388; 393; 403,False,concordant
+477.0,403.0,Theodosius,403,False,concordant
+477.0,403.0,Rumoridus,403,False,concordant
+478.0,403.0,Rumoridus,403,False,concordant
