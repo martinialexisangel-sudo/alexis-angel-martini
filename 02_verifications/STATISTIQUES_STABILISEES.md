@@ -1,4 +1,4 @@
-# Statistiques recalculées sur les lectures stabilisées (lot 4)
+# Statistiques recalculées sur les lectures stabilisées (lots 4-5)
 
 Script : `05_scripts/stats_stabilisees.py` ; données : `collation_edcs_edb.csv` et base v2.0.
 
@@ -12,6 +12,17 @@ Script : `05_scripts/stats_stabilisees.py` ; données : `collation_edcs_edb.csv`
 | Répartition par décennie (393/394 comptés une fois) | 340s : 16 ; 350s : 10 ; 360s : 46 ; 370s : 49 ; 380s : 72 ; 390s : 64 ; 400–403 : 22 | 279 |
 | *in pace* présent dans le texte EDB, hors cas où le mot est entièrement entre crochets (mesure approximative) | 94 | 279 |
 | Chrisme ou croix selon l'EDB | 27 | 279 |
+
+## Fondement des années « directes » (lot 5, dossiers § G)
+
+| Niveau | Textes | Dénominateur |
+|---|---|---|
+| A — au moins un nom consulaire lu | 338 (74,0 %) | 457 textes à datation directe (corpus de 473) |
+| B — lecture partielle (≥ 3 lettres gravées) | 97 (21,2 %) | 457 |
+| C — initiales seules | 2 (0,4 %) | 457 |
+| R — consulat restitué (≤ 2 lettres gravées par nom) | 20 (4,4 %) | 457 |
+
+Un contrôle de robustesse doit recalculer les distributions chronologiques **sans les 20 textes de niveau R**.
 
 ## Limites
 

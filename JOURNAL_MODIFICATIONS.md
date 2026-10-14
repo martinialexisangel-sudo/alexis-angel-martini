@@ -55,3 +55,13 @@ Les originaux ne sont jamais modifiés (`00_originaux/`, empreintes dans `SHA256
 | 30 | Notices sans ICUR | 13 retrouvées (EDB/EDH), 6 non trouvées ; n° 369 conservé à Valencia : provenance non établie | dossiers § F | `mapping_extra.csv` |
 | 31 | Collation | 456/478 notices appariées (281 concordantes, 137 à examiner, 38 divergentes) | `collation_edcs_edb.csv` | — |
 | 32 | Corpus | 473 textes distincts datés de 340–403 | dossiers § F | — |
+
+## 2026-10-14 — lot 5
+
+| # | Objet | Action | Fichier | Preuve |
+|---|---|---|---|---|
+| 33 | Consuls lus / restitués | classement de 462 notices à datation directe selon l'état des lettres (gravé, restitué, développé) ; 38 cas relus à la main | `02_verifications/consuls_lus_restitues.csv`, `consuls_revue_manuelle.csv` | `05_scripts/consuls_lus_restitues.py` |
+| 34 | Faux consuls de la v2.0 | 30 noms de personnes (défunts, dédicants, apôtre Paul…) comptés comme consuls dans 29 notices ; l'année n'est pas affectée | `02_verifications/consuls_faux_positifs_v2.csv` | forme citée du texte EDCS |
+| 35 | Datations par restitution | sur 457 textes à datation directe : A 338, B 97, C 2, R 20 ; liste des 20 textes datés par restitution | dossiers § G | idem |
+| 36 | Consuls lus omis par la v2.0 | n° 53, 155, 309, 423, 450, 456, 476 | dossiers § G | texte EDCS |
+| 37 | Script du cahier | `05_scripts/build_cahier.sh` versé au dépôt (pandoc + Chromium) | — | — |

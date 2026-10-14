@@ -171,7 +171,7 @@ Ces notices ont été recherchées de deux façons. D'abord dans le **dump de l'
 - **EDB20076 = ICVR 17578.** *Coem. Cyriacae ad s. Laurentium* ; conservation : Musei Capitolini. Bibliographie : CLRE, 680. Texte : `dep(ositus) Yppolytus in p[ace ---] / Fl(avio) Severin[o v(iro) c(larissimo) cons(ule)]`. **Date EDB : 461 ; 482.**
 - **EDH HD028015.** AE 1914, 68 = ICUR n. s. 17578. Même lecture que l'EDCS.
 - **Conclusion (certitude : très probable).** Le seul consul lu est Fl. Severinus. Dans les fastes, Severinus est consul en 461 (avec Dagalaifus, ce qui explique la restitution de l'AE) et un Severinus iunior en 482. Aucun Severinus n'est consul en 366. La notice est donc datée de **461 ou 482** et **sort du corpus 340–403**. À contrôler sur CLRE p. 680, cité par l'EDB.
-- **Portée.** L'identificateur consulaire de la v2.0 a pu, ailleurs aussi, compter comme « lu » un nom restitué. Un contrôle automatique sommaire produit trop de faux positifs pour être publié : il faut reprendre le contrôle notice par notice, en distinguant noms lus et noms restitués. C'est une **tâche prioritaire** avant toute expertise.
+- **Portée.** L'identificateur consulaire de la v2.0 a pu, ailleurs aussi, compter comme « lu » un nom restitué. Le contrôle systématique a été fait au lot 5 (§ G).
 
 ### Bilan de taille du corpus (lot 4)
 
@@ -181,3 +181,83 @@ Ces notices ont été recherchées de deux façons. D'abord dans le **dump de l'
 - le n° 98, hors période.
 
 Il reste **473 textes distincts datés de 340–403**, en conservant pour l'instant les n° 439 et 369, de provenance incertaine.
+
+## G. Consuls lus, abrégés ou restitués (lot 5)
+
+### Question
+
+Pour 460 notices, la v2.0 indique « datation directe (consulat lu) ». Deux autres sont classées « directe, discordante ». Le cas du n° 98 (§ F) montre qu'un nom **restitué** entre crochets a pu être compté comme lu. Il faut donc établir, notice par notice, sur quoi repose l'année : un nom gravé, un nom partiellement conservé, de simples initiales, ou une restitution d'éditeur.
+
+### Méthode
+
+- **Script.** `05_scripts/consuls_lus_restitues.py`. Résultat : `02_verifications/consuls_lus_restitues.csv`, 462 lignes.
+- **Texte de référence.** Le texte EDCS de la v2.0, en conventions de Leyde.
+- **État de chaque lettre.** Une lettre est classée en trois états :
+  - *gravée* : hors crochets et hors parenthèses ;
+  - *restituée* : entre `[ ]` ; un `]` initial sans `[` qui le précède met le début du texte en état restitué ;
+  - *développée* : entre `( )`, c'est-à-dire ajoutée par l'éditeur pour développer une abréviation.
+- **Normalisation.** Les corrections `<x=y>` sont lues dans leur forme corrigée. Les lettres superflues `{ }` sont supprimées. Les coupures de mot en fin de ligne (`cu/m`) sont recollées.
+- **Recherche des noms.** Pour chaque consul de la liste v2.0 (« consuls identifiés »), le script cherche les radicaux usuels du nom, latins et grecs, avec les variantes graphiques attestées dans le corpus (*Ricomere*, *Fraudito*, *Aronteo*…). Il compte les lettres **gravées** du mot qui contient le radical.
+- **Niveaux** (le meilleur nom de la notice l'emporte) :
+  - **A**, nom lu : aucun caractère du radical n'est restitué et au moins 3 lettres sont gravées (une abréviation gravée comme *Val(entiniano)* compte) ;
+  - **B**, lecture partielle : au moins 3 lettres gravées d'un nom, le reste restitué ;
+  - **C**, initiales : sigles ou initiales seuls gravés ;
+  - **R**, restitution : au plus 2 lettres gravées par nom ; l'identification du consulat repose sur la restitution ;
+  - **D**, indéterminé.
+- **Relecture manuelle.** Tous les cas de niveau C, R ou D ont été relus à la main, ainsi que ceux où le niveau A ne tenait qu'à un nom absent de la liste v2.0 : 38 notices, avec justification dans `02_verifications/consuls_revue_manuelle.csv`. Les cas où un nom de la liste était lu et un autre restitué (niveau A « mixte ») ont aussi été parcourus. Les niveaux A et B obtenus automatiquement, sans cas particulier, **n'ont pas été relus un à un**.
+
+### Résultat 1 — la liste « consuls identifiés » de la v2.0 contient des noms qui ne sont pas des consuls
+
+Le détecteur de la v2.0 a pris pour des consuls **30 noms de personnes** (29 notices) qui figurent dans le texte : défunts, dédicants, l'apôtre Paul, un fonctionnaire. La liste, avec la forme exacte du texte, est dans `02_verifications/consuls_faux_positifs_v2.csv`. En voici des exemples :
+
+- n° 55, *Marcellinus*, le défunt ; le consulat lu, *Aqundino et Proculo* (340), date la naissance ;
+- n° 105, *Vincentius presb(yter)* ;
+- n° 147, *ego Constantius* ;
+- n° 321, *Columna Paul(i) a[postol(i)]* et *administrante Fl(avio) Filippo* ;
+- n° 387, *ad limina Petri et Pauli* ;
+- n° 452, *Theodosius v(ir) c(larissimus)*, un particulier et non l'empereur.
+
+Dans ces 29 notices, **l'année retenue n'est pas faussée**, car elle repose sur l'autre paire consulaire ou sur le collègue. En revanche, la table « Consuls » de la v2.0 est gonflée d'autant. Les décomptes de mentions consulaires doivent être refaits sans ces lignes.
+
+Le détecteur a aussi **omis** des consuls bel et bien lus. Exemples :
+
+- *C{a}eriale* au n° 53 ;
+- *Euthyciano* au n° 423 ;
+- *Vincenti* au n° 450 ;
+- *Fraudit[o* au n° 456 ;
+- *Romodoro* au n° 476 ;
+- *Timatio* au n° 309 ;
+- *Arantheo* au n° 155.
+
+### Résultat 2 — sur quoi reposent les années « directes »
+
+Corpus de 473 textes : on retire les doublons 106, 282 et 329, ainsi que le n° 98, et l'on compte une fois les fragments 393 et 394, au meilleur niveau des deux. Ce corpus compte **457 textes à datation directe**. Les 16 autres sont datés par la base (§ D, A016).
+
+| niveau | textes | % de 457 |
+|---|---|---|
+| A — au moins un nom consulaire lu | 338 | 74,0 % |
+| B — lecture partielle (≥ 3 lettres gravées d'un nom) | 97 | 21,2 % |
+| C — initiales seules (n° 48 *Co. VIIII I. II* ; n° 70 *M. et N.*) | 2 | 0,4 % |
+| R — consulat **restitué** (≤ 2 lettres gravées par nom) | 20 | 4,4 % |
+
+Les 20 textes de niveau R sont les n° 52, 129, 137, 138, 161, 203, 219, 222, 256, 290, 314, 384, 415, 426, 432, 438, 452, 455, 465 et 468. Leur année vient d'une **restitution d'éditeur**. Ce qui est gravé se réduit à une ou deux lettres (*Sy[agrio*, *L[ybrio*, *M[allio*), à une désinence (*Merobau]de*, *Theodo]ro*) ou à une itération et une titulature (*A]Auugg(ustis) V*, *Honori]o IIII*). Pour 16 d'entre eux, l'EDB retient la même année. Ce n'est pas une confirmation indépendante : les deux bases reprennent la restitution de l'ICVR. Deux cas sont en désaccord :
+
+- **n° 52** : l'EDB date « 333 ; 358 », car *Da[tiani* est compatible avec deux consulats ;
+- **n° 314** : l'EDB date « 389–390 » (dossier A009).
+
+Deux textes, les n° 161 et 452, n'ont pas de fiche EDB appariée (§ F et `ETAT_COLLATION.md`).
+
+Le n° 393 (*IIII H[onorio III*, niveau R) remonte au niveau B une fois fusionné avec le n° 394 (*Arc]adio*).
+
+Plusieurs cas de niveau B ne reposent que sur une partie peu distinctive du nom. Ils restent classés B, mais l'identification y dépend en partie de la restitution :
+
+- n° 273 : *Clea]rco*, désinence seule ;
+- n° 328 : *Eu]terio*, qui peut être *Eucherio* (381) ou *Neoterio* (390) ; voir § D.
+
+### Conséquences pour la v3
+
+1. **Reformuler** l'indicateur « datation directe (consulat lu) ». Il faut au moins distinguer A + B (435 textes, 95,2 %) de C + R (22 textes, 4,8 %). Les tableaux chronologiques doivent pouvoir être recalculés sans les 20 textes de niveau R.
+2. **Corriger la table « Consuls »** de la v2.0 : retirer les 30 lignes de faux consuls ; ajouter les consuls lus omis.
+3. **Vérifier sur l'ICVR**, en priorité, les 20 textes de niveau R et les cas B fragiles (273, 328). Il s'agit de savoir si la restitution consulaire repose sur un calcul de l'éditeur (dimensions de la lacune, autres fragments) ou sur une simple hypothèse.
+4. **Limite.** Le classement repose sur la notation de l'EDCS. Là où l'EDB lit davantage, des lettres soulignées (vues par un éditeur antérieur) par exemple, le niveau peut changer. La comparaison systématique avec la notation de l'EDB n'a pas été faite.
+

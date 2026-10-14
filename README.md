@@ -25,7 +25,8 @@ Les anomalies citées dans la mission (106/120, 282/288, 329/336, 313/314, 393/3
 4. **Dossiers d'anomalies** argumentés, avec preuves et degré de certitude : `03_dossiers_anomalies/DOSSIERS_ANOMALIES.md`.
 5. **Registre des consultations** (URL, date, outil, résultat, échecs compris) : `02_verifications/REGISTRE_CONSULTATIONS.csv`.
 6. **Journal des modifications** : `JOURNAL_MODIFICATIONS.md`.
-7. **Dossier de soumission** (grille d'évaluation sur 20, état des consignes d'éditeurs, projet de proposition) : `04_soumission/`.
+7. **Contrôle « consul lu / consul restitué »** (lot 5) : fondement de l'année de chaque notice à datation directe, et relevé des faux consuls de la v2.0 (`02_verifications/consuls_lus_restitues.csv`, dossiers § G).
+8. **Dossier de soumission** (grille d'évaluation sur 20, état des consignes d'éditeurs, projet de proposition) : `04_soumission/`.
 
 ## 3. Ce qui n'a PAS été fait (et pourquoi)
 

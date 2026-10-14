@@ -12,10 +12,11 @@ def sheet(name,rows,widths,first=False):
     for row in ws.iter_rows():
         for c in row: c.alignment=Alignment(wrap_text=True,vertical="top")
 sheet("Lisez-moi",[["Élément","Description"],
-["Objet","PRISME — collation EDCS (base v2.0) / EDB (Epigraphic Database Bari), avec appoint de l'EDH ; lots 1-4, 14 oct. 2026"],
+["Objet","PRISME — collation EDCS (base v2.0) / EDB (Epigraphic Database Bari), avec appoint de l'EDH ; lots 1-5, 14 oct. 2026"],
 ["Niveau de preuve","Collation base contre base : ni ICVR imprimée, ni photographie, ni autopsie"],
 ["Bilan","456/478 notices appariées (281 concordantes, 137 à examiner, 38 divergentes) ; 16 absentes de la liste publique EDB ; 6 introuvables"],
 ["Corpus","473 textes distincts datés de 340-403 (doublons 106, 282, 329 fusionnés ; 393+394 = un texte ; n° 98 hors période, 461/482)"],
+["Consuls (lot 5)","Fondement de l'année de 457 textes à datation directe : A lu 338, B partiel 97, C initiales 2, R restitué 20 ; 30 faux consuls de la v2.0 (feuilles Consuls_lus_restitues, Faux_consuls_v2)"],
 ["Licences","EDB et EDH : CC BY-SA 4.0"],
 ["Source","PR martinialexisangel-sudo/alexis-angel-martini#1"]],[22,110],True)
 C=list(csv.DictReader(open('02_verifications/collation_edcs_edb.csv')))
@@ -63,5 +64,10 @@ sheet("Dossiers",[["Dossier","Notices","Conclusion","Certitude","Preuve"],
 sheet("Registre_consultations",list(csv.reader(open('02_verifications/REGISTRE_CONSULTATIONS.csv'))),[12,30,60,25,30,14,30])
 sheet("Statistiques",[["Mesure","Valeur","Dénominateur"],["Textes distincts datés 340-403",473,478],["Lectures stabilisées (concordantes)",279,474],
 ["Années 340",16,279],["Années 350",10,279],["Années 360",46,279],["Années 370",49,279],["Années 380",72,279],["Années 390",64,279],["400-403",22,279],
-["in pace (texte EDB, approx.)",94,279],["Chrisme ou croix (lectures stabilisées)",27,279],["Chrisme ou croix (toutes notices appariées)",47,456]],[45,10,14])
+["in pace (texte EDB, approx.)",94,279],["Chrisme ou croix (lectures stabilisées)",27,279],["Chrisme ou croix (toutes notices appariées)",47,456],
+["Datation directe : nom consulaire lu (A)",338,457],["Datation directe : lecture partielle (B)",97,457],["Datation directe : initiales (C)",2,457],["Datation directe : consulat restitué (R)",20,457],["Faux consuls dans la liste v2.0",30,"29 notices"]],[45,10,14])
+K=list(csv.DictReader(open('02_verifications/consuls_lus_restitues.csv')))
+sheet("Consuls_lus_restitues",[["N°","Année v2.0","Noms consulaires et état (auto)","Niveau automatique","Niveau final","Relu à la main","Justification","Texte EDCS (v2.0)"]]+
+  [[int(r['n']),int(float(r['annee'])),r['consuls'],r['niveau_auto'],r['niveau_final'],r['revu_main'],r['justification'],r['texte']] for r in K],[6,9,45,30,30,8,60,80])
+sheet("Faux_consuls_v2",list(csv.reader(open('02_verifications/consuls_faux_positifs_v2.csv'))),[6,9,14,40,45,35])
 wb.save('06_livrables/PRISME_collation_EDCS_EDB.xlsx')
