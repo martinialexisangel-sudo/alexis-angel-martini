@@ -1,4 +1,4 @@
-# État de la collation EDCS / EDB (au 14 octobre 2026, lot 3 : parcours des listes terminé)
+# État de la collation EDCS / EDB (au 14 octobre 2026, lot 4)
 
 ## Méthode
 
@@ -15,12 +15,12 @@
 
 | statut | notices |
 |---|---|
-| concordant (écarts mineurs de notation) | 269 |
-| écarts à examiner | 134 |
-| divergence forte ou appariement douteux | 37 |
-| **appariées à une fiche EDB** | **440** |
+| concordant (écarts mineurs de notation) | 281 |
+| écarts à examiner | 137 |
+| divergence forte ou appariement douteux | 38 |
+| **appariées à une fiche EDB** | **456** |
 | numéro ICUR absent de la liste publique EDB (voir ci-dessous) | 16 |
-| sans numéro ICUR (recherche par texte à faire) | 22 |
+| sans numéro ICUR, non trouvée (EDB ni EDH) | 6 |
 
 16 numéros ICUR se trouvent dans des plages déjà parcourues sans y figurer sous ce numéro : 4798, 4799, 4800, 4802, 4804, 4805, 4807, 4808, 4815, 4829, 4830, 4832, 4836, 4948, 5711 et 5712. La liste EDB saute par exemple de 4781 à 4900. Une recherche par texte (n° 202, *Cinnamius Opas lector tituli Fasciolae*) n'a rien donné. L'EDB indique dans son bandeau que certaines fiches ne sont pas publiques (« only selected records are publicly available online on the Vatican Museums website »). Il est possible que ces numéros, attribués à la basilique Saint-Paul dans la v2.0, en fassent partie : c'est une **hypothèse non vérifiée**. Les notices concernées sont les n° 12, 13, 25, 26, 45, 65, 116, 117, 149, 161, 202, 212, 374, 406, 407 et 452.
 

@@ -3,7 +3,7 @@ import csv,collections,re,sys
 B=sys.argv[1]; C=sys.argv[2]
 N={int(float(r['n'])):r for r in csv.DictReader(open(B+'/Notices.csv'))}
 COL={int(r['n']):r for r in csv.DictReader(open(C))}
-doublons={106:120,282:288,329:336}          # fusion proposée (dossiers § A)
+doublons={106:120,282:288,329:336,394:393}          # fusion proposée (dossiers § A)
 unite_unique=[(393,394)]                     # un seul monument, une seule occurrence datée
 textes=[n for n in N if n not in doublons]
 print('notices',len(N),'| textes distincts après fusion des doublons',len(textes))

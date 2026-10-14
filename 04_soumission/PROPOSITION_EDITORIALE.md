@@ -10,7 +10,7 @@ Alexis Angel Martini (Brive-la-Gaillarde).
 
 ## Résumé (≈ 200 mots)
 
-L'ouvrage étudie 478 notices d'épitaphes chrétiennes de Rome datées des années 340 à 403. Elles ont été extraites de l'Epigraphik-Datenbank Clauss/Slaby (EDCS) puis confrontées à l'Epigraphic Database Bari (EDB). Après élimination des doublons, le corpus compte au plus 475 textes distincts. Il ne s'agit pas d'une nouvelle édition : les textes restent des lectures secondaires dont le statut est indiqué notice par notice. L'ouvrage apporte trois choses.
+L'ouvrage étudie 478 notices d'épitaphes chrétiennes de Rome datées des années 340 à 403. Elles ont été extraites de l'Epigraphik-Datenbank Clauss/Slaby (EDCS) puis confrontées à l'Epigraphic Database Bari (EDB). Après élimination des doublons, fusion de deux fragments et exclusion d'une notice datée de 461/482, le corpus compte 473 textes distincts. Il ne s'agit pas d'une nouvelle édition : les textes restent des lectures secondaires dont le statut est indiqué notice par notice. L'ouvrage apporte trois choses.
 
 1. **Une étude critique de la transmission numérique.** La comparaison EDCS/EDB fait apparaître des lignes omises, dont des formules consulaires, des parties grecques absentes, des signes chrétiens non transmis et des restitutions divergentes. Ces écarts modifient la datation et l'interprétation religieuse de plusieurs textes.
 2. **Un contrôle systématique de la chronologie.** Consuls latins et grecs, post-consulats, jours de la semaine, âge de la lune, cohérence entre âge et dates.

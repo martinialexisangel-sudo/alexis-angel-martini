@@ -42,3 +42,16 @@ Les originaux ne sont jamais modifiés (`00_originaux/`, empreintes dans `SHA256
 | 22 | 16 n° ICUR II (4798–4836, 4948, 5711–5712) | absents de la liste publique EDB ; recherche par texte infructueuse ; cause non établie | `ETAT_COLLATION.md` | registre |
 | 23 | Signes chrétiens | 46 chrismes ou croix sur 440 notices (10,5 %) | dossiers § E | `collation_edcs_edb.csv` |
 | 24 | Statistiques stabilisées | recalcul : 269 lectures stabilisées | `STATISTIQUES_STABILISEES.md` | script |
+
+## 2026-10-14 — lot 4
+
+| # | Objet | Action | Fichier | Preuve |
+|---|---|---|---|---|
+| 25 | Fiches EDB détaillées | 15 fiches ouvertes (dimensions, support, notes d'éditeur, photos signalées) | `02_verifications/edb/fiches/` | fiches EDB |
+| 26 | A007, A008 | doublons 106/120 et 282/288 **certains** (EDH HD030246, HD021839) | dossiers § A | dump EDH |
+| 27 | A010 (393/394) | deux fragments d'une même plaque (lecture de Ferrua citée par l'EDB) → fusion | dossiers § A | EDB39590 |
+| 28 | A009 (313/314) | note EDB : le frère est mort **avant** → restitution 390 contradictoire ; datation de (b) incertaine | dossiers § A | EDB39579 |
+| 29 | n° 98 | **hors corpus** : consul lu Severinus (461/482) ; *Dagalaiphi* restitué | dossiers § F | EDB20076, EDH HD028015 |
+| 30 | Notices sans ICUR | 13 retrouvées (EDB/EDH), 6 non trouvées ; n° 369 conservé à Valencia : provenance non établie | dossiers § F | `mapping_extra.csv` |
+| 31 | Collation | 456/478 notices appariées (281 concordantes, 137 à examiner, 38 divergentes) | `collation_edcs_edb.csv` | — |
+| 32 | Corpus | 473 textes distincts datés de 340–403 | dossiers § F | — |

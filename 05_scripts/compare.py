@@ -20,14 +20,18 @@ def norm(s):
     s=s.lower().replace('j','i').replace('u','v')
     return ' '.join(s.split())
 NUMRE=re.compile(r'\b[IVXL]{1,7}\b')
+EXTRA={r['n']:r for r in csv.DictReader(open(SP+'/mapping_extra.csv'))}
+BYID={r['edb']:r for r in csv.DictReader(open(SP+'/edb_rows.csv'))}
 out=[]
 for n,r in sorted(N.items()):
     refs=r['ICUR / refs catalogue']+' '+r['publications EDCS']
     icur=sorted(set((int(v),int(k),s) for v,k,s in re.findall(r'ICUR-(\d\d), (\d+)([a-z]?)',refs)))
     t=T[n]['texte (Leyde, EDCS état source)']
     rec=dict(n=n,icur='; '.join(f'ICUR {v}, {k}{s}' for v,k,s in icur),edcs=r['EDCS-ID'],annee=r['annee_retenue'],edb_id='',edb_icvr='',edb_pert='',edb_cons='',edb_date='',edb_bib='',edb_text='',edcs_text=t,ratio='',statut='')
-    if not icur: rec['statut']='sans numéro ICUR (recherche EDB à faire par texte)'; out.append(rec); continue
-    cands=[e for v,k,s in icur for e in E.get(k,[])]
+    if str(n) in EXTRA:
+        cands=[BYID[EXTRA[str(n)]['edb']]]
+    elif not icur: rec['statut']='sans numéro ICUR (non trouvé dans l\'EDB)'; out.append(rec); continue
+    else: cands=[e for v,k,s in icur for e in E.get(k,[])]
     if not cands:
         rec['statut']='page EDB non encore consultée'; out.append(rec); continue
     best=max(cands,key=lambda e: difflib.SequenceMatcher(None,norm(t),norm(e['text'])).ratio())

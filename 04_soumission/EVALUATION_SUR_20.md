@@ -14,9 +14,9 @@ L'évaluation est **interne** : elle ne remplace pas une expertise par les pairs
 
 ## Notes
 
-| Critère | v2.0 seule | v2.0 + lots 1-3 | Justification |
+| Critère | v2.0 seule | v2.0 + lots 1-4 | Justification |
 |---|---|---|---|
-| 1 | 1 | **2** (partiel) | 440 notices sur 478 confrontées à l'EDB (listes entièrement parcourues ; 16 absentes de la liste publique, 22 sans n° ICUR) ; aucune collation sur l'ICVR, aucune autopsie |
+| 1 | 1 | **2** (partiel) | 456 notices sur 478 confrontées à l'EDB, avec appoint de l'EDH (16 absentes de la liste publique, 6 introuvables) ; aucune collation sur l'ICVR, aucune autopsie |
 | 2 | 0 | **1,5** | provenance et conservation désormais connues pour une partie des notices (EDB) ; ni dimensions, ni support, ni photographie |
 | 3 | 2,5 | **2,5** | contrôle consulaire interne solide ; CLRE non consulté ; sept divergences de date avec l'EDB non résolues |
 | 4 | 1 | **1** | A055/A056 : bibliographie largement non vérifiée, historiographie descriptive ; le document « État critique » est inutilisable (audit) |

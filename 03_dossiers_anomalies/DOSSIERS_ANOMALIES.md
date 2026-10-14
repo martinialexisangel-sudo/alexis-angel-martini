@@ -20,9 +20,10 @@
 | EDB13167 | ICVR 6028, *Coem. Commodillae*, daté 367 | `Zosimus recessit in pace / annorum plus minus / [---]III idus ma/ias Lupicin/o et Iobino cons(ulibus)` |
 
 - **Arguments.** Les deux notices concordent sur le nom, la formule « *annorum plus minus* », la date (III Idus Maias), le consulat (367) et **la même coupe de lignes, inhabituelle** (*Ma/ias*, *Lupicin/o*). Elles divergent sur une seule leçon, le verbe : *c(iu)esq(it)* dans l'AE de 1905, *recessit* dans l'ICVR et l'EDB.
-- **Conclusion.** Doublon **très probable** : une même pierre, publiée en 1905 (AE) puis dans l'ICVR II. La divergence sur le verbe est une **variante de lecture** à inscrire en apparat ; il n'y a pas deux défunts.
+- **Preuve explicite (lot 4).** La fiche détaillée EDB13167 renvoie à « Online: EDH30246 ». La fiche **EDH HD030246** (Epigraphic Database Heidelberg, dump officiel sur GitHub, lu le 14 oct. 2026) donne pour bibliographie « AE 1905, 0071. ICUR n. s. 06028 ». Son texte suit l'AE : *c(iu)esq(it) (sic) in pace*. La fiche EDB13167 renvoie aussi à deux photographies de la PCAS (Com_Td_015, Com_Td_006b), non consultées.
+- **Conclusion.** Doublon **certain** (concordance publiée par l'EDH et liée par l'EDB) : une même pierre, publiée en 1905 (AE) puis dans l'ICVR II. La divergence sur le verbe est une **variante de lecture** à inscrire en apparat ; il n'y a pas deux défunts.
 - **Correction v3.** Fusionner le n° 106 dans le n° 120 (référence principale : ICUR II 6028 ; EDB13167). Mettre AE 1905, 71 en bibliographie et sa leçon *c(iu)esq(it)* en apparat. Donner la provenance « Rome, catacombe de Commodilla (via Ostiensis), d'après l'EDB ».
-- **Reste à vérifier.** La liste EDB ne cite pas AE 1905, 71 dans sa bibliographie complémentaire : ouvrir la fiche EDB13167, puis l'ICVR II 6028, qui seule peut trancher la lecture du verbe.
+- **Reste à vérifier.** L'ICVR II 6028 ou les photographies de la PCAS, seules à pouvoir trancher la lecture du verbe : *cesquit* (AE, EDH) ou *recessit* (ICVR, EDB).
 
 ### A008 — n° 282 / n° 288 (Euticia, 3 juillet 386)
 
@@ -41,16 +42,17 @@
 
 - **Preuve explicite.** La liste EDB donne pour **EDB10126 = ICVR 6050** la bibliographie « AE, 1987, 61 ; Paci 1985, 542-544 ; Marinucci 1991, 104-105, n. 26 ; AE, 1991, 361 ». Or AE 1987, 61 est la référence unique du n° 329. L'EDB rattache ainsi expressément le texte de l'AE au numéro ICVR.
 - **Conclusion.** Doublon **certain** (concordance publiée par l'EDB). La v2.0 l'avait déjà traité.
-- **Données nouvelles.** L'EDB indique la conservation : **Ostia Antica, Lapidario**. Elle signale aussi deux références que la v2.0 ignorait : AE 1991, 361 ; Marinucci 1991, 104-105, n. 26.
+- **Données nouvelles (fiche détaillée EDB10126).** Plaque de marbre, 34,2 × 20,3 cm, lettres de 4 cm. La pierre est en **deux fragments** conservés en deux lieux : le fragment gauche, tenu pour perdu par Silvagni dans l'ICVR, se trouve à Treia (MC), Villa Luzi Votalarca (cf. Paci 1985) ; le fragment droit est à l'**Ostia Antica, Lapidario**, où Marinucci l'avait pris pour une inscription inédite d'Ostie. Fiche EDR correspondante : EDR031373. Note de l'EDB : « Transcription different from ICVR ». Elle signale aussi deux références que la v2.0 ignorait : AE 1991, 361 ; Marinucci 1991, 104-105, n. 26.
 - **Variante d'âge.** L'EDB lit `L[X]V`, avec un X restitué. Le n° 336 (EDCS) donne `LXV` sans crochet, le n° 329 `L[1]V`. L'âge de 65 ans est donc **partiellement restitué** et doit être codé ainsi dans la table des âges.
 
 ### A009 — n° 313 / n° 314 (ICUR IV 11117a/b) — résolu quant à la structure
 
 - **EDB39579 = ICVR 11117**, une **fiche unique** portant deux sections marquées `〈: a〉` et `〈: b〉`. Provenance : *Coem. Callisti area subdialis et incerti loci* (conservation : même lieu) ; datation EDB : « 389 - 390 ».
 - **Texte EDB.** `〈: a〉 [--- Ti]masio et Promoto con(sulibu)s deposit[us est ---] / XV kal(endas) nobembres / 〈: b〉 et fra[ter eius ---] / d̅(omi)n̅(o) V[alentiniano augusto IIII et Neoterio consulibus]`.
+- **Fiche détaillée (lot 4).** Plaque de marbre de 22 × 105 × 3,6 cm, lettres de 3,6 cm. Trois photographies de la PCAS sont signalées (11117_1-3), non consultées. Note de l'EDB : « rr 3-4 commemorant fratrem priorem defunctum », c'est-à-dire que les lignes 3-4 commémorent le frère **mort auparavant**.
 - **Conclusion.**
-  - Il s'agit d'**un seul monument** portant **deux dépositions successives** : un défunt en 389 (a), puis son frère (b, *et fra[ter eius]*). Ce ne sont pas deux fragments d'un même texte. Certitude : très probable.
-  - L'année de (b) repose sur *d(omino) n(ostro) V[…]*, seul élément lu. Le reste, *V[alentiniano Aug. IIII et Neoterio]* (390), est une **restitution éditoriale**, que l'EDCS et l'EDB partagent. La datation à 390 est donc **probable, non certaine**.
+  - Il s'agit d'**un seul monument** portant deux commémorations : (a) une déposition de 389 et (b) le frère *et fra[ter eius]*. Certitude : très probable.
+  - L'année de (b) repose sur *d(omino) n(ostro) V[…]*, seul élément lu. Si le frère est mort **avant** 389, comme l'indique la note de l'EDB, la restitution *V[alentiniano IIII et Neoterio]* (390) **devient contradictoire**. Un consulat antérieur ouvert par *d. n. Valentinianus* serait alors plus cohérent, par exemple Valentinien II III et Eutropius, en 387 : c'est une hypothèse à vérifier sur CLRE. Dans tous les cas, la datation de (b) est **incertaine**, et l'année 390 ne doit plus être retenue sans réserve.
 - **Correction v3.** Une unité documentaire, deux textes datés. Pour le n° 314, coder « consulat restitué » et non « consulat lu ».
 
 ### A010 — n° 393 / n° 394 (ICUR IV 11126a/b) — l'EDCS restitue plus que l'EDB
@@ -59,8 +61,9 @@
 - **Texte EDB.** `〈:a〉 ------ / [---]+[---] / [---]IIII H[---] / ------ / 〈:b〉 [---]ADIO[---] / [---]o III Aug(usto) [---]`.
 - **Texte EDCS (v2.0).** N° 393 : `Arcadio] IIII H[onorio III Augg(ustis) conss(ulibus)]`. N° 394 : `Arc]adio [Hon]/[ori]o III Aug[g(ustis) conss(ulibus)]`.
 - **Constat.** L'EDB ne lit dans (b) ni *Arc-* ni *Hon-*. L'EDCS restitue donc davantage que l'EDB. Ce qui est lu (*…IIII H…* ; *…adio…* ; *…o III Aug.*) reste compatible avec le consulat d'Arcadius IV et d'Honorius III (396).
-- **Conclusion.** Une seule fiche, donc **un seul monument** dans l'EDB. Rien ne permet d'y compter deux épitaphes datées distinctes : (a) et (b) peuvent être deux fragments d'une même plaque ou deux textes. Certitude : non résolu sans l'ICVR IV 11126.
-- **Correction v3.** Une seule unité documentaire. Dans les distributions chronologiques, ne compter qu'**une** occurrence datée de 396 tant que l'ICVR n'a pas été vue. Dater par « consulat partiellement restitué ».
+- **Fiche détaillée (lot 4).** Plaque de marbre de 16 × 13 × 2 cm, lettres de 4 cm. Les deux parties ont été relevées en **deux endroits** : la *trichora* orientale et la *trichora* occidentale de l'aire *sub divo* de Callixte. Note de l'EDB : « **Ferrua legit: Arcadio IIII Honorio III Aug(ustis) con(sulibu)s** ».
+- **Conclusion.** (a) et (b) sont **deux fragments d'une même petite plaque**, retrouvés en deux lieux, et non deux épitaphes. Certitude : très probable. Le texte EDCS des n° 393/394 reproduit la **lecture de Ferrua** (ICVR IV). L'EDB, plus prudente, ne lit que *…IIII H…* et *…ADIO… / …o III Aug…*. La date de 396 est solide : les itérations IIII et III lues s'accordent avec Arcadius IV et Honorius III.
+- **Correction v3.** Fusionner les n° 393 et 394 en **un seul texte** à deux fragments, daté de 396 par un consulat partiellement restitué (lecture de Ferrua). Le corpus passe à **474 textes distincts**.
 
 ## B. Provenance
 
@@ -124,21 +127,57 @@ Deux autres notices du groupe A016 reçoivent de l'EDB une **restitution consula
 | n° | EDB | texte | base v2.0 | EDB | commentaire |
 |---|---|---|---|---|---|
 | 278 | EDB3285 (ICVR 6037) | `[Merob]aude II et Satur/[nin]o cons(ulibu)s` | 383 | 385 | Merobaudes II et Saturninus = 383 dans les fastes usuels. La fiche voisine EDB8750 (ICVR 6038, même consulat) est datée 383 par l'EDB : incohérence interne de l'EDB probable. **À vérifier : ICVR II 6037, CLRE.** |
-| 311 | EDB22064 (ICVR 6506) | `… VI idus feb(ruarias) Maximo cons(ule)` | 388 | 389 | Consulat de Magnus Maximus (388) ou autre lecture ; **à vérifier : ICVR III 6506, CLRE.** |
-| 434 | EDB34468 (ICVR 6476) | `Cam(---) p(ost) cons(ulatum) / Arcadi I[II]I` | 397 | 399 | Le p.c. d'Arcadius IV donne 397 ; l'EDB date 399. **À vérifier.** |
-| 141 | EDB9633 (ICVR 6030) | `emit c(onsule) d(omi)n(o) Valentinian{i}o III` | 370 | 370 ; 387 | Double date EDB (Valentinien I III = 370 ; Valentinien II III = 387). **Ambiguïté réelle sur l'empereur.** |
+| 311 | EDB22064 (ICVR 6506) | `… VI idus feb(ruarias) Maximo cons(ule)` | 388 | 389 | Inscription **tracée dans l'enduit** (*exaratus*, *arenatum*), *in situ* à Domitilla. Note de l'EDB : « Transcription different from ICVR ». Consulat de Magnus Maximus (388) ou autre lecture ; **à vérifier : ICVR III 6506, CLRE.** |
+| 434 | EDB34468 (ICVR 6476) | `Cam(---) p(ost) cons(ulatum) / Arcadi I[II]I` | 397 | 399 | Inscription tracée dans l'enduit, *in situ* à Commodilla, relevée par Bagatti (Silvagni) ; itération partiellement restituée. Le p.c. d'Arcadius IV donne 397 ; l'EDB date 399. **À vérifier.** |
+| 141 | EDB9633 (ICVR 6030) | `emit c(onsule) d(omi)n(o) Valentinian{i}o III` | 370 | 370 ; 387 | Pierre aujourd'hui perdue. La fiche EDB cite CLRE p. 644 : « Year doubtful: 387 possible ». **Ambiguïté réelle sur l'empereur** (370 ou 387). Coder « datation incertaine (370/387) ». |
 | 40 | EDB30464 (ICVR 1252) | `MVANNENTIO et Decen/[ti]o cc(on)s(ulibu)s` | 353 | 352 | La fiche EDB (consultée en détail) cite CLRE p. 636 : le lapicide aurait mal copié la formule de 352 (*Magno Decentio*) après avoir gravé *Magnentio* toute l'année précédente. La v2.0 lit Magnence III et Décence II (353). **Deux interprétations publiées, à arbitrer sur CLRE.** |
-| 206 | EDB880 (ICVR 11770) | `Valentiniano III / et Valente Augg(ustis) / cons(ulibu)s` | 370 | 377 | Valentinien I III et Valens III = 370 selon les fastes usuels. La date EDB de 377 est **probablement une erreur de saisie de l'EDB**. À vérifier sur l'ICVR IV 11770. |
+| 206 | EDB880 (ICVR 11770) — inscription **peinte** sur enduit, *in situ* | `Valentiniano III / et Valente Augg(ustis) / cons(ulibu)s` | 370 | 377 | Valentinien I III et Valens III = 370 selon les fastes usuels. La date EDB de 377 est **probablement une erreur de saisie de l'EDB**. À vérifier sur l'ICVR IV 11770. |
 | 328 | EDB17191 (ICVR 9578) | `[--- Fl(avio) Syagrio et Eu]terio [conss(ulibus)]` | 381 | 390 | Seul *…terio* est lu. La restitution *Syagrio et Eucherio* (381) est commune aux deux bases, mais la date EDB (390) suppose *[Valentiniano IIII et Neo]terio*. **La date dépend entièrement de la restitution : 381 ou 390.** Le n° 328 doit être classé « datation incertaine (381/390) ». |
 
 ## E. Signes chrétiens absents de l'EDCS (constat nouveau)
 
-Sur les **440 notices appariées** (lot 3), l'EDB décrit pour **46 d'entre elles un chrisme ou une croix** : *monogramma Christi*, avec ou sans *alpha et omega*, *in crucem translatum*, *crux quadrata*, *crux gammata*, etc. Ce sont les n° 4, 16, 22, 24, 34, 38, 43, 46, 49, 50, 55, 60, 68, 73, 94, 99, 100, 109, 118, 128, 136, 139, 142, 143, 146, 147, 179, 183, 193, 209, 213, 247, 260, 273, 275, 276, 321, 344, 357, 376, 400, 402, 430, 431, 434 et 465. Le n° 339 porte un monogramme de nom (*Laurentia*) et n'est pas compté. L'EDCS **ne transmet aucun de ces signes**, sauf le n° 38, rendu par *Chr(isti)*.
+Sur les **456 notices appariées** (lot 4), l'EDB décrit pour **47 d'entre elles un chrisme ou une croix** : *monogramma Christi*, avec ou sans *alpha et omega*, *in crucem translatum*, *crux quadrata*, *crux gammata*, etc. Ce sont les n° 4, 16, 22, 24, 34, 38, 43, 46, 49, 50, 55, 60, 68, 73, 94, 99, 100, 109, 118, 128, 136, 139, 142, 143, 146, 147, 179, 183, 193, 209, 213, 247, 260, 273, 275, 276, 321, 344, 357, 369, 376, 400, 402, 430, 431, 434 et 465. Le n° 339 porte un monogramme de nom (*Laurentia*) et n'est pas compté. L'EDCS **ne transmet aucun de ces signes**, sauf le n° 38, rendu par *Chr(isti)*.
 
-Le résultat central de la v2.0 doit donc être reformulé : « désignations gravées de Dieu, du Christ… dans 14 textes funéraires sur 468 (3,0 %) ». Il reste exact pour le **vocabulaire**. En revanche, il ne mesure pas le marquage chrétien des monuments : **46 notices sur 440 collationnées (10,5 %)** portent un chrisme ou une croix selon l'EDB. Ce chiffre est un minimum, car les textes de liste tronqués (« More ») peuvent omettre un signe placé en fin de texte. Il dépend aussi de la description de l'EDB, non vérifiée sur photographie.
+Le résultat central de la v2.0 doit donc être reformulé : « désignations gravées de Dieu, du Christ… dans 14 textes funéraires sur 468 (3,0 %) ». Il reste exact pour le **vocabulaire**. En revanche, il ne mesure pas le marquage chrétien des monuments : **47 notices sur 456 collationnées (10,3 %)** portent un chrisme ou une croix selon l'EDB. Ce chiffre est un minimum, car les textes de liste tronqués (« More ») peuvent omettre un signe placé en fin de texte. Il dépend aussi de la description de l'EDB, non vérifiée sur photographie.
 
 L'EDB décrit aussi d'autres signes, non comptés ici comme christiques : *avis* (11), *palma* (4), *folium*, *uva*, *orans*, etc.
 
-## F. Notices sans numéro ICUR (22)
+## F. Notices sans numéro ICUR (22) — lot 4
 
-Il s'agit des n° 83, 98, 106, 132, 195, 196, 241, 282, 304, 305, 307, 329, 351, 362, 368, 369, 385, 387, 396, 417, 429 et 448 (AE, CEACelio, Carletti 2008, CIL VI…). Leur recherche dans l'EDB passe par la bibliographie ou le texte. Elle n'a pas été faite dans ce lot, sauf pour 106, 282 et 329, résolus par leurs doublons ICUR.
+Ces notices ont été recherchées de deux façons. D'abord dans le **dump de l'EDH** (Epigraphic Database Heidelberg, CC BY-SA 4.0, dépôt GitHub officiel, cloné le 14 oct. 2026), par leur référence AE. Ensuite dans les **fiches EDB sans numéro ICVR**, en fin de liste : pages 2046 à 2117, sauf la page 2069, soit 888 fiches lues. L'appariement se fait par la référence AE donnée dans la bibliographie EDB ou, à défaut, par la similarité de texte.
+
+| n° | Référence v2.0 | Trouvée dans | Résultat |
+|---|---|---|---|
+| 106, 282, 329 | AE 1905, 71 ; AE 1906, 86 ; AE 1987, 61 | EDH HD030246, HD021839 ; EDB10126 | doublons **certains** des n° 120, 288, 336 (§ A) |
+| 98 | AE 1914, 68 | EDH HD028015 (« ICUR n. s. 17578 ») ; EDB20076 | **hors corpus** (voir ci-dessous) |
+| 195 | AE 1974, 85 | EDB33615 (Coem. Calepodii) | concordant ; 377 |
+| 241 | AE 1999, 307 | EDB42969 (conservation : S. Giovanni in Laterano) | concordant ; 383 |
+| 304 | AE 1979, 43 | EDB27361 | concordant ; 389 |
+| 305 | AE 1985, 60 | EDB34442 (Ipogeo della Torretta) | concordant ; 389 |
+| 307 | Ferrua 1979, 1444 | EDB31230 = **ICVR I, 1444** | concordant ; 389. La notice a donc un numéro ICUR. |
+| 351 | AE 1988, 111 | EDB41240 (Coem. s. Theclae) | concordant ; 393 |
+| 362 | CEACelio 311 | EDB43058 (Antiquarium del Celio), par le texte | écarts à examiner ; 394 |
+| 368 | AE 2001, 526 | EDB41941 (ex-vigna Chiaraviglio) | concordant ; 395 |
+| 369 | HEp 2006, 435 = AE 2006, 240 | EDB42064, *Incertae originis*, **conservée à Valencia (Espagne), musée de préhistoire** | concordant ; 395. **Provenance romaine non établie**, à signaler comme pour le n° 439. |
+| 396 | AE 1994, 163 | EDB42676 (Antiquarium del Celio) | concordant ; 397 |
+| 417 | AE 1984, 51 | EDB38747 (Ipogeo della Torretta), par le texte | concordant ; 398 |
+| 448 | AE 2001, 527 | EDB41942 (ex-vigna Chiaraviglio) | écarts à examiner ; 401 |
+| 83, 132, 196, 385, 387, 429 | AE 2010, 207 ; AE 2003, 216 ; AE 1994, 263 ; AE 2016, 170 ; Carletti 2008, 177 ; CIL VI 8405 | — | **non trouvées** dans les fiches lues (EDB ou EDH) |
+
+### n° 98 (*Hyppolytus*) : erreur de datation, la notice sort du corpus
+
+- **Texte v2.0 (EDCS).** `Dep(ositus) (H)yppolytus(!) in p[ace 3 consulatu] / Fl(avi) Severin[i et Fl(avi) Dagalaiphi]`. Année retenue par la v2.0 : 366, « consulat lu concordant », consul identifié : *Dagalaifus*.
+- **Erreur.** *Dagalaiphi* est **entièrement restitué** (entre crochets), alors que *Severin[i]* est **lu**. L'identificateur de la v2.0 a retenu le seul nom restitué, compatible avec 366 (Gratien et Dagalaifus), et ignoré le nom lu.
+- **EDB20076 = ICVR 17578.** *Coem. Cyriacae ad s. Laurentium* ; conservation : Musei Capitolini. Bibliographie : CLRE, 680. Texte : `dep(ositus) Yppolytus in p[ace ---] / Fl(avio) Severin[o v(iro) c(larissimo) cons(ule)]`. **Date EDB : 461 ; 482.**
+- **EDH HD028015.** AE 1914, 68 = ICUR n. s. 17578. Même lecture que l'EDCS.
+- **Conclusion (certitude : très probable).** Le seul consul lu est Fl. Severinus. Dans les fastes, Severinus est consul en 461 (avec Dagalaifus, ce qui explique la restitution de l'AE) et un Severinus iunior en 482. Aucun Severinus n'est consul en 366. La notice est donc datée de **461 ou 482** et **sort du corpus 340–403**. À contrôler sur CLRE p. 680, cité par l'EDB.
+- **Portée.** L'identificateur consulaire de la v2.0 a pu, ailleurs aussi, compter comme « lu » un nom restitué. Un contrôle automatique sommaire produit trop de faux positifs pour être publié : il faut reprendre le contrôle notice par notice, en distinguant noms lus et noms restitués. C'est une **tâche prioritaire** avant toute expertise.
+
+### Bilan de taille du corpus (lot 4)
+
+478 notices. On retire :
+- les doublons 106, 282 et 329 ;
+- le n° 394, fusionné avec le 393 ;
+- le n° 98, hors période.
+
+Il reste **473 textes distincts datés de 340–403**, en conservant pour l'instant les n° 439 et 369, de provenance incertaine.
