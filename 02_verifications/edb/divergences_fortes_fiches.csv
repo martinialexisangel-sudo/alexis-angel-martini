@@ -1,0 +1,39 @@
+n,edb_id,cause,"constat (fiche EDB détaillée, lue le 14/10/2026)",consequence
+4,EDB31184,notation,"Même texte. L'EDB garde la graphie de la pierre (bixit, birginia), l'EDCS la corrige (<v=B>). L'EDB décrit un chrisme final. Supports bibliographiques : Di Stefano Manzella 1997 (avec photo), Carletti 1986a n. 89.",aucune sur la date (341) ; chrisme à compter
+19,EDB39161,restitutions divergentes,"L'EDCS restitue beaucoup plus : [c(larissimae)] m(emoriae) f(eminae) venit [ante annos d]uos, cu[m compare sua Lea(?)], et Lea vixit. L'EDB lit m(onumentum?) f(ecerunt?) ++++, cu[m ---]uos, et dies XX (EDCS : XXI). Sarcophage, ICVR IV 10851 = CIL VI 9237.","date inchangée (347) ; ne pas exploiter Lea, c.m.f. ni les durées sans contrôle ICVR"
+51,EDB31763,ligne absente de l'EDCS,"EDB (selon Lega 2000) : [--- Datiano et C]aereale [consulibus? ---]. Déjà traité (§ D, A016).",déjà intégré
+52,EDB17462,datation contestée,"Note EDB (Vilella, d'après CLRE p. 631) : la lecture Da[tiano et Cereale] de Silvagni est incertaine, car Dalmatius, consul en 333 avec Zenophilus, commence aussi par DA. Pierre perdue. Transcription EDB différente de l'ICVR.","date incertaine 333/358 ; si 333, hors corpus"
+73,EDB31189,restitutions divergentes,"Carmen d'Eleuteria : restitutions différentes (déjà traité). L'EDB décrit palmes, soleil, chrisme, croix gammée, alpha et oméga.",déjà intégré
+98,EDB20076,datation,Déjà traité : Severinus lu ; 461 ou 482 (CLRE p. 680).,hors corpus (déjà)
+113,EDB31195,notation,Même texte (lecture Lega 2000).,aucune
+115,EDB33127,notation,Même texte ; non(is) / non(as).,aucune
+123,EDB24921,lecture divergente,Déjà traité (A016) : obiit (EDCS) contre [Lupicin]o et Iovi[no] (EDB).,déjà intégré
+134,EDB24671,structure et lecture,"Grande dalle (105 x 190 x 15) en plusieurs textes (a, b…), remployée en morceaux dans un mur (Marucchi 1914, cité par l'EDB). Photo PCAS signalée. Lecture du nom : Ca[t]afronies (EDCS) / Ca[l]ifronies (EDB). Date EDB « 350-399 ; 369 ».",date 369 portée par une partie seulement du monument ; à vérifier sur ICVR III 8148
+152,EDB39561,restitutions divergentes (texte métrique),"Marce na[---] (EDB) / Marcena (EDCS) ; [cor]p<o>re demptus (EDB) / PQ redemptus (EDCS). Dalle perdue, connue par de Rossi 1864 et le dessin d'IC I.",date 371 inchangée
+153,EDB39562,restitution EDCS,L'EDB ne restitue pas Gratien : +++++++CE+[---] / et Probo c[onsulibus]. L'EDCS restitue [Gratiano Aug(usto) II].,date 371 par Probus seul (lu)
+165,EDB40555,datation conjecturale,EDB : [--- in p]ace VII / [---]dest[---] ; date 300-399. Note : « Ferrua putat esse data consulatus Modesti et Arinthei a. 372 ». L'année 372 repose sur la seule séquence « dest ».,datation conjecturale (372 = hypothèse de Ferrua)
+180,EDB31761,ligne absente / lecture Lega,Déjà traité (A016).,déjà intégré
+193,EDB878,notation,Même texte ; consul<ibus=ATV> (EDCS) / consulatu (EDB). Chrisme avec alpha et oméga.,aucune sur la date
+214,EDB33145,lignes absentes de l'EDCS,Déjà traité (A016) : formule consulaire de 380 transmise par l'EDB.,déjà intégré
+220,EDB30687,datation incertaine,"EDB : [--- et Fl(avio) Euch?]erio, avec la note « there are other possible readings: Val]erio, Gal]erio, Neot]erio, Ast]erio ». Seul « erio » est lu. L'EDCS restitue Sygario et Euch]erio sans réserve.",date 381 incertaine (Neoterio = 390 possible)
+222,EDB33147,lecture ICVR I 1209,Même texte pour la date (Fl(avio) Sy[agrio). L'EDB suit ICVR I 1209 et non I 1396 (Ferrua 1979b).,aucune ; niveau R maintenu
+231,EDB31204,lecture Lega,"Antino (EDB, d'après Lega) / Ant<o=I>n(i)o (EDCS) ; d(iebus) / d(epositus).",date 382 inchangée
+290,EDB39576,restitution EDCS,L'EDB s'arrête à Ho[norio ---]. Note de Ferrua (via l'EDB) : seul le premier consulat d'Honorius (386) le nomme Flavius. L'EDCS restitue n(obilissimo) p(uero) et Fl(avio) Euodio.,"date 386 argumentée (Fl. + Ho-), mais restituée"
+306,EDB27045,ligne absente de l'EDB ?,"L'EDCS donne une ligne « et innocentiae optimique propositi Maximilla virgo ancilla dei civis Pannonia qu(a)e » absente du texte EDB (qui passe de « Mirae fide〈i〉 » à « vixit annis »). Sarcophage, Platonia de Saint-Sébastien, ICVR V 13355 ; Mazzoleni 2015, 167.",à vérifier sur ICVR V 13355 : la ligne contient « virgo ancilla dei »
+313,EDB39579,structure,Déjà traité (A009).,déjà intégré
+314,EDB39579,structure,Déjà traité (A009).,déjà intégré
+321,EDB42643,structure,"Colonne de Saint-Paul, trois textes (a, b, c). Lecture de Filippi 2000 ; AE 2000, 187 ; EDR074191.",date 390 inchangée
+326,EDB24920,restitution EDB,Déjà traité (A016) : ]eute[ seul lu.,déjà intégré
+352,EDB28954,notation,Même texte ; [con]s(ulatu) Theodosi Aug(usti) III et Eugen-/[i] (EDB). Note de de Rossi sur la fin. Pierre perdue.,date 393 inchangée
+378,EDB25348,monument composite,"La fiche EDB (ICVR III 8345) ne contient que le début du poème. Elle est à joindre à ICVR III 8274c (EDB25442) et 8387v (EDB42793) ; selon l'EDB, 8345 est formé de quatre fragments. Aucune des trois fiches ne contient la formule [Olybrio et Pro]bino ni la généalogie (Limenius presbyter, Marcellus episcopus, Ursinus Albanensis) du texte EDCS. Date EDB : 390-424.",date 395 portée par une partie non retrouvée dans l'EDB ; à vérifier sur ICVR III 8345
+382,EDB20584,notation,Même texte ; l'EDCS ajoute « // [Pa]nthagate » absent de l'EDB.,aucune sur la date
+393,EDB39590,structure,Déjà traité (A010).,déjà intégré
+394,EDB39590,structure,Déjà traité (A010).,déjà intégré
+397,EDB35690,lecture,Ṛọṃạṇ[---] (EDB) / ]romi[ (EDCS) ; restitution métrique de l'EDB. Pierre perdue ; CIL VI 39147a ; ICVR X 27324.,date 397 inchangée
+400,EDB29526,notation et signes,"Même texte ; l'EDB décrit un chrisme, deux croix monogrammatiques (dont une en couronne) et un oiseau tenant un rameau d'olivier. Notes : VIIIX kal. mart. corrigé par Diehl en prid. id. Febr. ; « Pascasius » n'est pas un évêque de Rome connu (Diehl).",date 397 inchangée ; jour du mois douteux
+431,EDB27849,datation divergente,"EDB date « 398 ; 399 ». Notes : Harchadi pour Honorii (erreur du lapicide déjà signalée par Muratori et Silvagni) ; CLRE p. 661 attribue l'inscription à 398, car « post » restitué serait trop long et le p.c. si tard en 399 est sans exemple. La v2.0 retient 399.",divergence de date nouvelle : 398 (CLRE) / 399 (v2.0)
+435,EDB22306,restitution EDB,Déjà traité (A016).,déjà intégré
+445,EDB24690,ligne absente de l'EDCS,Déjà traité (A016). Note de Felle : les lettres BA[silica] sont visibles sur la photo PCAS mais pas sur l'image de Marucchi 1914.,déjà intégré
+447,EDB12500,lignes absentes de l'EDCS,"Déjà traité (A016) : 10 lignes dans l'EDB, 5 dans l'EDCS. Conservation : Museo Nazionale Romano, Terme di Diocleziano.",déjà intégré
+462,EDB35372,lecture,Déjà vu (§ G) : Saturnino est le défunt ; l'EDB lit e̲t̲ H̲o̲n̲o̲r̲[io] (lettres vues par un éditeur antérieur).,date 402 inchangée
+470,EDB28939,notation,Même texte ; Rumorido (EDB) / Rumordio (EDCS). L'EDB décrit une orante et signale l'emprunt virgilien du v. 7 (Aen. VI 429 ; XI 28).,aucune sur la date ; citation de Virgile à exploiter

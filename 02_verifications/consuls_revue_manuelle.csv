@@ -1,0 +1,41 @@
+n,niveau_revu,justification
+10,B,"Salu[stio : 4 lettres gravées (Sallustius, 344) ; [Leonti]o restitué sauf la désinence."
+48,C,Co(nstantio?) VIIII I(uliano?) II : initiales et itérations gravées (IX et II = 357) ; développement marqué douteux par l'EDCS.
+52,R,Da[tiani : 2 lettres gravées ; Cerealis entièrement restitué. Fiche EDB17462 (d'après CLRE p. 631) : Da[ peut aussi être Dalmatius (333) ; date incertaine 333/358.
+53,A,"C{a}eriale lu en entier (Cerealis, collègue de Datianus en 358) ; ce nom manque dans la liste « consuls identifiés » de la v2.0."
+70,C,M(amertino) et N(evitta) : initiales seules gravées (362).
+88,A,"Iobian[i : radical lu (Iovianus, 364) ; manque dans la liste v2.0 ; Varronianus restitué."
+98,A,"Severin[i lu ; Severinus est consul en 461 (date EDB), ce qui confirme l'exclusion du n° 98 du corpus (dossiers, § F)."
+129,R,Valen]te II : 2 lettres gravées et l'itération ; Valentinianus restitué.
+137,R,"Val]e(n)t(is) III Augg(ustis) : 2 lettres gravées, itération et titulature gravées ; noms restitués."
+138,R,"Va]l(ente) Aug(usto) III : 1 lettre gravée ; Constant[ en fin de texte est un nom de personne, non un consul (faux positif du script)."
+161,R,Arinth]io et Mo/[desto : 2 lettres gravées par nom.
+163,B,"Ar]onteo : 5 lettres gravées (onteo), forme d'Arintheus (372)."
+203,R,Merobau]de v(iro) c(larissimo) : 2 lettres gravées ; Gratien restitué.
+219,R,Sy[agrio : 2 lettres gravées.
+222,R,Sy[agrio : 2 lettres gravées.
+256,R,"Merobaud]e II et S[aturnino : 1 lettre gravée par nom, plus l'itération."
+273,B,"Clea]rco : 3 lettres gravées (désinence -rco seule, peu distinctive) ; Ricomere restitué."
+290,R,Ho[norio : 2 lettres gravées ; Euodius restitué.
+314,R,V[alentiniano : 1 lettre gravée ; Neoterius restitué (voir dossier 313/314).
+328,B,"Eu]terio : 5 lettres gravées (terio), compatibles avec Eucherio (381) et Neoterio (390) ; ambiguïté non tranchée (dossiers)."
+341,B,"Summ[acho : 4 lettres gravées (Symmachus, 391) ; Tatianus restitué."
+362,B,"Fl]abiani(!) : 6 lettres gravées (Flavianus, 394)."
+363,B,"[Arcadi]o III et Hon[norio : 3 lettres gravées d'Honorius, plus l'itération."
+384,R,L[ybrio : 1 lettre gravée ; Probinus restitué.
+393,R,"IIII H[onorio III : 1 lettre gravée, plus les itérations (fragments 393/394 fusionnés)."
+412,B,"Caess[ario : 5 lettres gravées (Caesarius, 397) ; Victorio est le défunt, non un consul (faux positif du script)."
+415,R,C(a)e[sario : 2 lettres gravées ; Atticus restitué.
+423,A,"Euthyciano lu en entier (Eutychianus, 398) ; manque dans la liste v2.0."
+426,R,Honori]o IIII c(on)s(ule) : désinence et itération seules gravées.
+432,R,Theodo]ro : 2 lettres gravées.
+438,R,M[allio : 1 lettre gravée.
+450,A,"Vincenti lu en entier (Vincentius, 401) ; manque dans la liste v2.0."
+455,R,"F[ravita : 1 lettre gravée ; Constantiae est la défunte, non un consul (faux positif du script)."
+456,A,"Fraudit[o : radical lu (Fravitta, 401) ; manque dans la liste v2.0."
+465,R,A]Auugg(ustis) V : titulature et itération seules gravées.
+468,R,"Aug]usto V et H[onorio V : 1 lettre gravée, plus les itérations."
+476,A,"Romodoro lu en entier (Rumoridus, 403) ; manque dans la liste v2.0."
+452,R,"V[incentio : 1 lettre gravée ; Fravita restitué ; Theodosius v(ir) c(larissimus) est un particulier, non un consul."
+165,B,Mo]dest[o : 4 lettres gravées (« dest ») ; Arintheus restitué. Fiche EDB40555 : date 300-399 ; l'année 372 est une hypothèse de Ferrua.
+220,B,"Euch]erio : 4 lettres gravées (« erio ») ; fiche EDB30687 : Val]erio, Gal]erio, Neot]erio, Ast]erio possibles ; date 381 incertaine."
