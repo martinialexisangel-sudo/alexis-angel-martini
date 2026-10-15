@@ -1,0 +1,5 @@
+# Secrets locaux — ne jamais versionner
+.env
+.env.*
+!.env.example
+.claude/settings.local.json
